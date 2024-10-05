@@ -32,8 +32,8 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="news.html">News & Awards</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="publications.html">Publications</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="activities.html">Activities</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="work.html">Experience</a></li> 
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="education.html">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="work.html">Work Experience</a></li>          
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contact.html">Contact & CV</a></li>
                 </ul>
             </div>
@@ -42,7 +42,7 @@
             <div class="d-none d-lg-block" style = "position: absolute; bottom: 0px">
                 <p class="mb-0"><font color = "#6c757d">Copyright &copy 2024 Lijie Yao</font></p>
                 <p><font color = "#6c757d">All Rights Reserved</font></p>
-                <p><font color = "#6c757d">Last update: March 2024</font></p>
+                <p><font color = "#6c757d">Last update: October 2024</font></p>
             </div>
         </nav>
         <!-- Page Content-->
@@ -51,16 +51,131 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Publications</h2>
 
+                    <!-- paper: vis in motion -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <mark class="pub_venue">CG&A</mark><mark class="pub_type_fullpaper">Full paper</mark>
+                            <h3 class="mb-0">Situated Visualization in Motion</h3>
+                            <div class="subheading"><strong>Lijie Yao*</strong></div>
+                            <div class="subsubheading mb-3">IEEE Compputer Graphics and Applications, in press, doi: 10.1109/MCG.2024.3462129.</div>
+                            <div style = "display: flex">
+                                <!-- teaser -->
+                                <div style = "width:25%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "border rounded">
+                                    <img src = "assets/teaser/visinmotion_logo.png" atl = "Teaser of Situated Visualization in Motion" style = "width:100%" class = "d-block px-1">
+                                </div class = "d-inline">
+                                <!-- abstract -->
+                                <div style = "width:75%" >
+                                    <p style = "padding-left: 1rem; text-align: justify">We define visualization in motion and make several contributions to how to visualize and design situated visualizations in motion. In situated data visualization, the data is directly visualized near their data referent, i.e., the physical space, object, or person it refers to. Situated visualizations are often useful in contexts where the data referent or the viewer does not remain stationary but is in relative motion.  For example, a runner looks at visualizations from their fitness band while running. Reading visualizations in such scenarios might be impacted by motion factors. As such, understanding how to best design visualizations with motion factors is important. We define visualizations in motion as visual data representations used in contexts that exhibit relative motion between a viewer and an entire visualization. We propose a research agenda to understand what research opportunities and challenges are under visualization in motion. Next, we investigate (a) how motion factors can affect the reading accuracy of visualizations, (b) how to design and embed visualizations in motion in a real application scenario, and (c) the user experience and design trade-offs of visualization in motion through a case study.</p>
+                                </div>
+                            </div>
+
+                            <!-- links -->
+                            <div class="subsubheading mt-3" style = "display:flex">
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="DOI Link">
+                                    <a href = "https://doi.org/10.1109/MCG.2024.3462129">
+                                        <img src = "assets/img/doi.png" atl = "DOI Link" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Online Link">
+                                    <a href = "https://hal.science/hal-04700820">
+                                        <img src = "assets/img/link.png" atl = "Online Link" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+                                
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Download PDF Version of Paper">
+                                    <a href = "assets/pdf/Situated_Visualization_in_Motion.pdf" download>
+                                        <img src = "assets/img/pdf.png" atl = "PDF Download" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <!-- paper: video game -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <mark class="pub_venue">TVCG</mark><mark class="pub_type_fullpaper">Full paper</mark>
+                            <h3 class="mb-0">User Experience of Visualizations in Motion: A Case Study and Design Considerations</h3>
+                            <div class="subheading"><strong>Lijie Yao*</strong>, Federica Bucchieri, Victoria McArthurm Anastasia Bezerianos, Petra Isenberg</div>
+                            <div class="subsubheading mb-3">IEEE Transactions on Visualization and Compputer Graphics, in press, doi: 1109/TVCG.2024.3456319.</div>
+                            <div style = "display: flex">
+                                <!-- teaser -->
+                                <div style = "width:25%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "border rounded">
+                                    <img src = "assets/teaser/videogame.png" atl = "Teaser of User Experience of Visualization in Motion" style = "width:100%" class = "d-block px-1">
+                                </div class = "d-inline">
+                                <!-- abstract -->
+                                <div style = "width:75%" >
+                                    <p style = "padding-left: 1rem; text-align: justify">We present a systematic review, an empirical study, and a first set of considerations for designing visualizations in motion, derived from a concrete scenario in which these visualizations were used to support a primary task. In practice, when viewers are confronted with embedded visualizations, they often have to focus on a primary task and can only quickly glance at a visualization showing rich, often dynamically updated, information. As such, the visualizations must be designed so as not to distract from the primary task, while at the same time being readable and useful for aiding the primary task. For example, in games, players who are engaged in a battle have to look at their enemies but also read the remaining health of their own game character from the health bar over their character's head. Many trade-offs are possible in the design of embedded visualizations in such dynamic scenarios, which we explore in-depth in this paper with a focus on user experience. We use video games as an example of an application context with a rich existing set of visualizations in motion. We begin our work with a systematic review of in-game visualizations in motion. Next, we conduct an empirical user study to investigate how different embedded visualizations in motion designs impact user experience. We conclude with a set of considerations and trade-offs for designing visualizations in motion more broadly as derived from what we learned about video games. All supplemental materials of this paper are available at <a href = "https://osf.io/3v8wm/" target="_blank">osf.io/3v8wm/</a>.</p>
+                                </div>
+                            </div>
+
+                            <!-- links -->
+                            <div class="subsubheading mt-3" style = "display:flex">
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="DOI Link">
+                                    <a href = "https://doi.org/10.1109/TVCG.2024.3456319">
+                                        <img src = "assets/img/doi.png" atl = "DOI Link" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Online Link">
+                                    <a href = "https://hal.science/hal-04700819">
+                                        <img src = "assets/img/link.png" atl = "Online Link" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+                                
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Download PDF Version of Paper">
+                                    <a href = "assets/pdf/User_Experience_of_Visualizations_in_Motion_A_Case_Study_and_Design_Considerations.pdf" download>
+                                        <img src = "assets/img/pdf.png" atl = "PDF Download" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+
+                                <!-- 
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Preview VIS 2022 Presetation Video">
+                                    <a href = "https://youtu.be/sIzRfNIsRV4">
+                                        <img src = "assets/img/video.png" atl = "Preview Presentation Video" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+                                 -->
+
+                                <!-- 
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Graphics Replicability Stamp Initiative">
+                                    <a href = "https://www.replicabilitystamp.org/index.html#https-github-com-lyao0219-swimflow-git">
+                                        <img src = "assets/img/stamp.png" atl = "Link to replicable repository" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+                                -->
+
+                                <!-- SwimFlow specific info -->
+                                <!-- 
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="SwimFlow">
+                                    <a href = "https://motion.isenberg.cc/Swimming/index">
+                                        <img src = "assets/img/swimflow.png" atl = "SwimFlow - Interactive Technical Probe" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+                                 -->
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="OSF repository">
+                                    <a href = "https://osf.io/3v8wm/">
+                                        <img src = "assets/img/osf.png" atl = "Supplemental material on OSF" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+
+                            </div>                            
+                        </div>
+                    </div>
+
                     <!-- paper: swimming -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <mark class="pub_venue">TVCG</mark><mark class="pub_type_fullpaper">Full paper</mark>
                             <h3 class="mb-0">Designing for Visualization in Motion: Embedding Visualizations in Swimming Videos</h3>
-                            <div class="subheading"><u>Lijie Yao</u>, Romain Vuillmot, Anastasia Bezerianos, Petra Isenberg</div>
+                            <div class="subheading"><strong>Lijie Yao*</strong>, Romain Vuillmot, Anastasia Bezerianos, Petra Isenberg</div>
                             <div class="subsubheading mb-3">IEEE Transactions on Visualization and Compputer Graphics, 2024, 30(3), pp.1821-1836, doi: 10.1109/tvcg.2023.3341990.</div>
                             <div style = "display: flex">
                                 <!-- teaser -->
                                 <div style = "width:25%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "border rounded">
-                                    <img src = "assets/teaser/swimming.jpg" atl = "Teaser of Designing for Visualization in Motion" style = "width:100%" class = "d-block px-1">
+                                    <img src = "assets/teaser/swimming.png" atl = "Teaser of Designing for Visualization in Motion" style = "width:100%" class = "d-block px-1">
                                 </div class = "d-inline">
                                 <!-- abstract -->
                                 <div style = "width:75%" >
@@ -73,6 +188,12 @@
                                 <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="DOI Link">
                                     <a href = "https://doi.org/10.1109/tvcg.2023.3341990">
                                         <img src = "assets/img/doi.png" atl = "DOI Link" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Online Link">
+                                    <a href = "https://hal.science/hal-04364838">
+                                        <img src = "assets/img/link.png" atl = "Online Link" style = "width:100%" class = "d-block px-1">
                                     </a>
                                 </div>
                                 
@@ -115,8 +236,9 @@
                     <!-- paper: vis in motion -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <mark class="pub_venue">TVCG</mark><mark class="pub_type_fullpaper">Full paper</mark>
                             <h3 class="mb-0">Visualization in Motion: A Research Agenda and Two Evaluations</h3>
-                            <div class="subheading"><u>Lijie Yao</u>, Anastasia Bezerianos, Romain Vuillmot, Petra Isenberg</div>
+                            <div class="subheading"><strong>Lijie Yao*</strong>, Anastasia Bezerianos, Romain Vuillmot, Petra Isenberg</div>
                             <div class="subsubheading mb-3">IEEE Transactions on Visualization and Compputer Graphics, 2022, 28(10), pp.3546-3562, doi: 10.1109/TVCG.2022.3184993.</div>
                             <div style = "display: flex">
                                 <!-- teaser -->
@@ -134,6 +256,12 @@
                                 <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="DOI Link">
                                     <a href = "https://doi.org/10.1109/TVCG.2022.3184993">
                                         <img src = "assets/img/doi.png" atl = "DOI Link" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Online Link">
+                                    <a href = "https://hal.science/hal-03698837">
+                                        <img src = "assets/img/link.png" atl = "Online Link" style = "width:100%" class = "d-block px-1">
                                     </a>
                                 </div>
                                 
@@ -229,16 +357,103 @@
                         </div>
                     </div>
 
-                    <!-- workshop: situated visualization of environment footprints -->
+                    <!-- short paper: smartwatch -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Envisioning Situated Visualizations of Environmental Footprints in an Urban Environment</h3>
-                            <div class="subheading">Yvonne Jansen, Federica Bucchieri, Pierre Dragicevic, Martin Hachet, Morgane Koval, Léana Petiot, Arnaud Prouzeau, Dieter Schmalstieg, <u>Lijie Yao</u>, Petra Isenberg</div>
-                            <div class="subsubheading mb-3">In Proceeding of IEEE VIS 2022 Workshop on Visualization for Social Good workshop (VIS4Good), October 2022, Oklahoma, United States.</div>
+                            <mark class="pub_venue">IEEE VIS</mark><mark class="pub_type_shortpaper">Short paper</mark>
+                            <h3 class="mb-0">Micro Visualizations on a Smartwatch: Assessing Reading Performance While Walking</h3>
+                            <div class="subheading">Fairouz Grioui*, Tanja Blascheck, <strong>Lijie Yao</strong>, Petra Isenberg</div>
+                            <div class="subsubheading mb-3">In Proceeding of the Short Papers of the IEEE Conference on Visualization, October 2024, Florida, United States.</div>
                             <div style = "display: flex">
                                 <!-- teaser -->
                                 <div style = "width:25%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "border rounded">
-                                    <img src = "assets/teaser/vis4good.png" atl = "Teaser of Visualization in Motion for Fitness Trackers" style = "width:100%" class = "d-block px-1">
+                                    <img src = "assets/teaser/smartwatch.jpg" atl = "Teaser of Micro Visualizations on a Smartwatch Assessing Reading Performance While Walking" style = "width:100%" class = "d-block px-1">
+                                </div class = "d-inline">
+                                <!-- abstract -->
+                                <div style = "width:75%" >
+                                    <p style = "padding-left: 1rem; text-align: justify">
+                                        With two studies, we assess how different walking trajectories (straight line, circular, and infinity) and speeds (2km/h, 4km/h, and 6km/h) influence the accuracy and response time of participants reading micro visualizations on a smartwatch. We showed our participants common watch face micro visualizations including date, time, weather information, and four complications showing progress charts of fitness data. Our findings suggest that while walking trajectories did not significantly affect reading performance, overall walking activity, especially at high speeds, hurt reading accuracy and, to some extent, response time. Supplemental material is available at <a href = "https://osf.io/u78s6/" target="_blank">osf.io/u78s6/</a>.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- links -->
+                            <div class="subsubheading mt-3" style = "display:flex">
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="DOI Link">
+                                    <a href = "https://doi.org/10.48550/arXiv.2407.17893">
+                                        <img src = "assets/img/doi.png" atl = "DOI Link" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Online Link">
+                                    <a href = "https://hal.science/hal-04700821">
+                                        <img src = "assets/img/link.png" atl = "Online Link" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+                                
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Download PDF Version of Paper">
+                                    <a href = "assets/pdf/Micro_Visualizations_on_a_Smartwatch_Assessing_Reading_Performance_While_Walking.pdf" download>
+                                        <img src = "assets/img/pdf.png" atl = "PDF Download" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <!-- workshop: sports -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <mark class="pub_venue">IEEE VIS</mark><mark class="pub_type_workshop">Workshop</mark>
+                            <h3 class="mb-0">Collecting Information Needs for Egocentric Visualizations while Running</h3>
+                            <div class="subheading">Ahmed Elshabasi*, <strong>Lijie Yao</strong>, Petra Isenberg, Charles Perin, Wesley Willett</div>
+                            <div class="subsubheading mb-3">In Proceeding of IEEE VIS Workshop on First-Person Visualizations for Outdoor Physical Activities, October 2024, Florida, United States.</div>
+                            <div style = "display: flex">
+                                <!-- teaser -->
+                                <div style = "width:25%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "border rounded">
+                                    <img src = "assets/teaser/sports.png" atl = "Teaser of Collecting Information Needs for Egocentric Visualizations while Running" style = "width:100%" class = "d-block px-1">
+                                </div class = "d-inline">
+                                <!-- abstract -->
+                                <div style = "width:75%" >
+                                    <p style = "padding-left: 1rem; text-align: justify">
+                                        We investigate research challenges and opportunities for visualization in motion during outdoor physical activities via an initial corpus of real-world recordings that pair egocentric video, biometrics, and think-aloud observations. With the increasing use of tracking and recording devices, such as smartwatches and head-mounted displays, more and more data are available in real-time about a person's activity and the context of the activity. However, not all data will be relevant all the time. Instead, athletes have information needs that change throughout their activity depending on the context and their performance. To address this challenge, we describe the collection of a diverse corpus of information needs paired with contextualizing audio, video, and sensor data. Next, we propose a first set of research challenges and design considerations that explore the difficulties of visualizing those real data needs in-context and demonstrate a prototype tool for browsing, aggregating, and analyzing this information. Our ultimate goal is to understand and support embedding visualizations into outdoor contexts with changing environments and varying data needs.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- links -->
+                            <div class="subsubheading mt-3" style = "display:flex">
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="DOI Link">
+                                    <a href = "https://doi.org/10.48550/arXiv.2409.06426">
+                                        <img src = "assets/img/doi.png" atl = "DOI Link" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Online Link">
+                                    <a href = "https://hal.science/hal-04700822">
+                                        <img src = "assets/img/link.png" atl = "Online Link" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+                                
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Download PDF Version of Paper">
+                                    <a href = "assets/pdf/Collecting_Information_Needs_for_Egocentric_Visualizations_while_Running.pdf" download>
+                                        <img src = "assets/img/pdf.png" atl = "PDF Download" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <!-- workshop: situated visualization of environment footprints -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <mark class="pub_venue">IEEE VIS</mark><mark class="pub_type_workshop">Workshop</mark>
+                            <h3 class="mb-0">Envisioning Situated Visualizations of Environmental Footprints in an Urban Environment</h3>
+                            <div class="subheading">Yvonne Jansen, Federica Bucchieri, Pierre Dragicevic, Martin Hachet, Morgane Koval, Léana Petiot, Arnaud Prouzeau, Dieter Schmalstieg, <strong>Lijie Yao</strong>, Petra Isenberg*</div>
+                            <div class="subsubheading mb-3">In Proceeding of IEEE VIS Workshop on Visualization for Social Good (VIS4Good), October 2022, Oklahoma, United States.</div>
+                            <div style = "display: flex">
+                                <!-- teaser -->
+                                <div style = "width:25%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "border rounded">
+                                    <img src = "assets/teaser/vis4good.png" atl = "Teaser of Envisioning Situated Visualizations of Environmental Footprints in an Urban Environment" style = "width:100%" class = "d-block px-1">
                                 </div class = "d-inline">
                                 <!-- abstract -->
                                 <div style = "width:75%" >
@@ -250,8 +465,14 @@
 
                             <!-- links -->
                             <div class="subsubheading mt-3" style = "display:flex">
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="DOI Link">
+                                    <a href = "https://doi.org/10.5281/zenodo.7053934">
+                                        <img src = "assets/img/doi.png" atl = "DOI Link" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+
                                 <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Online Link">
-                                    <a href = "https://inria.hal.science/hal-03770857">
+                                    <a href = "https://hal.science/hal-03770857">
                                         <img src = "assets/img/link.png" atl = "Online Link" style = "width:100%" class = "d-block px-1">
                                     </a>
                                 </div>
@@ -268,9 +489,10 @@
                     <!-- workshop: reflections on vis in motion for fitness trackers -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <mark class="pub_venue">MobileHCI</mark><mark class="pub_type_workshop">Workshop</mark>
                             <h3 class="mb-0">Reflections on Visualization in Motion for Fitness Trackers</h3>
-                            <div class="subheading">Alaul Islam*, <u>Lijie Yao*</u>, Anastasia Bezerianos, Tanja Blascheck, Tingying He, Bongshin Lee, Romain Vuillmot, Petra Isenberg</div>
-                            <div class="subsubheading mb-3">In Proceeding of MobileHCI 2022 Workshop on New Trends in HCI and Sports (NTSPORT), September 2022, Vancouver, Canada.</div>
+                            <div class="subheading">Alaul Islam°, <u>Lijie Yao*°</u>, Anastasia Bezerianos, Tanja Blascheck, Tingying He, Bongshin Lee, Romain Vuillmot, Petra Isenberg</div>
+                            <div class="subsubheading mb-3">In Proceeding of MobileHCI Workshop on New Trends in HCI and Sports (NTSPORT), September 2022, Vancouver, Canada.</div>
                             <div style = "display: flex">
                                 <!-- teaser -->
                                 <div style = "width:25%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "border rounded">
@@ -286,6 +508,12 @@
 
                             <!-- links -->
                             <div class="subsubheading mt-3" style = "display:flex">
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="DOI Link">
+                                    <a href = "https://doi.org/10.48550/arXiv.2409.06401">
+                                        <img src = "assets/img/doi.png" atl = "DOI Link" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+
                                 <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Online Link">
                                     <a href = "https://dblp.org/rec/conf/mhci/YaoIBBHLVI22">
                                         <img src = "assets/img/link.png" atl = "Online Link" style = "width:100%" class = "d-block px-1">
@@ -310,8 +538,9 @@
                     <!-- poster: vis in motion for video games -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <mark class="pub_venue">EuroVis</mark><mark class="pub_type_poster">Poster</mark>
                             <h3 class="mb-0">Situated Visualization in Motion for Video Games</h3>
-                            <div class="subheading">Federica Bucchieri, <u>Lijie Yao</u>, Petra Isenberg</div>
+                            <div class="subheading">Federica Bucchieri*, <strong>Lijie Yao</strong>, Petra Isenberg</div>
                             <div class="subsubheading mb-3"> Posters of the European Conference on Visualization (EuroVis), June 2022, Rome, Italy, doi: 10.2312/evp.20221119.</div>
                             <div style = "display: flex">
                                 <!-- teaser -->
@@ -329,8 +558,14 @@
                             <!-- links -->
                             <div class="subsubheading mt-3" style = "display:flex">
                                 <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="DOI Link">
-                                    <a href = "https://dx.doi.org/10.2312/evp.20221119">
+                                    <a href = "https://doi.org/10.2312/evp.20221119">
                                         <img src = "assets/img/doi.png" atl = "DOI Link" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Online Link">
+                                    <a href = "https://hal.science/hal-03694019">
+                                        <img src = "assets/img/link.png" atl = "Online Link" style = "width:100%" class = "d-block px-1">
                                     </a>
                                 </div>
                                 
@@ -358,8 +593,9 @@
                     <!-- poster: vis in motion for swimming -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <mark class="pub_venue">JournéeVisu</mark><mark class="pub_type_poster">Poster</mark>
                             <h3 class="mb-0">Situated Visualization in Motion for Swimming</h3>
-                            <div class="subheading"><u>Lijie Yao</u>, Anastasia Bezerianos, Romain Vuillmot, Petra Isenberg</div>
+                            <div class="subheading"><strong>Lijie Yao*</strong>, Anastasia Bezerianos, Romain Vuillmot, Petra Isenberg</div>
                             <div class="subsubheading mb-3"> Posters of the France National Conference on Visualization (Journée Visu), June 2022, Bordeaux, France.</div>
                             <div style = "display: flex">
                                 <!-- teaser -->
@@ -376,8 +612,14 @@
 
                             <!-- links -->
                             <div class="subsubheading mt-3" style = "display:flex">
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="DOI Link">
+                                    <a href = "https://doi.org/10.48550/arXiv.2409.07695">
+                                        <img src = "assets/img/doi.png" atl = "DOI Link" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+                                
                                 <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Online Link">
-                                    <a href = "https://inria.hal.science/hal-03700406">
+                                    <a href = "https://hal.science/hal-03700406">
                                         <img src = "assets/img/link.png" atl = "Online Link" style = "width:100%" class = "d-block px-1">
                                     </a>
                                 </div>
@@ -400,8 +642,9 @@
                     <!-- poster: vis in motion for video games' data type -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <mark class="pub_venue">JournéeVisu</mark><mark class="pub_type_poster">Poster</mark>
                             <h3 class="mb-0">Visualization in Motion in Video Games for Different Types of Data</h3>
-                            <div class="subheading">Federica Bucchieri, <u>Lijie Yao</u>, Petra Isenberg</div>
+                            <div class="subheading">Federica Bucchieri*, <strong>Lijie Yao</strong>, Petra Isenberg</div>
                             <div class="subsubheading mb-3"> Posters of the France National Conference on Visualization (Journée Visu), June 2022, Bordeaux, France.</div>
                             <div style = "display: flex">
                                 <!-- teaser -->
@@ -418,8 +661,14 @@
 
                             <!-- links -->
                             <div class="subsubheading mt-3" style = "display:flex">
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="DOI Link">
+                                    <a href = "https://doi.org/10.48550/arXiv.2409.07696">
+                                        <img src = "assets/img/doi.png" atl = "DOI Link" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+
                                 <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Online Link">
-                                    <a href = "https://inria.hal.science/hal-03700418">
+                                    <a href = "https://hal.science/hal-03700418">
                                         <img src = "assets/img/link.png" atl = "Online Link" style = "width:100%" class = "d-block px-1">
                                     </a>
                                 </div>
@@ -442,8 +691,9 @@
                     <!-- poster: vis in motion -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <mark class="pub_venue">IEEE VIS</mark><mark class="pub_type_poster">Poster</mark>
                             <h3 class="mb-0">Situated Visualization in Motion</h3>
-                            <div class="subheading"><u>Lijie Yao</u>, Anastasia Bezerianos, Petra Isenberg</div>
+                            <div class="subheading"><strong>Lijie Yao*</strong>, Anastasia Bezerianos, Petra Isenberg</div>
                             <div class="subsubheading mb-3">Posters of the IEEE Conference on Visualization, October 2020, Salt Lake City, United States.</div>
                             <div style = "display: flex">
                                 <!-- teaser -->
@@ -460,14 +710,20 @@
 
                             <!-- links -->
                             <div class="subsubheading mt-3" style = "display:flex">
+                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="DOI Link">
+                                    <a href = "https://doi.org/10.48550/arXiv.2409.07005">
+                                        <img src = "assets/img/doi.png" atl = "DOI Link" style = "width:100%" class = "d-block px-1">
+                                    </a>
+                                </div>
+
                                 <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Online Link">
-                                    <a href = "https://inria.hal.science/hal-02946587">
+                                    <a href = "https://hal.science/hal-02946587">
                                         <img src = "assets/img/link.png" atl = "Online Link" style = "width:100%" class = "d-block px-1">
                                     </a>
                                 </div>
                                 
                                 <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Download PDF Version of Paper">
-                                    <a href = "assets/pdf/IEEE_VIS_2020_Poster_VIM.pdf" download>
+                                    <a href = "assets/pdf/Situated_Visualization_in_Motion_Poster.pdf" download>
                                         <img src = "assets/img/pdf.png" atl = "PDF Download" style = "width:100%" class = "d-block px-1">
                                     </a>
                                 </div>

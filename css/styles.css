@@ -257,6 +257,10 @@ mark, .mark {
   color: white;
 }
 
+.intext_icon {
+  width: 1.15rem;
+  height: auto;
+}
 
 
 sub,

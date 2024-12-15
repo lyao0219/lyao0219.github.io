@@ -1,382 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="Lijie Yao" />
-        <title>Lijie Yao 姚李捷</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Lijie Yao 姚李捷</span>
-                <div style="display:block">
-                    <div><span class="d-none d-lg-block"><img class="img-fluid img-profile mx-auto mb-2" style="border: none; border-radius: 5%; max-width: 15rem; max-height: 15rem;" src="assets/img/LijieYao.jpg" alt="Lijie Yao's Photo" /></span></div>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content="Lijie Yao"/>
+    <title>Lijie Yao 姚李捷</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/mustache@latest"></script>
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="content">
+    <div class="mobile-menu" id="mobile-menu">
+        <i class="fas fa-ellipsis-v"></i>
+    </div>
+    <div class="header" id="header">
+        <div class="navbar" id="navbar"></div>
+    </div>
+    <div class="news-page">
+        <div class="introduction">
+            <div class="profile-block">
+                <div class="top" id="profile"></div>
+                <div class="social-links" id="social-links">
                 </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="news.html">News & Awards</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="publications.html">Publications</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="activities.html">Activities</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="work.html">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="education.html">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contact.html">Contact & CV</a></li>
-                </ul>
             </div>
-
-            <!-- copyright -->
-            <div class="d-none d-lg-block" style = "position: absolute; bottom: 0px">
-                <p class="mb-0"><font color = "#6c757d">Copyright &copy 2024 Lijie Yao</font></p>
-                <p><font color = "#6c757d">All Rights Reserved</font></p>
-                <p><font color = "#6c757d">Last update: October 2024</font></p>
+            <div class="main-content">
+                <div class="news">
+                    <p class="text-25 text-heavy title">News</p>
+                    <div id="news"></div>
+                </div>
+                <hr/>
+                <div class="awards">
+                    <p class="text-25 text-heavy title">Awards</p>
+                    <div id="awards"></div>
+                </div>
             </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">           
-            <section class="resume-section d-block">
-                <!-- news -->
-                <div class="resume-section-content" id="news">
-                    <h2 class="mb-5">News</h2>
-                    
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Paper Presentation</h3>
-                            <div class="subheading mb-3">Florida, U.S. (in person)</div>
-                            <p style = "text-align: justify">Lijie's papers on <a href = "../lyao0219.github.io/publications.html#paper_videogame" target = "_blank">"User Experience of Visualizations in Motion: A Case Study and Design Considerations"</a> and <a href = "../lyao0219.github.io/publications.html#paper_swimming" target = "_blank">"Designing for Visualization in Motion: Embedding Visualizations in Swimming Videos"</a> will be presented at <a href = "https://ieeevis.org/year/2024/welcome" target = "_blank">IEEE VIS 2024</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">October 2024</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Workshop Organisation</h3>
-                            <div class="subheading mb-3">Florida, U.S. (in person)</div>
-                            <p style = "text-align: justify">Our workshop on <a href = "https://firstpersonvis.github.io/" target = "_blank">First-Person Visualizations for Outdoor Physical Activities</a> will be held as a part of <a href = "https://ieeevis.org/year/2024/welcome" target = "_blank">IEEE VIS 2024</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">October 2024</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Paper Acceptance</h3>
-                            <p style = "text-align: justify">Our workshop paper on <a href = "../lyao0219.github.io/publications.html#workshop_sports" target = "_blank">"Collecting Information Needs for Egocentric Visualizations while Running"</a> was accepted by <a href = "https://firstpersonvis.github.io/" target = "_blank">First-Person Visualizations for Outdoor Physical Activities</a> workshop, held as a part of <a href = "https://ieeevis.org/year/2024/welcome" target = "_blank">IEEE VIS 2024</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2024</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Paper Acceptance</h3>
-                            <p style = "text-align: justify">Lijie's paper on <a href = "../lyao0219.github.io/publications.html#paper_dissertation" target = "_blank">"Situated Visualization in Motion"</a> was accepted by <a href = "https://www.computer.org/csdl/magazine/cg" target = "_blank">IEEE Computer Graphics and Applications</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2024</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Paper Acceptance</h3>
-                            <p style = "text-align: justify">Lijie's paper on <a href = "../lyao0219.github.io/publications.html#paper_videogame" target = "_blank">"User Experience of Visualizations in Motion: A Case Study and Design Considerations"</a> was accepted by <a href = "https://ieeevis.org/year/2024/welcome" target = "_blank">IEEE VIS 2024</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2024</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Paper Acceptance</h3>
-                            <p style = "text-align: justify">Our short paper on <a href = "../lyao0219.github.io/publications.html#shortpaper_smartwatch" target = "_blank">"Micro Visualizations on a Smartwatch: Assessing Reading Performance While Walking"</a> was accepted by <a href = "https://ieeevis.org/year/2024/welcome" target = "_blank">IEEE VIS 2024</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2024</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">New Position</h3>
-                            <div class="subheading mb-3">Suzhou, China</div>
-                            <p style = "text-align: justify">Lijie joined <a href = "https://www.xjtlu.edu.cn/en" target = "_blank">Xi'an Jiaotong-Liverpool University</a> as an Assistant Professor.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2024</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Award</h3>
-                            <div class="subheading mb-3">Paris, France</div>
-                            <p style = "text-align: justify">Lijie received "Prix de Thèse AFIHM", a PhD thesis prize from AFIHM.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2024</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">New Position</h3>
-                            <div class="subheading mb-3">Gif-sur-Yvette, France</div>
-                            <p style = "text-align: justify">Lijie started her postdoc at <a href = "https://www.aviz.fr" target = "_blank">AVIZ</a> team, supervised by <a href = "https://petra.isenberg.cc/wiki/pmwiki.php" target = "_blank">Dr. Petra Isenberg</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">January 2024</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Defense</h3>
-                            <div class="subheading mb-3">Gif-sur-Yvette, France</div>
-                            <p style = "text-align: justify">Lijie successfully defended her PhD!</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2023</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Paper Acceptance</h3>
-                            <p style = "text-align: justify">Lijie's paper on <a href = "../lyao0219.github.io/publications.html#paper_swimming" target = "_blank">"Designing for Visualization in Motion: Embedding Visualizations in Swimming Videos"</a> was accepted by <a href = "https://computer.org/csdl/journal/tg" target = "_blank">IEEE Transactions on Visualization and Computer Graphics</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2023</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Research Visiting</h3>
-                            <div class="subheading mb-3">Calgary, Canada</div>
-                            <p style = "text-align: justify">Lijie started her 3-month research visiting at the <a href = "https://dataexperience.cpsc.ucalgary.ca/" target = "_blank">DATA X EXPERIENCE LAB</a> and the <a href = "https://ilab.ucalgary.ca/" target = "_blank">iLab</a> of the University of Calgary, advised by <a href = "http://www.wjwillett.net/" target = "_blank">Dr. Wesley Willett</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2023</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Talk</h3>
-                            <div class="subheading mb-3">Lyon, France</div>
-                            <p style = "text-align: justify">Lijie was invitsed to give a talk on "Visualization in Motion for Swimming" at <a href = "https://plenieres-igrv.sciencesconf.org/" target = "_blank">GDR IG-RV 2023</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">May 2023</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Paper Presentation</h3>
-                            <div class="subheading mb-3">Oklahoma City, U.S. (virtually)</div>
-                            <p style = "text-align: justify">Lijie presented her TVCG paper <a href = "../lyao0219.github.io/publications.html#paper_visinmotion" target = "_blank">"Visualization in Motion: A Research Agenda and Two Evaluations"</a> at <a href = "https://ieeevis.org/year/2022/welcome" target = "_blank">IEEE VIS 2022</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">October 2022</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Paper Presentation</h3>
-                            <div class="subheading mb-3">Vancouver, Canada (virtually)</div>
-                            <p style = "text-align: justify">Lijie and Alaul Islam presented their workshop paper <a href = "../lyao0219.github.io/publications.html#workshop_fitnesstrakcer" target = "_blank">"Reflections on Visualization in Motion for Fitness Trackers"</a> at New Trends in HCI and Sports (<a href = "https://mobilehci22-hci-and-sports.dfki.de/" target = "_blank">NTSPORT</a>) workshop at <a href = "https://mobilehci.acm.org/2022/" target = "_blank">MobileHCI 2022</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">October 2022</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Paper Acceptance</h3>
-                            <!-- <div class="subheading mb-3">Oklahoma City, USA</div> -->
-                            <p style = "text-align: justify">Our workshop paper on <a href = "../lyao0219.github.io/publications.html#workshop_situatedvis" target = "_blank">"Envision Situated Visualizations of Environment Footprints in an Urban Environment"</a> was accepted by the Visualization for Social Good (<a href = "https://vis4good.github.io/workshop2022" target = "_blank">VIS4Good</a>) workshop held as part of <a href = "https://ieeevis.org/year/2022/welcome" target = "_blank">IEEE VIS 2022</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">October 2022</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Defense</h3>
-                            <div class="subheading mb-3">Gif-sur-Yvette, France</div>
-                            <p style = "text-align: justify"><a href = "https://it.linkedin.com/in/federica-bucchieri" target = "_blank">Federica Bucchieri</a> successfully defended her master's thesis. Congratulations!</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2022</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Talk</h3>
-                            <div class="subheading mb-3">Bordeaux, France</div>
-                            <p style = "text-align: justify">Lijie gave a talk on "Visualization in Motion for Swimming" at the France national day of visualization (<a href = "https://journee-visu.github.io/2022/" target = "_blank">Journée Visu 2022</a>).</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2022</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Paper Acceptance</h3>
-                            <!-- <div class="subheading mb-3">Gif-sur-Yvette, France</div> -->
-                            <p style = "text-align: justify">Lijie's paper <a href = "../lyao0219.github.io/publications.html#paper_visinmotion" target = "_blank">"Visualization in Motion: A Research Agenda and Two Evaluations"</a> was accepted by <a href = "https://computer.org/csdl/journal/tg" target = "_blank">IEEE Transactions on Visualization and Computer Graphics</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2022</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Poster Presentation</h3>
-                            <div class="subheading mb-3">Rome, Italy (in person)</div>
-                            <p style = "text-align: justify">Our poster <a href = "../lyao0219.github.io/publications.html#poster_videogame" target = "_blank">"Situated Visualization in Motion for Video Game"</a> was accepted and presented at <a href = "https://conferences.eg.org/eurovis2022/" target = "_blank">EuroVis 2022</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2022</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Defense</h3>
-                            <div class="subheading mb-3">Gif-sur-Yvette, France</div>
-                            <p style = "text-align: justify">Lijie successfully defended her PhD midterm defense.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">May 2022</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">New Intern</h3>
-                            <div class="subheading mb-3">Gif-sur-Yvette, France</div>
-                            <p style = "text-align: justify"><a href = "https://it.linkedin.com/in/federica-bucchieri" target = "_blank">Federica Bucchieri</a> started her 6-month master's graduation internship at AVIZ, supervised by <a href = "https://petra.isenberg.cc/wiki/pmwiki.php" target = "_blank">Dr. Petra Isenberg</a> and Lijie Yao.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2022</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">New Position</h3>
-                            <div class="subheading mb-3">Gif-sur-Yvette, France</div>
-                            <p style = "text-align: justify">Lijie started her teaching assistant position of the master course <a href = "https://ecampus.paris-saclay.fr/course/view.php?id=45998#section-0" target = "_blank">"Interactive Information Visualization"</a> at <a href = "https://www.universite-paris-saclay.fr/en" target = "_blank">University Paris-Saclay</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">January 2022</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Poster Presentation</h3>
-                            <div class="subheading mb-3">Online</div>
-                            <p style = "text-align: justify">Lijie's poster <a href = "../lyao0219.github.io/publications.html#poster_visinmotion" target = "_blank">"Situated Visualization in Motion"</a> was presented at <a href = "https://ieeevis.org/year/2020/welcome" target = "_blank">IEEE VIS 2020</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">October 2020</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">New Position</h3>
-                            <div class="subheading mb-3">Gif-sur-Yvette, France</div>
-                            <p style = "text-align: justify">Lijie started her doctoral study on <a href = "https://www.theses.fr/s258022" target = "_blank">"Situated Visualization in Motion"</a> at the AVIZ team, supervised by <a href = "https://petra.isenberg.cc/wiki/pmwiki.php" target = "_blank">Dr. Petra Isenberg</a> and <a href = "https://www.lri.fr/~anab/" target = "_blank">Dr. Anastasia Bezerianos</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2020</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Defense</h3>
-                            <div class="subheading mb-3">Gif-sur-Yvette, France</div>
-                            <p style = "text-align: justify">Lijie successfully defended her master thesis.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2020</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Poster Acceptance</h3>
-                            <div class="subheading mb-3">Online</div>
-                            <p style = "text-align: justify">Lijie's poster <a href = "../lyao0219.github.io/publications.html#poster_visinmotion" target = "_blank">"Situated Visualization in Motion"</a> was accepted by <a href = "https://ieeevis.org/year/2020/welcome" target = "_blank">IEEE VIS 2020</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2020</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">New Position</h3>
-                            <div class="subheading mb-3">Gif-sur-Yvette, France</div>
-                            <p style = "text-align: justify">Lijie joined <a href = "https://www.aviz.fr" target = "_blank">AVIZ</a> team and started her 6-month master graduation internship on "Situated Visualization in Motion", supervised by <a href = "https://petra.isenberg.cc/wiki/pmwiki.php" target = "_blank">Dr.Petra Isenberg</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2020</span></div>
-                    </div>
-                </div>
-
-                <hr class="m-0" />
-
-                <!-- awards -->
-                <div class="resume-section-content pt-5" id="awards">
-                    <h2 class="mt-0 mb-5">Awards</h2>
-                        <ul class="fa-ul mb-0">
-                            <li>
-                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                                <a href = "https://www.afihm.org/" target = "_blank">AFIHM</a> 2023 PhD Thesis Prize, 2024
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                                <a href = "https://www.mitacs.ca/en" target = "_blank">Mitacs</a> Globalink Research Award, MITACS Canada, 2023
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                                “Excellent Undergraduate” award, XIDIAN University, 2018
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                                French Delf B2, 2017
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                                “Inspirational Award” scholarship, XIDIAN University, 2017
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                                “Diligence Award” scholarship, XIDIAN University, 2017
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                                “Outstanding Student Cadre” award, XIDIAN University, 2015 - 2017
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                                Provincial Excellent Project in College Students Innovation and Entrepreneurship Training Program, Shaanxi Province, 2017
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                                Second-class scholarship, XIDIAN University, 2016
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                                "Huashan Outstanding Student Cadre", XIDIAN University, 2015
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                                "Huashan Moral Model", XIDIAN University, 2015
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                                "Huashan Vitality Star", XIDIAN University, 2015
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                                Excellent Student Award, XIDIAN University, 2015 - 2017
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                                Second prize of the 27th Xinghuo Cup, XIDIAN University, 2015
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                                Third-class scholarship, XIDIAN University, 2015
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                                "Excellent Volunteer" of the 2nd International Cultural Festival, XIDIAN University, 2015
-                            </li>
-                        </ul>
-                </div>
-            </section>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+    </div>
+</div>
+<div class="arrow" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+    <div class="nav-arrow"><i class="fa-solid fa-arrow-up"></i></div>
+</div>
+<div class="footer">
+    <div id="copyright" class="copyright"></div>
+</div>
+<script type="module" src="js/index.js"></script>
+</body>
 </html>

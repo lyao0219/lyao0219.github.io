@@ -1,149 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="Lijie Yao" />
-        <title>Lijie Yao 姚李捷</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Lijie Yao 姚李捷</span>
-                <div style="display:block">
-                    <div><span class="d-none d-lg-block"><img class="img-fluid img-profile mx-auto mb-2" style="border: none; border-radius: 5%; max-width: 15rem; max-height: 15rem;" src="assets/img/LijieYao.jpg" alt="Lijie Yao's Photo" /></span></div>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content="Lijie Yao"/>
+    <title>Lijie Yao 姚李捷</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/mustache@latest"></script>
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="content">
+    <div class="mobile-menu" id="mobile-menu">
+        <i class="fas fa-ellipsis-v"></i>
+    </div>
+    <div class="header" id="header">
+        <div class="navbar" id="navbar"></div>
+    </div>
+    <div class="experiences-page">
+        <div class="introduction">
+            <div class="profile-block">
+                <div class="top" id="profile"></div>
+                <div class="social-links" id="social-links">
                 </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="news.html">News & Awards</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="publications.html">Publications</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="activities.html">Activities</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="work.html">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="education.html">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contact.html">Contact & CV</a></li>
-                </ul>
             </div>
-
-            <!-- copyright -->
-            <div class="d-none d-lg-block" style = "position: absolute; bottom: 0px">
-                <p class="mb-0"><font color = "#6c757d">Copyright &copy 2024 Lijie Yao</font></p>
-                <p><font color = "#6c757d">All Rights Reserved</font></p>
-                <p><font color = "#6c757d">Last update: October 2024</font></p>
-            </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1 me-5">
-                            <h3 class="mb-0">Assistant Professor - Full time</h3>
-                            <div class="subheading mb-3"><a href = "https://www.xjtlu.edu.cn/en" target = "_blank">Xi'an Jiaotong-Liverpool University</a>, Suzhou, China</div>
-                            <p style = "text-align: justify">I am an Assistant Professor here. My daily work includes three parts: teaching (~40%), research (~40%), and administrative service (~20%).</p>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <div><span class="text-primary">07/2024 - Present</span></div>
-                            <div class="mt-2" style="display: flex; align-items:center;"><img class="img-fluid img-profile mx-auto" style="border: none; border-radius: 0%; height: auto; width: auto; max-width: 8rem; max-height: 8rem;" src="assets/img/logos/xjtlu_logo.jpg" alt="XJTLU logo" /></div>
-                        </div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1 me-5">
-                            <h3 class="mb-0">Researcher - Full time</h3>
-                            <div class="subheading mb-3"><a href = "https://www.aviz.fr" target = "_blank">AVIZ</a> team, <a href = "https://www.inria.fr/en" target = "_blank">Inria</a> Saclay, France</div>
-                            <p style = "text-align: justify">I was a postdoctoral and doctoral researcher here. My daily work includes regular research, experimenting, data analysis,  paper writing, work presentation, grant application, student supervision, reviewing, meeting, communication, travel, visit...</p>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <div><span class="text-primary">09/2020 - 03/2024</span></div>
-                            <div class="mt-2" style="display: flex; align-items:center;"><img class="img-fluid img-profile mx-auto" style="border: none; border-radius: 0%; height: auto; width: auto; max-width: 8rem; max-height: 8rem;" src="assets/img/logos/inria_logo.png" alt="Inria logo" /></div>
-                            <div class="mt-2" style="display: flex; align-items:center;"><img class="img-fluid img-profile mx-auto" style="border: none; border-radius: 0%; height: auto; width: auto; max-width: 3rem; max-height: 3rem;" src="assets/img/logos/cnrs_logo.png" alt="CNRS logo" /></div>
-                            <div class="mt-2" style="display: flex; align-items:center;"><img class="img-fluid img-profile mx-auto" style="border: none; border-radius: 0%; height: auto; width: auto; max-width: 8rem; max-height: 8rem;" src="assets/img/logos/aviz_logo.png" alt="AVIZ logo" /></div>
-                        </div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1 me-5">
-                            <h3 class="mb-0">Visiting Researcher</h3>
-                            <div class="subheading mb-3"><a href = "https://dataexperience.cpsc.ucalgary.ca/" target = "_blank">DATA X EXPERIENCE</a> lab, <a href = "https://www.ucalgary.ca/" target = "_blank">Univeristy of Calgary</a>, Canada</div>
-                            <p style = "text-align: justify">My research stay was hosted by <a href = "http://www.wjwillett.net/" target = "_blank">Dr. Wesley Willett</a>. I have been working on prototyping to support design visualizations under sports contexts.</p>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <div><span class="text-primary">07/2023 - 09/2023</span></div>
-                            <div class="mt-2" style="display: flex; align-items:center;"><img class="img-fluid img-profile mx-auto" style="border: none; border-radius: 0%; height: auto; width: auto; max-width: 8rem; max-height: 8rem;" src="assets/img/logos/calgary_logo.png" alt="University of Calgary logo" /></div>
-                        </div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1 me-5">
-                            <h3 class="mb-0">Teaching Assistant - Partial time</h3>
-                            <div class="subheading mb-3"><a href = "https://www.universite-paris-saclay.fr/en" target = "_blank">Univeristy Paris-Saclay</a>, France</div>
-                            <p>I taught some lectures and tutorials of the master course "Interactive Information Visualization". </p>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <div><span class="text-primary">09/2021 - 08/2023</span></div>
-                            <div class="mt-2" style="display: flex; align-items:center;"><img class="img-fluid img-profile mx-auto" style="border: none; border-radius: 0%; height: auto; width: auto; max-width: 8rem; max-height: 8rem;" src="assets/img/logos/saclay_logo.png" alt="Universite Paris-Saclay logo" /></div>
-                        </div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1 me-5">
-                            <h3 class="mb-0">Research Intern</h3>
-                            <div class="subheading mb-3"><a href = "https://www.aviz.fr" target = "_blank">AVIZ</a> team, <a href = "https://www.inria.fr/en" target = "_blank">Inria</a> Saclay, France</div>
-                            <p style = "text-align: justify">I did a literature review for visualization in motion, classified visual representations used in practice, and proposed a draft version of the design space for visualization in motion. I also conducted a brainstorming to collect more designs. I next implemented a demo prototype to illustrate visualizations in motion. I then designed and implemented a crowdsourcing experiment.</p>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <div><span class="text-primary">03/2020 - 08/2020</span></div>
-                            <div class="mt-2" style="display: flex; align-items:center;"><img class="img-fluid img-profile mx-auto" style="border: none; border-radius: 0%; height: auto; width: auto; max-width: 8rem; max-height: 8rem;" src="assets/img/logos/inria_logo.png" alt="Inria logo" /></div>
-                            <div class="mt-2" style="display: flex; align-items:center;"><img class="img-fluid img-profile mx-auto" style="border: none; border-radius: 0%; height: auto; width: auto; max-width: 3rem; max-height: 3rem;" src="assets/img/logos/cnrs_logo.png" alt="CNRS logo" /></div>
-                            <div class="mt-2" style="display: flex; align-items:center;"><img class="img-fluid img-profile mx-auto" style="border: none; border-radius: 0%; height: auto; width: auto; max-width: 8rem; max-height: 8rem;" src="assets/img/logos/aviz_logo.png" alt="AVIZ logo" /></div>
-                        </div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1 me-5">
-                            <h3 class="mb-0">Industry Intern</h3>
-                            <div class="subheading mb-3"><a href = "https://www.saint-gobain-sekurit.com/" target = "_blank">Saint-Gobain Sekurit</a>, France</div>
-                            <p style = "text-align: justify">I managed and completed two different projects. I collected and analyzed data and communicated among different cultures. My first project was to develop and create standards to improve the maintenance of industry robots. My second project was data analysis to explore what factors might affect the maintenance costs of industry robots and to find the reasons behind the high costs. My output is used to guide purchasing decisions at the company level.</p>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <div><span class="text-primary">03/2019 - 08/2019</span></div>
-                            <div class="mt-2" style="display: flex; align-items:center;"><img class="img-fluid img-profile mx-auto" style="border: none; border-radius: 0%; height: auto; width: auto; max-width: 8rem; max-height: 8rem;" src="assets/img/logos/saintgobain_logo.png" alt="Saint-Gobain logo" /></div>
-                        </div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1 me-5">
-                            <h3 class="mb-0">Industry Intern</h3>
-                            <div class="subheading mb-3"><a href = "https://www.mcc-ht.com/English/" target = "_blank">MCC Huatian Engineering and Technology Corporation</a>, China</div>
-                            <p style = "text-align: justify">I implemented an interactive interface that includes the following functions: user management, information searching, data analysis, and geographic services. My project is based on Bootstrap, HTML5, JavaScript, jQuery, and CSS.</p>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <div><span class="text-primary">06/2018 - 08/2018</span></div>
-                            <div class="mt-2" style="display: flex; align-items:center;"><img class="img-fluid img-profile mx-auto" style="border: none; border-radius: 0%; height: auto; width: auto; max-width: 8rem; max-height: 8rem;" src="assets/img/logos/mcc_logo.jpg" alt="MCC logo" /></div>
-                        </div>
-                    </div>
-                    
+            <div class="main-content">
+                <div class="experiences">
+                    <p class="text-25 text-heavy title">Experience</p>
+                    <div id="experiences"></div>
                 </div>
-            </section>
+            </div>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+    </div>
+</div>
+<div class="arrow" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+    <div class="nav-arrow"><i class="fa-solid fa-arrow-up"></i></div>
+</div>
+<div class="footer">
+    <div id="copyright" class="copyright"></div>
+</div>
+<script type="module" src="js/index.js"></script>
+</body>
 </html>

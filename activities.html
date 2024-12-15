@@ -1,175 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="Lijie Yao" />
-        <title>Lijie Yao 姚李捷</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Lijie Yao 姚李捷</span>
-                <div style="display:block">
-                    <div><span class="d-none d-lg-block"><img class="img-fluid img-profile mx-auto mb-2" style="border: none; border-radius: 5%; max-width: 15rem; max-height: 15rem;" src="assets/img/LijieYao.jpg" alt="Lijie Yao's Photo" /></span></div>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content="Lijie Yao"/>
+    <title>Lijie Yao 姚李捷</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/mustache@latest"></script>
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="content">
+    <div class="mobile-menu" id="mobile-menu">
+        <i class="fas fa-ellipsis-v"></i>
+    </div>
+    <div class="header" id="header">
+        <div class="navbar" id="navbar"></div>
+    </div>
+    <div class="activities-page">
+        <div class="introduction">
+            <div class="profile-block">
+                <div class="top" id="profile"></div>
+                <div class="social-links" id="social-links">
                 </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="news.html">News & Awards</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="publications.html">Publications</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="activities.html">Activities</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="work.html">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="education.html">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contact.html">Contact & CV</a></li>
-                </ul>
             </div>
+            <div class="main-content">
 
-            <!-- copyright -->
-            <div class="d-none d-lg-block" style = "position: absolute; bottom: 0px">
-                <p class="mb-0"><font color = "#6c757d">Copyright &copy 2024 Lijie Yao</font></p>
-                <p><font color = "#6c757d">All Rights Reserved</font></p>
-                <p><font color = "#6c757d">Last update: October 2024</font></p> 
-            </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Activities</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Organization</h3>
-                            <ul>
-                                <li>2024: <a href = "https://firstpersonvis.github.io/" target = "_blank">First-Person Visualizations for Outdoor Physical Activities</a> workshop held as a part of <a href = "https://ieeevis.org/year/2024/welcome" target = "_blank">IEEE VIS 2024</a> 
+                <div class="activities">
+                    <p class="text-25 text-heavy title">Activities</p>
+                    <div class="resume">
+                        <div class="activities-block">
+                            <p class="text-21 text-heavy">Organization</p>
+                            <ul class="text-17 text-light">
+                                <li>
+                                    2024: <a href="https://firstpersonvis.github.io/" target="_blank">First-Person
+                                    Visualizations for Outdoor Physical Activities</a> workshop held as a part of <a
+                                        href="https://ieeevis.org/year/2024/welcome" target="_blank">IEEE VIS
+                                    2024</a>
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Review</h3>
-                            <ul>
-                                <li>2025: <a href = "https://chi2025.acm.org/" target = "_blank">CHI</a>, <a href = "https://humanrobotinteraction.org/2025/" target = "_blank">HRI</a>
+                        <div class="activities-block">
+                            <p class="text-21 text-heavy">Review</p>
+                            <ul class="text-17 text-light">
+                                <li>2025: <a href="https://chi2025.acm.org/" target="_blank">CHI</a>, <a
+                                        href="https://humanrobotinteraction.org/2025/" target="_blank">HRI</a>
                                 <li>
-                                    2024: <a href = "https://chi2024.acm.org/" target = "_blank">CHI</a>, <a href = "https://ieeevis.org/year/2024/welcome" target = "_blank">VIS</a>, <a href = "https://www.eg.org/wp/event/eurovis-2024/" target = "_blank">EuroVis</a>, <a href = "https://www.computer.org/csdl/journal/tg" target = "_blank">TVCG</a>, <a href = "https://etra.acm.org/2024/" target = "_blank">ETRA</a>, <a href = "https://chi2024.acm.org/for-authors/alt-chi/" target = "_blank">alt.chi</a>, <a href = "https://imx.acm.org/2024/" target = "_blank">IMX</a>, <a href = "https://humanrobotinteraction.org/2024/" target = "_blank">HRI</a>, <a href = "https://www.ieeesmc.org/publications/transactions-on-smc-systems/" target = "_blank">TSMCS</a>, <a href = "https://communities.aisnet.org/southernusa/annual-conference" target = "_blank">SAIS</a>, <a href = "https://issconference.org/" target = "_blank">ISS</a>, <a href = "https://mobilehci.acm.org/2024/" target = "_blank">MobileHCI</a>, <a href = "https://www.etvis-workshop.org/etvis-2024" target = "_blank">ETVIS</a>    
+                                    2024: <a href="https://chi2024.acm.org/" target="_blank">CHI</a>, <a
+                                        href="https://ieeevis.org/year/2024/welcome" target="_blank">VIS</a>, <a
+                                        href="https://www.eg.org/wp/event/eurovis-2024/" target="_blank">EuroVis</a>,
+                                    <a
+                                            href="https://www.computer.org/csdl/journal/tg" target="_blank">TVCG</a>,
+                                    <a
+                                            href="https://etra.acm.org/2024/" target="_blank">ETRA</a>, <a
+                                        href="https://chi2024.acm.org/for-authors/alt-chi/"
+                                        target="_blank">alt.chi</a>,
+                                    <a
+                                            href="https://imx.acm.org/2024/" target="_blank">IMX</a>, <a
+                                        href="https://humanrobotinteraction.org/2024/" target="_blank">HRI</a>, <a
+                                        href="https://www.ieeesmc.org/publications/transactions-on-smc-systems/"
+                                        target="_blank">TSMCS</a>, <a
+                                        href="https://communities.aisnet.org/southernusa/annual-conference"
+                                        target="_blank">SAIS</a>, <a href="https://issconference.org/"
+                                                                     target="_blank">ISS</a>,
+                                    <a href="https://mobilehci.acm.org/2024/" target="_blank">MobileHCI</a>, <a
+                                        href="https://www.etvis-workshop.org/etvis-2024" target="_blank">ETVIS</a>
                                 </li>
                                 <li>
-                                    2023: <a href = "https://chi2023.acm.org/" target = "_blank">CHI</a>, <a href = "https://ieeevis.org/year/2023/welcome" target = "_blank">VIS</a>, <a href = "https://conferences.eg.org/eurovis2023/" target = "_blank">EuroVis</a> 
+                                    2023: <a href="https://chi2023.acm.org/" target="_blank">CHI</a>, <a
+                                        href="https://ieeevis.org/year/2023/welcome" target="_blank">VIS</a>, <a
+                                        href="https://conferences.eg.org/eurovis2023/" target="_blank">EuroVis</a>
                                 </li>
                                 <li>
-                                    2022: <a href = "https://ieeevis.org/year/2022/welcome" target = "_blank">VIS</a>, <a href = "https://sa2022.siggraph.org/en/" target = "_blank">SIGGRAPH Asia</a> 
+                                    2022: <a href="https://ieeevis.org/year/2022/welcome" target="_blank">VIS</a>,
+                                    <a
+                                            href="https://sa2022.siggraph.org/en/" target="_blank">SIGGRAPH Asia</a>
                                 </li>
                             </ul>
                         </div>
-                    </div>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Supervision</h3>
-                            <ul >
-                                <!-- <li>
-                                    Postgraduate level:
+                        <div class="activities-block">
+                            <p class="text-21 text-heavy">Supervision</p>
+                            <ul class="text-17">
+                                <li class="text-medium">
+                                    <p class="text-medium text-17 subtitle">Graduate level:</p>
+                                    <p class="text-light" style="text-align: justify">
+                                        <a href="https://it.linkedin.com/in/federica-bucchieri" target="_blank">Federica
+                                            Bucchieri</a>, <a href="https://it.linkedin.com/in/federica-bucchieri"
+                                                              target="_blank">"Situated
+                                        Visualization in Motion for Video Games"</a>, <a
+                                            href="https://www.universite-paris-saclay.fr/en" target="_blank">University
+                                        Paris-Saclay</a>, co-supervised with <a
+                                            href="https://petra.isenberg.cc/wiki/pmwiki.php"
+                                            target="_blank">Dr. Petra Isenberg</a>, 03/2022
+                                        -
+                                        09/2022.
+                                    </p>
                                 </li>
-                                <p style = "text-align: justify">
-                                    Haonan Yao 姚淏楠, <a href = "https://www.xjtlu.edu.cn/en" target = "_blank">Xi'an Jiaotong-Liverpool University</a>, co-supervised with <a href = "https://yulingyun.com/" target = "_blank">Dr. Lingyun Yu 俞凌云</a>, 08/2024 - present.
-                                </p>-->
-                                <li> 
-                                    Graduate level:
+                                <li class="text-medium">
+                                    <p class="text-medium text-17 subtitle">Undergraduate level:</p>
+                                    <p class="text-light" style="text-align: justify">
+                                        Jiachen Jiang 江家辰, "Visualization in Motion in Metaverse", <a
+                                            href="https://www.xjtlu.edu.cn/en" target="_blank">Xi'an
+                                        Jiaotong-Liverpool
+                                        University</a>, 09/2024 - present.</p>
+                                    <p class="text-light" style="text-align: justify">
+                                        Xing Wei 魏兴, "Physicalization in Practice: The Embodiment of Emotions", <a
+                                            href="https://www.xjtlu.edu.cn/en" target="_blank">Xi'an
+                                        Jiaotong-Liverpool
+                                        University</a>, 09/2024 - present.</p>
+                                    <p class="text-light" style="text-align: justify">
+                                        Yuming Zhang 张煜明, "Physicalization in Practice: Record the Highlights of
+                                        My
+                                        Life", <a
+                                            href="https://www.xjtlu.edu.cn/en" target="_blank">Xi'an
+                                        Jiaotong-Liverpool
+                                        University</a>, 09/2024 - present.</p>
+                                    <p class="text-light" style="text-align: justify">
+                                        Yongxuan Teng 滕永轩, "Visualization in Motion: A Systematic Review", <a
+                                            href="https://www.xjtlu.edu.cn/en" target="_blank">Xi'an
+                                        Jiaotong-Liverpool
+                                        University</a>, 09/2024 - present.</p>
+                                    <p class="text-light" style="text-align: justify">
+                                        Yingkai Xu 徐英恺, "Ubiquitous Visualization", <a
+                                            href="https://www.xjtlu.edu.cn/en"
+                                            target="_blank">Xi'an
+                                        Jiaotong-Liverpool
+                                        University</a>, 09/2024 - present.</p>
+                                    <p class="text-light" style="text-align: justify">
+                                        Dingkang Yang 杨定康, "Physicalization in Practice: My Carbon Emissions", <a
+                                            href="https://www.xjtlu.edu.cn/en" target="_blank">Xi'an
+                                        Jiaotong-Liverpool
+                                        University</a>, 09/2024 - present.
+                                    </p>
                                 </li>
-                                <p style = "text-align: justify">
-                                    <a href = "https://it.linkedin.com/in/federica-bucchieri" target = "_blank">Federica Bucchieri</a>, <a href = "https://it.linkedin.com/in/federica-bucchieri" target = "_blank">"Situated Visualization in Motion for Video Games"</a>, <a href = "https://www.universite-paris-saclay.fr/en" target = "_blank">University Paris-Saclay</a>, co-supervised with <a href = "https://petra.isenberg.cc/wiki/pmwiki.php" target = "_blank">Dr. Petra Isenberg</a>, 03/2022 - 09/2022.
-                                </p>
-                                <li>
-                                    Undergraduate level:
-                                </li>
-                                <p style = "text-align: justify">
-                                    Jiachen Jiang 江家辰, "Visualization in Motion in Metaverse", <a href = "https://www.xjtlu.edu.cn/en" target = "_blank">Xi'an Jiaotong-Liverpool University</a>, 09/2024 - present.
-                                    </br>
-                                    Xing Wei 魏兴, "Physicalization in Practice: The Embodiment of Emotions", <a href = "https://www.xjtlu.edu.cn/en" target = "_blank">Xi'an Jiaotong-Liverpool University</a>, 09/2024 - present.
-                                    </br>
-                                    Yuming Zhang 张煜明, "Physicalization in Practice: Record the Highlights of My Life", <a href = "https://www.xjtlu.edu.cn/en" target = "_blank">Xi'an Jiaotong-Liverpool University</a>, 09/2024 - present.
-                                    </br>
-                                    Yongxuan Teng 滕永轩, "Visualization in Motion: A Systematic Review", <a href = "https://www.xjtlu.edu.cn/en" target = "_blank">Xi'an Jiaotong-Liverpool University</a>, 09/2024 - present.
-                                    </br>
-                                    Yingkai Xu 徐英恺, "Ubiquitous Visualization", <a href = "https://www.xjtlu.edu.cn/en" target = "_blank">Xi'an Jiaotong-Liverpool University</a>, 09/2024 - present.
-                                    </br>
-                                    Dingkang Yang 杨定康, "Physicalization in Practice: My Carbon Emissions", <a href = "https://www.xjtlu.edu.cn/en" target = "_blank">Xi'an Jiaotong-Liverpool University</a>, 09/2024 - present.
-                                    </br>
-                                </p>
                             </ul>
                         </div>
-                    </div>
-                    
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Teaching</h3>
-                            <ul>
+
+                        <div class="activities-block">
+                            <p class="text-21 text-heavy">Teaching</p>
+                            <ul class="text-17 text-light">
                                 <li>
-                                    2024-present: Foundations of Computer Science and Engineering (SAT 006)
+                                    <p class="text-medium text-17 subtitle">2024-present: Foundations of Computer
+                                        Science
+                                        and Engineering (SAT 006)</p>
+                                    <p class="text-light text-17">Lectures on "Foundations of Computer Science" &
+                                        Tutorials
+                                        on "Coding with Python".</p>
+                                    <p class="text-light text-17">Undergraduate level (~720 students) at
+                                        <a href="https://www.xjtlu.edu.cn/en" target="_blank">Xi'an
+                                            Jiaotong-Liverpool
+                                            University</a>, Suzhou, China
+                                    </p>
                                 </li>
-                                    <span>Lectures on "Foundations of Computer Science" & Tutorials on "Coding with Python".</span>
-                                    </br>
-                                    <span>Undergraduate level (~720 students) at <a href = "https://www.xjtlu.edu.cn/en" target = "_blank">Xi'an Jiaotong-Liverpool University</a>, Suzhou, China</span>
                                 <li>
-                                    2024-present: Microprocessor (CPT 210)
+                                    <p class="text-medium text-17 subtitle">2024-present: Microprocessor (CPT
+                                        210)</p>
+                                    <p class="text-light text-17">Lectures & Tutorials on ARM.</p>
+                                    <p class="text-light text-17">Undergraduate level (~420 students) at
+                                        <a href="https://www.xjtlu.edu.cn/en" target="_blank">Xi'an
+                                            Jiaotong-Liverpool
+                                            University</a>, Suzhou, China
+                                    </p>
                                 </li>
-                                    <span>Lectures & Tutorials on ARM.</span>
-                                    </br>
-                                    <span>Undergraduate level (~420 students) at <a href = "https://www.xjtlu.edu.cn/en" target = "_blank">Xi'an Jiaotong-Liverpool University</a>, Suzhou, China</span>
                                 <li>
-                                    2021-2023: <a href = "https://ecampus.paris-saclay.fr/course/view.php?id=45998#section-0" target = "_blank">Interactive Information Visualization</a>
+                                    <p class="text-light text-17 subtitle">2021-2023:
+                                        <a class="text-light text-17"
+                                           href="https://ecampus.paris-saclay.fr/course/view.php?id=45998#section-0"
+                                           target="_blank">Interactive Information Visualization</a>
+                                    </p>
+                                    <p class="text-light text-17">Lecture on "Visualization with Time Series Data",
+                                        "Animated Visualization" & Tutorials on "Coding with P5.js", "Implementation
+                                        by
+                                        D3.js", and "Sketching for Ideation"</p>
+                                    <p class="text-light text-17">Graduate level (~50 students) at
+                                        <a href="https://www.universite-paris-saclay.fr/en" target="_blank">University
+                                            Paris-Saclay</a>, Gif-sur-Yvette, France
+                                    </p>
                                 </li>
-                                    <span>Lecture on "Visualization with Time Series Data", "Animated Visualization" & Tutorials on "Coding with P5.js", "Implementation by D3.js", and "Sketching for Ideation"</span>
-                                    </br>
-                                    <span>Graduate level (~50 students) at <a href = "https://www.universite-paris-saclay.fr/en" target = "_blank">University Paris-Saclay</a>, Gif-sur-Yvette, France</span>
                             </ul>
                         </div>
-                    </div>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <!-- activitis photos -->
-                            <div  class="subsubheading mt-3" style = "display:flex">
-                                <div style = "width:25%; display:inline-flex; align-items: center; flex-wrap: nowrap; justify-content: space-around" class = "border rounded" title="AFIHM Thesis Prize">
-                                    <img src = "assets/img/activities/afihmprize.jpg" atl = "AFIHM Thesis Prize" style = "width:100%; padding:5%" class = "d-block px-1 rounded">
-                                </div>
-
-                                <div style = "width:25%; display:inline-flex; align-items: center; flex-wrap: nowrap; justify-content: space-around" class = "border rounded" title="My defense">
-                                    <img src = "assets/img/activities/mydefense.jpg" atl = "My defense" style = "width:100%; padding:5%" class = "d-block px-1 rounded">
-                                </div>
-                                
-                                <div style = "width:25%; display:inline-flex; align-items: center; flex-wrap: nowrap; justify-content: space-around" class = "border rounded" title="EuroVis 2022">
-                                    <img src = "assets/img/activities/eurovis2022.jpg" atl = "EuroVis 2022" style = "width:100%; padding:5%" class = "d-block px-1 rounded">
-                                </div>
-                                
-                                
-                                <div style = "width:25%; display:inline-flex; align-items: center; flex-wrap: nowrap; justify-content: space-around" class = "border rounded" title="AVIZ Lunch 2023">
-                                    <img src = "assets/img/activities/aviz.jpg" atl = "AVIZ Lunch 2023" style = "width:100%; padding:5%" class = "d-block px-1 rounded">
-                                </div>  
-                                         
+                        <div class="activities-photos">
+                            <div style="display:flex">
+                                <img src="assets/img/activities/afihmprize.jpg" alt="AFIHM Thesis Prize">
+                                <img src="assets/img/activities/mydefense.jpg" alt="My defense">
+                                <img src="assets/img/activities/eurovis2022.jpg" alt="EuroVis 2022">
+                                <img src="assets/img/activities/aviz.jpg" alt="AVIZ Lunch 2023">
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+    </div>
+</div>
+<div class="arrow" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+    <div class="nav-arrow"><i class="fa-solid fa-arrow-up"></i></div>
+</div>
+<div class="footer">
+    <div id="copyright" class="copyright"></div>
+</div>
+<script type="module" src="js/index.js"></script>
+</body>
 </html>

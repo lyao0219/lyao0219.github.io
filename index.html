@@ -1,403 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <!-- Baidu validation -->
-        <meta name="baidu-site-verification" content="codeva-pGbhbOZAFr" />
-        <!-- Baidu validation end -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="Lijie Yao" />
-        <title>Lijie Yao 姚李捷</title>
-        <!-- <link rel="icon" type="image/x-icon" href="assets/img/vim.ico" /> -->
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Lijie Yao 姚李捷</span>
-                <div style="display:block">
-                    <div><span class="d-none d-lg-block"><img class="img-fluid img-profile mx-auto mb-2" style="border: none; border-radius: 5%; max-width: 15rem; max-height: 15rem;" src="assets/img/LijieYao.jpg" alt="Lijie Yao's Photo" /></span></div>
-                </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="news.html">News & Awards</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="publications.html">Publications</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="activities.html">Activities</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="work.html">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="education.html">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contact.html">Contact & CV</a></li>
-                </ul>
+<head>
+    <meta charset="utf-8"/>
+    <!-- Baidu validation -->
+    <meta name="baidu-site-verification" content="codeva-pGbhbOZAFr"/>
+    <!-- Baidu validation end -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content="Lijie Yao"/>
+    <title>Lijie Yao 姚李捷</title>
+    <!-- <link rel="icon" type="image/x-icon" href="assets/img/vim.ico" /> -->
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/mustache@latest"></script>
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="content">
+    <div class="mobile-menu" id="mobile-menu">
+        <i class="fas fa-ellipsis-v"></i>
+    </div>
+    <div class="header" id="header">
+        <div class="navbar" id="navbar"></div>
+    </div>
+    <div class="introduction">
+        <div class="profile-block">
+            <div class="top" id="profile"></div>
+            <div class="social-links" id="social-links">
             </div>
-
-            <!-- copyright -->
-            <div class="d-none d-lg-block" style = "position: absolute; bottom: 0px">
-                <p class="mb-0"><font color = "#6c757d">Copyright &copy 2024 Lijie Yao</font></p>
-                <p><font color = "#6c757d">All Rights Reserved</font></p>
-                <p><font color = "#6c757d">Last update: October 2024</font></p>    
-            </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="my-0">
-                        Lijie <span class="text-primary">Yao</span>
-                    </h1>
-
-                    <h2 class="mt-0 mb-3">
-                        <span class="text-primary">姚</span> 李捷
-                    </h2>
-                    
-                    <p class="lead mb-3" style = "text-align: justify">I am an Assistant Professor at <img src="assets/img/icons/china.png" class="intext_icon"> <img src="assets/img/icons/uk.png" class="intext_icon"> <a href = "https://www.xjtlu.edu.cn/en" target = "_blank">Xi'an Jiaotong-Liverpool University</a>. I obtained my Ph.D. degree from <img src="assets/img/icons/france.png" class="intext_icon"> <a href = "https://www.universite-paris-saclay.fr/en" target = "_blank">University Paris-Saclay</a>, supervised by <a href = "https://petra.isenberg.cc/wiki/pmwiki.php" target = "_blank">Dr. Petra Isenberg</a> and <a href = "https://www.lri.fr/~anab/" target = "_blank">Dr. Anastasia Bezerianos</a>. My Ph.D. dissertation on <a href = "https://www.theses.fr/s258022" target = "_blank">"Situated Visualization in Motion"</a> received the <a href = "https://www.afihm.org/" target = "_blank">PhD Thesis Prize from AFIHM</a>. Previously, I was a postdoctoral and doctoral researcher at <img src="assets/img/icons/france.png" class="intext_icon"> <a href = "https://www.inria.fr/en" target = "_blank">INRIA</a>, <a href = "https://www.aviz.fr/" target = "_blank">AVIZ</a> team, and a visiting researcher at <img src="assets/img/icons/canada.png" class="intext_icon"> <a href = "https://www.ucalgary.ca/" target = "_blank">University of Calgary</a>, hosted by <a href = "https://www.wjwillett.net/" target = "_blank">Dr. Wesley Willett</a>. My research focuses on exploring the impact of motion characteristics and spatial factors on the perception, design, and user experience of visual representations.</p>
-
-                    <p class="lead mb-3" style = "text-align: justify"><img src="assets/img/icons/promote.png" class="intext_icon"> I am looking for <strong>highly motivated PhD students, research assistants, and graduate students</strong>. Please see <a href="publications.html">PUBLICATIONS</a> for possible project ideas and research opportunities. If you are interested in visualization, feel free to contact me.</p>
-
-                    <p class="lead mb-5" style = "text-align: justify"><img src="assets/img/icons/collaborate.png" class="intext_icon"> If you are a <strong>company</strong> or <strong>academic</strong> that wants to discuss <strong>anything visualisation</strong>, please drop me an email at <a href="mailto: yaolijie0219@gmail.com?subject=[CONTACT]&cc=yaolijie0219@163.com" target = "_blank">yaolijie0219@gmail.com</a>. I am very good at replying emails 🙂.</p>
-
-
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/lijieyao" target = "_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/lyao0219" target = "_blank"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="https://twitter.com/LijieYao1" target = "_blank"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="https://scholar.google.com/citations?user=W-fVL00AAAAJ" target = "_blank"><i class="fab fa-google-plus-g"></i></a>
-                        <a class="social-icon" href="mailto: yaolijie0219@gmail.com?subject=[CONTACT]&cc=yaolijie0219@163.com" target = "_blank"><i class="fa fa-envelope"></i></a>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Selected Publications -->
-            <hr class="m-0" />           
-            <section class="resume-section" id="publications">
-                <div class="resume-section-content">
-    
-                   <h2 class="mb-5">Selected Publications</h2>
-                     <!-- paper: vis in motion -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <mark class="pub_venue">CG&A</mark><mark class="pub_type_fullpaper">Full paper</mark>
-                            <h3 class="mb-0">Situated Visualization in Motion</h3>
-                            <div class="subheading"><strong>Lijie Yao*</strong></div>
-                            <div class="subsubheading mb-3">IEEE Compputer Graphics and Applications, in press, doi: 10.1109/MCG.2024.3462129.</div>
-                            <div style = "display: flex">
-                                <!-- teaser -->
-                                <div style = "width:25%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "border rounded">
-                                    <img src = "assets/teaser/visinmotion_logo.png" atl = "Teaser of Situated Visualization in Motion" style = "width:100%" class = "d-block px-1">
-                                </div class = "d-inline">
-                                <!-- abstract -->
-                                <div style = "width:75%" >
-                                    <p style = "padding-left: 1rem; text-align: justify">We define visualization in motion and make several contributions to how to visualize and design situated visualizations in motion. In situated data visualization, the data is directly visualized near their data referent, i.e., the physical space, object, or person it refers to. Situated visualizations are often useful in contexts where the data referent or the viewer does not remain stationary but is in relative motion.  For example, a runner looks at visualizations from their fitness band while running. Reading visualizations in such scenarios might be impacted by motion factors. As such, understanding how to best design visualizations with motion factors is important. We define visualizations in motion as visual data representations used in contexts that exhibit relative motion between a viewer and an entire visualization. We propose a research agenda to understand what research opportunities and challenges are under visualization in motion. Next, we investigate (a) how motion factors can affect the reading accuracy of visualizations, (b) how to design and embed visualizations in motion in a real application scenario, and (c) the user experience and design trade-offs of visualization in motion through a case study.</p>
-                                </div>
-                            </div>
-
-                            <!-- links -->
-                            <div class="subsubheading mt-3" style = "display:flex">
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="DOI Link">
-                                    <a href = "https://doi.org/10.1109/MCG.2024.3462129">
-                                        <img src = "assets/img/doi.png" atl = "DOI Link" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Online Link">
-                                    <a href = "https://hal.science/hal-04700820">
-                                        <img src = "assets/img/link.png" atl = "Online Link" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-                                
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Download PDF Version of Paper">
-                                    <a href = "assets/pdf/Situated_Visualization_in_Motion.pdf" download>
-                                        <img src = "assets/img/pdf.png" atl = "PDF Download" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-
-                            </div>                            
-                        </div>
-                    </div>
-
-                    <!-- paper: video game -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <mark class="pub_venue">TVCG</mark><mark class="pub_type_fullpaper">Full paper</mark>
-                            <h3 class="mb-0">User Experience of Visualizations in Motion: A Case Study and Design Considerations</h3>
-                            <div class="subheading"><strong>Lijie Yao*</strong>, Federica Bucchieri, Victoria McArthurm Anastasia Bezerianos, Petra Isenberg</div>
-                            <div class="subsubheading mb-3">IEEE Transactions on Visualization and Compputer Graphics, in press, doi: 1109/TVCG.2024.3456319.</div>
-                            <div style = "display: flex">
-                                <!-- teaser -->
-                                <div style = "width:25%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "border rounded">
-                                    <img src = "assets/teaser/videogame.jpg" atl = "Teaser of User Experience of Visualization in Motion" style = "width:100%" class = "d-block px-1">
-                                </div class = "d-inline">
-                                <!-- abstract -->
-                                <div style = "width:75%" >
-                                    <p style = "padding-left: 1rem; text-align: justify">We present a systematic review, an empirical study, and a first set of considerations for designing visualizations in motion, derived from a concrete scenario in which these visualizations were used to support a primary task. In practice, when viewers are confronted with embedded visualizations, they often have to focus on a primary task and can only quickly glance at a visualization showing rich, often dynamically updated, information. As such, the visualizations must be designed so as not to distract from the primary task, while at the same time being readable and useful for aiding the primary task. For example, in games, players who are engaged in a battle have to look at their enemies but also read the remaining health of their own game character from the health bar over their character's head. Many trade-offs are possible in the design of embedded visualizations in such dynamic scenarios, which we explore in-depth in this paper with a focus on user experience. We use video games as an example of an application context with a rich existing set of visualizations in motion. We begin our work with a systematic review of in-game visualizations in motion. Next, we conduct an empirical user study to investigate how different embedded visualizations in motion designs impact user experience. We conclude with a set of considerations and trade-offs for designing visualizations in motion more broadly as derived from what we learned about video games. All supplemental materials of this paper are available at <a href = "https://osf.io/3v8wm/" target="_blank">osf.io/3v8wm/</a>.</p>
-                                </div>
-                            </div>
-
-                            <!-- links -->
-                            <div class="subsubheading mt-3" style = "display:flex">
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="DOI Link">
-                                    <a href = "https://doi.org/10.1109/TVCG.2024.3456319">
-                                        <img src = "assets/img/doi.png" atl = "DOI Link" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Online Link">
-                                    <a href = "https://hal.science/hal-04700819">
-                                        <img src = "assets/img/link.png" atl = "Online Link" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-                                
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Download PDF Version of Paper">
-                                    <a href = "assets/pdf/User_Experience_of_Visualizations_in_Motion_A_Case_Study_and_Design_Considerations.pdf" download>
-                                        <img src = "assets/img/pdf.png" atl = "PDF Download" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-
-                                <!-- 
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Preview VIS 2022 Presetation Video">
-                                    <a href = "https://youtu.be/sIzRfNIsRV4">
-                                        <img src = "assets/img/video.png" atl = "Preview Presentation Video" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-                                 -->
-
-                                <!-- 
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Graphics Replicability Stamp Initiative">
-                                    <a href = "https://www.replicabilitystamp.org/index.html#https-github-com-lyao0219-swimflow-git">
-                                        <img src = "assets/img/stamp.png" atl = "Link to replicable repository" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-                                -->
-
-                                <!-- SwimFlow specific info -->
-                                <!-- 
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="SwimFlow">
-                                    <a href = "https://motion.isenberg.cc/Swimming/index">
-                                        <img src = "assets/img/swimflow.png" atl = "SwimFlow - Interactive Technical Probe" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-                                 -->
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="OSF repository">
-                                    <a href = "https://osf.io/3v8wm/">
-                                        <img src = "assets/img/osf.png" atl = "Supplemental material on OSF" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-
-                            </div>                            
-                        </div>
-                    </div>
-
-                    <!-- paper: swimming -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <mark class="pub_venue">TVCG</mark><mark class="pub_type_fullpaper">Full paper</mark>
-                            <h3 class="mb-0">Designing for Visualization in Motion: Embedding Visualizations in Swimming Videos</h3>
-                            <div class="subheading"><strong>Lijie Yao*</strong>, Romain Vuillmot, Anastasia Bezerianos, Petra Isenberg</div>
-                            <div class="subsubheading mb-3">IEEE Transactions on Visualization and Compputer Graphics, 2024, 30(3), pp.1821-1836, doi: 10.1109/tvcg.2023.3341990.</div>
-                            <div style = "display: flex">
-                                <!-- teaser -->
-                                <div style = "width:25%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "border rounded">
-                                    <img src = "assets/teaser/swimming.jpg" atl = "Teaser of Designing for Visualization in Motion" style = "width:100%" class = "d-block px-1">
-                                </div class = "d-inline">
-                                <!-- abstract -->
-                                <div style = "width:75%" >
-                                    <p style = "padding-left: 1rem; text-align: justify">We report on challenges and considerations for supporting design processes for visualizations in motion embedded in sports videos. We derive our insights from analyzing swimming race visualizations and motion-related data, building a technology probe, as well as a study with designers. Understanding how to design situated visualizations in motion is important for a variety of contexts. Competitive sports coverage, in particular, increasingly includes information on athlete or team statistics and records. Although moving visual representations attached to athletes or other targets are starting to appear, systematic investigations on how to best support their design process in the context of sports videos are still missing. Our work makes several contributions in identifying opportunities for visualizations to be added to swimming competition coverage but, most importantly, in identifying requirements and challenges for designing situated visualizations in motion. Our investigations include the analysis of a survey with swimming enthusiasts on their motion-related information needs, an ideation workshop to collect designs and elicit design challenges, the design of a technology probe that allows to create embedded visualizations in motion based on real data, and an evaluation with visualization designers that aimed to understand the benefits of designing directly on videos.</p>
-                                </div>
-                            </div>
-
-                            <!-- links -->
-                            <div class="subsubheading mt-3" style = "display:flex">
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="DOI Link">
-                                    <a href = "https://doi.org/10.1109/tvcg.2023.3341990">
-                                        <img src = "assets/img/doi.png" atl = "DOI Link" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Online Link">
-                                    <a href = "https://hal.science/hal-04364838">
-                                        <img src = "assets/img/link.png" atl = "Online Link" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-                                
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Download PDF Version of Paper">
-                                    <a href = "assets/pdf/Designing_for_Visualization_in_Motion_Embedding_Visualizations_in_Swimming_Videos.pdf" download>
-                                        <img src = "assets/img/pdf.png" atl = "PDF Download" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-
-                                <!-- 
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Preview VIS 2022 Presetation Video">
-                                    <a href = "https://youtu.be/sIzRfNIsRV4">
-                                        <img src = "assets/img/video.png" atl = "Preview Presentation Video" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-                                 -->
-
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Graphics Replicability Stamp Initiative">
-                                    <a href = "https://www.replicabilitystamp.org/index.html#https-github-com-lyao0219-swimflow-git">
-                                        <img src = "assets/img/stamp.png" atl = "Link to replicable repository" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-
-                                <!-- SwimFlow specific info -->
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="SwimFlow">
-                                    <a href = "https://motion.isenberg.cc/Swimming/index">
-                                        <img src = "assets/img/swimflow.png" atl = "SwimFlow - Interactive Technical Probe" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="OSF repository">
-                                    <a href = "https://osf.io/nxyr4/">
-                                        <img src = "assets/img/osf.png" atl = "Supplemental material on OSF" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-
-                            </div>                            
-                        </div>
-                    </div>
-                    
-                    <!-- paper: vis in motion -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <mark class="pub_venue">TVCG</mark><mark class="pub_type_fullpaper">Full paper</mark>
-                            <h3 class="mb-0">Visualization in Motion: A Research Agenda and Two Evaluations</h3>
-                            <div class="subheading"><strong>Lijie Yao*</strong>, Anastasia Bezerianos, Romain Vuillmot, Petra Isenberg</div>
-                            <div class="subsubheading mb-3">IEEE Transactions on Visualization and Compputer Graphics, 2022, 28(10), pp.3546-3562, doi: 10.1109/TVCG.2022.3184993.</div>
-                            <div style = "display: flex">
-                                <!-- teaser -->
-                                <div style = "width:25%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "border rounded">
-                                    <img src = "assets/teaser/visinmotion.png" atl = "Teaser of Visualization in Motion" style = "width:100%" class = "d-block px-1">
-                                </div class = "d-inline">
-                                <!-- abstract -->
-                                <div style = "width:75%" >
-                                    <p style = "padding-left: 1rem; text-align: justify">We contribute a research agenda for visualization in motion and two experiments to understand how well viewers can read data from moving visualizations. We define visualizations in motion as visual data representations that are used in contexts that exhibit relative motion between a viewer and an entire visualization. Sports analytics, video games, wearable devices, or data physicalizations are example contexts that involve different types of relative motion between a viewer and a visualization. To analyze the opportunities and challenges for designing visualization in motion, we show example scenarios and outline a first research agenda. Motivated primarily by the prevalence of and opportunities for visualizations in sports and video games we started to investigate a small aspect of our research agenda: the impact of two important characteristics of motion---speed and trajectory on a stationary viewer's ability to read data from moving donut and bar charts. We found that increasing speed and trajectory complexity did negatively affect the accuracy of reading values from the charts and that bar charts were more negatively impacted. In practice, however, this impact was small: both charts were still read fairly accurately.</p>
-                                </div>
-                            </div>
-
-                            <!-- links -->
-                            <div class="subsubheading mt-3" style = "display:flex">
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="DOI Link">
-                                    <a href = "https://doi.org/10.1109/TVCG.2022.3184993">
-                                        <img src = "assets/img/doi.png" atl = "DOI Link" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Online Link">
-                                    <a href = "https://hal.science/hal-03698837">
-                                        <img src = "assets/img/link.png" atl = "Online Link" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-                                
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Download PDF Version of Paper">
-                                    <a href = "assets/pdf/Vis_in_motion_A_Research_Agenda_and_Two_Evaluations.pdf" download>
-                                        <img src = "assets/img/pdf.png" atl = "PDF Download" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Preview VIS 2022 Presetation Video">
-                                    <a href = "https://youtu.be/sIzRfNIsRV4">
-                                        <img src = "assets/img/video.png" atl = "Preview Presentation Video" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-
-                                <div style = "width:5%; display:inline-flex; align-items: center; flex-wrap: nowrap" class = "ml-5" title="Graphics Replicability Stamp Initiative">
-                                    <a href = "https://www.replicabilitystamp.org/index.html#https-gitlab-inria-fr-lyao-visinmotion">
-                                        <img src = "assets/img/stamp.png" atl = "Link to replicable repository" style = "width:100%" class = "d-block px-1">
-                                    </a>
-                                </div>
-
-                                <!-- study specific info -->
-                                <div style = "width:85%; display:inline-flex; align-items: center; flex-wrap: nowrap; flex-direction: right; justify-content: flex-end" class="float-right text-right">
-                                    <!-- study 1 -->
-                                    <div style = "width:20%; display:inline-flex; align-items: center; flex-wrap: nowrap flex-direction: right; justify-content: flex-end" class = "ml-5">
-                                        <div>
-                                            <span>STUDY 1</span>
-                                        </div>
-                                        <div style = "width:15%" title="OSF repository">
-                                            <a href = "https://osf.io/km3s2/">
-                                                <img src = "assets/img/osf.png" atl = "Supplemental material on OSF" style = "width:100%" class = "d-block px-1">
-                                            </a>
-                                        </div>
-                                        <div style = "width:15%" title="Online study">
-                                            <a href = "https://motion.isenberg.cc/study1_speed_donut/index.php?PROLIFIC=False">
-                                                <img src = "assets/img/study.png" atl = "Online Perception Study 1" style = "width:100%" class = "d-block px-1">
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <!-- study 2 -->
-                                    <div style = "width:20%; display:inline-flex; align-items: center; flex-wrap: nowrap flex-direction: right; justify-content: flex-end" class = "ml-5">
-                                        <div>
-                                            <span>STUDY 2</span>
-                                        </div>
-                                        <div style = "width:15%" title="OSF repository">
-                                            <a href = "https://osf.io/t748d/">
-                                                <img src = "assets/img/osf.png" atl = "Supplemental material on OSF" style = "width:100%" class = "d-block px-1">
-                                            </a>
-                                        </div>
-                                        <div style = "width:15%" title="Online study">
-                                            <a href = "https://motion.isenberg.cc/study1_speed_bar/index.php?PROLIFIC=False">
-                                                <img src = "assets/img/study.png" atl = "Online Perception Study 2" style = "width:100%" class = "d-block px-1">
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <!-- study 3 -->
-                                    <div style = "width:20%; display:inline-flex; align-items: center; flex-wrap: nowrap flex-direction: right; justify-content: flex-end" class = "ml-5">
-                                        <div>
-                                            <span>STUDY 3</span>
-                                        </div>
-                                        <div style = "width:15%" title="OSF repository">
-                                            <a href = "https://osf.io/9c4bz/">
-                                                <img src = "assets/img/osf.png" atl = "Supplemental material on OSF" style = "width:100%" class = "d-block px-1">
-                                            </a>
-                                        </div>
-                                        <div style = "width:15%" title="Online study">
-                                            <a href = "https://motion.isenberg.cc/study2_trajectory_donut/index.php?PROLIFIC=False">
-                                                <img src = "assets/img/study.png" atl = "Online Perception Study 3" style = "width:100%" class = "d-block px-1">
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <!-- study 4 -->
-                                    <div style = "width:20%; display:inline-flex; align-items: center; flex-wrap: nowrap flex-direction: right; justify-content: flex-end" class = "ml-5">
-                                        <div>
-                                            <span>STUDY 4</span>
-                                        </div>
-                                        <div style = "width:15%" title="OSF repository">
-                                            <a href = "https://osf.io/9c4bz/">
-                                                <img src = "assets/img/osf.png" atl = "Supplemental material on OSF" style = "width:100%" class = "d-block px-1">
-                                            </a>
-                                        </div>
-                                        <div style = "width:15%" title="Online study">
-                                            <a href = "https://motion.isenberg.cc/study2_trajectory_bar/index.php?PROLIFIC=False">
-                                                <img src = "assets/img/study.png" atl = "Online Perception Study 4" style = "width:100%" class = "d-block px-1">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>                            
-                        </div>
-                    </div>
-
-                    <p><h3 class="mb-5"><a href = "publications.html" target = "_blank">See more...</a></h3></p>
-
-                </div>
-            </section>
-
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        <div class="main-content">
+            <div class="self-introduction" id="self-introduction"></div>
+            <div class="dashed-border"></div>
+            <hr>
+            <div class="selected-publications">
+                <div class="title">
+                    <p class="text-25 text-heavy">Selected Publications</p>
+                    <a class="text-14 text-light view-more" href="publications.html" target="_blank">View more</a>
+                </div>
+                <div class="publications" id="publications"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="arrow" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+    <div class="nav-arrow"><i class="fa-solid fa-arrow-up"></i></div>
+</div>
+<div class="footer">
+    <div id="copyright" class="copyright"></div>
+</div>
+<!-- Page Content-->
+<script type="module" src="js/index.js"></script>
+</body>
 </html>

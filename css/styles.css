@@ -151,7 +151,7 @@ strong {
     position: fixed;
     top: 200px;
     text-align: center;
-    box-shadow: 0 3px 7px #000 14;
+    box-shadow: 0 3px 7px #00000014;
     height: fit-content;
 }
 
@@ -159,7 +159,7 @@ strong {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #eda773 38;
+    background: #eda77338;
     padding: 40px 10px;
 }
 
@@ -224,7 +224,13 @@ strong {
     border: none;
     height: 0.5px;
     margin: 2px;
-    background: repeating-linear-gradient(to right, #6c757d 4d 0, #6c757d 4d 10px, transparent 10px, transparent 15px);
+    background: repeating-linear-gradient(
+            to right,
+            #6c757d4d 0,
+            #6c757d4d 10px,
+            transparent 10px,
+            transparent 15px
+    );
 }
 
 .content .title {
@@ -432,7 +438,7 @@ strong {
 .popup {
     position: fixed;
     background: white;
-    box-shadow: 0 3px 7px #000 14;
+    box-shadow: 0 3px 7px #00000014;
     top: 50%;
     right: 50%;
     transform: translateX(50%) translateY(-50%);
@@ -450,7 +456,7 @@ strong {
 .popup .popup-content {
     white-space: pre-line;
     margin-top: 5px;
-    background: #eda773 12;
+    background: #eda77312;
     padding: 10px;
     line-height: 1.5;
     border-left: 4px solid #bd5438;
@@ -525,7 +531,7 @@ strong {
         margin-right: 0 !important;
         height: 100% !important;
         width: 100% !important;
-        background: #d2431e 8f;
+        background: #d2431e8f;
         color: white;
     }
 

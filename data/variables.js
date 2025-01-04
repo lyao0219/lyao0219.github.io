@@ -25,5 +25,7 @@ export const projectLinkIcon = {
     swimFlow : "assets/img/swimflow.png",
     osf: "assets/img/osf.png",
     video: "assets/img/video.png",
-    poster: "assets/img/poster.png"
+    poster: "assets/img/poster.png",
+    bibtex: "assets/img/bibtex.png",
+    github: "assets/img/github.png",
 }

@@ -20,7 +20,7 @@ document.getElementById("mobile-menu").addEventListener("click", () => {
 
 if (document.getElementById('copyright')) {
     document.getElementById('copyright').innerHTML =
-        '<p class="text-14 text-light">Copyright &copy 2024 Lijie Yao. All Rights Reserved. Last update: October 2024</p>'
+        '<p class="text-14 text-light">Copyright &copy 2025 Lijie Yao. All Rights Reserved. Last update: January 2025</p>'
 }
 
 if (document.getElementById('profile')) {

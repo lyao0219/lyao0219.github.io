@@ -9,12 +9,12 @@ export const publicationTemplate = '' +
     '                           <div class="top">' +
     '                               <span class="mark pub_venue text-light text-14">{{event}}</span>' +
     '                               <span class="mark pub_venue text-light text-14" style="background: {{type.color}}">{{type.text}}</span>' +
-    '                               <p class="text-medium text-21">{{title}}</p>' +
+    '                               <p class="text-medium text-17 title">{{title}}</p>' +
     '                               <p class="text-medium text-17">{{{author}}}</p>' +
     '                               <p class="text-medium text-17 text-orange">{{subtitle}}</p>' +
-    '                               <div class="abstract">' +
-    '                                       <p class="text-light text-17">{{{description}}}</p>' +
-    '                               </div>' +
+    // '                               <div class="abstract">' +
+    // '                                       <p class="text-light text-17">{{{description}}}</p>' +
+    // '                               </div>' +
     '                               <div class="publication-icons">' +
     '                                   {{#icons}}' +
     '                                   <div class="publication-icon">' +
@@ -23,6 +23,11 @@ export const publicationTemplate = '' +
     '                                       </a>' +
     '                                   </div>' +
     '                                   {{/icons}}' +
+    '                                   {{#popups}}' +
+    '                                   <div class="popup-icon" data-popup-id="{{contentId}}">' +
+    '                                       <img src="{{icon}}" alt="{{icon}}">' +
+    '                                   </div>' +
+    '                                   {{/popups}}' +
     '                                   {{#study}}' +
     '                                   <p class="text-light text-12 study-title">{{title}}</p>' +
     '                                   <div class="study-icons">' +

@@ -1,6 +1,6 @@
 export const experienceTemplate = '<div class="experience-block">' +
     '                <div class="top">' +
-    '                    <p class="text-medium text-21 type">{{jobTitle}}</p>' +
+    '                    <p class="text-medium text-17 type">{{jobTitle}}</p>' +
     '                    <p class="text-orange text-light text-17 time">{{time}}</p>' +
     '                </div>' +
     '                <div class="bottom">' +

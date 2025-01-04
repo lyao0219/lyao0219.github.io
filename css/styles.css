@@ -369,7 +369,7 @@ strong {
         }
     }
 
-    .news, .experiences, .education, .awards {
+    .news, .experiences, .education, .awards, .publications {
         z-index: 1;
         position: relative;
 

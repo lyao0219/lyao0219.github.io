@@ -6,10 +6,10 @@ const publicationsElement = document.getElementById('publications')
 if (publicationsElement) {
     let selectedPublicationsHTML = "";
     const showAll = publicationsElement.getAttribute("data-show-all")
-    let sortedPublications = publications.sort((a, b) => b.year - a.year );
+    let sortedPublications = publications.sort((a, b) => b.year - a.year);
     let yearList = []
     sortedPublications.forEach(item => {
-        if(showAll && !yearList.includes(item.year)) {
+        if (showAll && !yearList.includes(item.year)) {
             yearList.push(item.year)
             selectedPublicationsHTML += `<div class='publication-year text-medium text-21'>${item.year}</div>`
             selectedPublicationsHTML += `<hr>`
@@ -49,6 +49,21 @@ if (popupIcons) {
                 if (popupElement && popupElement.parentNode) {
                     popupElement.parentNode.removeChild(popupElement);
                 }
+            });
+
+            document.querySelector('#popup .popup-copy').addEventListener("click", () => {
+                setTimeout(() => {
+                    document.getElementById("copy-text").innerText = "Copied";
+                    document.querySelector(".popup-copy").classList.add("text-orange");
+                }, 500);
+
+                setTimeout(() => {
+                    document.getElementById("copy-text").innerText = "Copy";
+                    document.querySelector(".popup-copy").classList.remove("text-orange");
+                }, 5000);
+
+                navigator.clipboard.writeText(bibtex[contentId]).then(() => {
+                });
             });
         });
     }

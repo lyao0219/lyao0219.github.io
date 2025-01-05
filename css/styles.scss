@@ -474,6 +474,16 @@ strong {
         cursor: pointer;
     }
 
+    .popup-copy {
+        position: absolute;
+        bottom: 20px;
+        right: 50px;
+        cursor: pointer;
+        width: 20px;
+        display: flex;
+        align-items: center;
+    }
+
     .popup-content {
         white-space: pre-line;
         margin-top: 5px;

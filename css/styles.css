@@ -454,6 +454,19 @@ strong {
     cursor: pointer;
 }
 
+.popup .popup-copy {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.popup span {
+    margin-right: 10px;
+}
+
 .popup .popup-content {
     white-space: pre-line;
     margin-top: 5px;

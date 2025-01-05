@@ -463,6 +463,10 @@ strong {
     align-items: center;
 }
 
+.popup .popup-copy:hover, .popup .popup-close:hover {
+    color: #bd5438;
+}
+
 .popup span {
     margin-right: 10px;
 }

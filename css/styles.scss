@@ -482,6 +482,10 @@ strong {
         width: 20px;
         display: flex;
         align-items: center;
+
+        &:hover {
+            color: #bd5438;
+        }
     }
 
     .popup-content {

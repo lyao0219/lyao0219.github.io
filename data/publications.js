@@ -10,7 +10,7 @@ export const bibtex = {
         "  YEAR = {2025},\n" +
         "  DOI = {10.1109/MCG.2024.3462129},\n" +
         "  KEYWORDS = {Situated visualization ; Visualization in motion ; Visualization design and evaluation methods},\n" +
-        "  PDF = {https://hal.science/hal-04700820v1/file/Situated_Visualization_in_Motion.pdf},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Situated_Visualization_in_Motion.pdf},\n" +
         "}\n",
     2: "@article{Yao:2025:VideoGame,\n" +
         "  TITLE = {{User Experience of Visualizations in Motion: A Case Study and Design Considerations}},\n" +
@@ -25,7 +25,7 @@ export const bibtex = {
         "  MONTH = Jan,\n" +
         "  DOI = {10.1109/tvcg.2024.3456319},\n" +
         "  KEYWORDS = {Situated visualization ; Visualization in motion ; Design considerations},\n" +
-        "  PDF = {https://hal.science/hal-04700819v1/file/gppbpqwkzcwjptrcjpvkcdycmqgrdftd.pdf},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/User_Experience_of_Visualizations_in_Motion_A_Case_Study_and_Design_Considerations.pdf},\n" +
         "}\n",
     3: "@article{Yao:2024:Swimming,\n" +
         "  TITLE = {{Designing for Visualization in Motion: Embedding Visualizations in Swimming Videos}},\n" +
@@ -40,7 +40,7 @@ export const bibtex = {
         "  MONTH = Mar,\n" +
         "  DOI = {10.1109/tvcg.2023.3341990},\n" +
         "  KEYWORDS = {Embedded visualization ; sports analytics ; design framework ; visualization in motion},\n" +
-        "  PDF = {https://hal.science/hal-04364838v1/file/Lijie_2023_TVCG___Swimming.pdf},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Designing_for_Visualization_in_Motion_Embedding_Visualizations_in_Swimming_Videos.pdf},\n" +
         "}",
     4: "@article{Yao:2022:VIM,\n" +
         "  TITLE = {{Visualization in Motion: A Research Agenda and Two Evaluations}},\n" +
@@ -55,20 +55,20 @@ export const bibtex = {
         "  MONTH = Oct,\n" +
         "  DOI = {10.1109/TVCG.2022.3184993},\n" +
         "  KEYWORDS = {Visualization ; Visualization in motion ; Perception ; Research agenda ; Movement ; Motion},\n" +
-        "  PDF = {https://inria.hal.science/hal-03698837v2/file/Vis_in_motion_A_Research_Agenda_and_Two_Evaluations.pdf},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Vis_in_motion_A_Research_Agenda_and_Two_Evaluations.pdf},\n" +
         "}",
     5: "@inproceedings{Grioui:2024:SmartWatch,\n" +
         "  TITLE = {{Micro Visualizations on a Smartwatch: Assessing Reading Performance While Walking}},\n" +
         "  AUTHOR = {Grioui, Fairouz and Blascheck, Tanja and Yao, Lijie and Isenberg, Petra},\n" +
         "  URL = {https://doi.org/10.1109/VIS55277.2024.00017},\n" +
-        "  NOTE = {Short paper of the IEEE conference on visualization and visual analytics},\n" +
-        "  BOOKTITLE = {{Short Paper Proceedings of the IEEE Conference on Visualization and Visual Analytics (VIS)}},\n" +
+        "  NOTE = {Short papers of the IEEE Visualization and Visual Analytics (VIS)},\n" +
+        "  BOOKTITLE = {{Short papers of the IEEE Visualization and Visual Analytics (VIS)}},\n" +
         "  ADDRESS = {Los Alamitos, CA, USA, United States},\n" +
         "  YEAR = {2024},\n" +
         "  MONTH = Oct,\n" +
         "  DOI = {10.1109/VIS55277.2024.00017},\n" +
         "  KEYWORDS = {micro and mobile visualization ; smartwatch ; visualization},\n" +
-        "  PDF = {https://inria.hal.science/hal-04782873v1/file/Grioui_2024_Smartwatch.pdf},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Micro_Visualizations_on_a_Smartwatch_Assessing_Reading_Performance_While_Walking.pdf},\n" +
         "}",
     6: "@inproceedings{Elshabasi:2024:FirstPerson,\n" +
         "  TITLE = {{Collecting Information Needs for Egocentric Visualizations while Running}},\n" +
@@ -80,32 +80,33 @@ export const bibtex = {
         "  MONTH = Oct,\n" +
         "  DOI = {10.48550/arXiv.2409.06426},\n" +
         "  KEYWORDS = {Situated visualization ; Visualization in motion ; Sports},\n" +
-        "  PDF = {https://hal.science/hal-04700822v1/file/1PVis2024_ImmersiveRunning.pdf},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Collecting_Information_Needs_for_Egocentric_Visualizations_while_Running.pdf},\n" +
         "}",
     7: "@inproceedings{Jansen:2022:SV,\n" +
         "  TITLE = {{Envisioning Situated Visualizations of Environmental Footprints in an Urban Environment}},\n" +
         "  AUTHOR = {Jansen, Yvonne and Bucchieri, Federica and Dragicevic, Pierre and Hachet, Martin and Koval, Morgane and Petiot, L{\\'e}ana and Prouzeau, Arnaud and Schmalstieg, Dieter and Yao, Lijie and Isenberg, Petra},\n" +
         "  URL = {https://inria.hal.science/hal-03770857},\n" +
-        "  BOOKTITLE = {{VIS4Good - Visualization for Social Good workshop held as part of IEEE VIS 2022}},\n" +
+        "  BOOKTITLE = {{IEEE VIS Workshop on Visualization for Social Good (VIS4Good)}},\n" +
         "  ADDRESS = {Oklahoma City, United States},\n" +
         "  YEAR = {2022},\n" +
         "  MONTH = Oct,\n" +
         "  DOI = {10.5281/zenodo.7053934},\n" +
         "  KEYWORDS = {Situated visualization ; environmental footprint ; workshop ; ideation exercise},\n" +
-        "  PDF = {https://inria.hal.science/hal-03770857v1/file/Envisioning_Situated_Visualizations_of_Environmental_Footprints.pdf},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Environment_Footprint_by_Situated_Visualization.pdf},\n" +
         "}",
     8: "@inproceedings{Islam:2022:FitnessTracker,\n" +
         "  TITLE = {{Reflections on Visualization in Motion for Fitness Trackers}},\n" +
         "  AUTHOR = {Islam, Alaul and Yao, Lijie and Bezerianos, Anastasia and Blascheck, Tanja and He, Tingying and Lee, Bongshin and Vuillemot, Romain and Isenberg, Petra},\n" +
         "  URL = {https://inria.hal.science/hal-03775633},\n" +
-        "  BOOKTITLE = {{MobileHCI 2022 Workshop on New Trends in HCI and Sports}},\n" +
+        "  BOOKTITLE = {{MobileHCI Workshop on New Trends in HCI and Sports (NTSPORT)}},\n" +
         "  ADDRESS = {Vancouver, Canada},\n" +
         "  YEAR = {2022},\n" +
         "  MONTH = Sep,\n" +
+        "  DOI = {10.48550/arXiv.2409.06401},\n" +
         "  KEYWORDS = {Fitness Trackers ; Visualization in Motion ; Sports Analytics ; Wearable Devices},\n" +
-        "  PDF = {https://inria.hal.science/hal-03775633v1/file/Lijie_Alaul_MobileHCI_Workshop_Relfection_on_Visualization_in_Motion_for_Fitness_Trackers.pdf},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Relfections_on_Visualization_in_Motion_for_Fitness_Trackers.pdf},\n" +
         "}",
-    9: "@misc{Bucchieri:2022:VideoGame,\n" +
+    9: "@inproceedings{Bucchieri:2022:VideoGame,\n" +
         "  TITLE = {{Situated Visualization in Motion for Video Games}},\n" +
         "  AUTHOR = {Bucchieri, Federica and Yao, Lijie and Isenberg, Petra},\n" +
         "  URL = {https://inria.hal.science/hal-03694019},\n" +
@@ -115,16 +116,17 @@ export const bibtex = {
         "  MONTH = Jun,\n" +
         "  DOI = {10.2312/evp.20221119},\n" +
         "  KEYWORDS = {Visualization ; Visualization in motion ; Visualization for video games ; Situated visualization},\n" +
-        "  PDF = {https://inria.hal.science/hal-03694019v1/file/Situated_Visualization_in_Motion_for_Video_Games.pdf},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Situated_Visualization_in_Motion_for_Video_Games.pdf},\n" +
         "}",
-    10: "@misc{Yao:2022:Swimming,\n" +
+    10: "@inproceedings{Yao:2022:Swimming,\n" +
         "  TITLE = {{Situated Visualization in Motion for Swimming}},\n" +
         "  AUTHOR = {Yao, Lijie and Bezerianos, Anastasia and Vuillemot, Romain and Isenberg, Petra},\n" +
         "  URL = {https://inria.hal.science/hal-03700406},\n" +
-        "  NOTE = {Journ{\\'e}e annuelle du GT Visualisation du GDR IG-RV},\n" +
+        "  BOOKTITLE = {{Journ{\\'e}e Visu 2022}},\n" +
         "  YEAR = {2022},\n" +
         "  MONTH = Jun,\n" +
-        "  PDF = {https://inria.hal.science/hal-03700406v1/file/2022_Journe_Visu_Visualisation_Localisee_en_Mouvement_pour_la_Natation.pdf},\n" +
+        "  DOI = {10.48550/arXiv.2409.07695},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Situated_Visualization_in_Motion_for_Swimming.pdf},\n" +
         "}",
     11: "@inproceedings{Bucchieri:2022:DataType,\n" +
         "  TITLE = {{Visualization in Motion in Video Games for Different Types of Data}},\n" +
@@ -134,9 +136,10 @@ export const bibtex = {
         "  ADDRESS = {Bordeaux, France},\n" +
         "  YEAR = {2022},\n" +
         "  MONTH = Jun,\n" +
-        "  PDF = {https://inria.hal.science/hal-03700418v1/file/2022_Journ__Visu___Visualisation_Localis_e_en_Mouvement_dans_les_Jeux_Vid_o_pour_Diff_rents_Types_de_Donn_es.pdf},\n" +
+        "  DOI = {10.48550/arXiv.2409.07696},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Visualization_in_Motion_for_Video_Games_Data_Type.pdf},\n" +
         "}",
-    12: "@misc{Yao:2020:VIM,\n" +
+    12: "@inproceedings{Yao:2020:VIM,\n" +
         "  TITLE = {{Situated Visualization in Motion}},\n" +
         "  AUTHOR = {Yao, Lijie and Bezerianos, Anastasia and Isenberg, Petra},\n" +
         "  URL = {https://inria.hal.science/hal-02946587},\n" +
@@ -144,8 +147,21 @@ export const bibtex = {
         "  HOWPUBLISHED = {{Posters of the IEEE Conference on Visualization}},\n" +
         "  YEAR = {2020},\n" +
         "  MONTH = Oct,\n" +
-        "  PDF = {https://inria.hal.science/hal-02946587v2/file/IEEE_VIS_2020_PosterTemplate_Lijie_V2.pdf},\n" +
-        "}"
+        "  DOI = {10.48550/arXiv.2409.07005},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Situated_Visualization_in_Motion_Poster.pdf},\n" +
+        "}",
+    13: "@phdthesis{Yao:PhDThesis,\n" + 
+        "  TITLE = {{Situated Visualization in Motion}},\n" + 
+        "  AUTHOR = {Yao, Lijie},\n" + 
+        "  URL = {https://theses.hal.science/tel-04413122},\n" + 
+        "  NUMBER = {2023UPASG093},\n" + 
+        "  SCHOOL = {{Universit{\'e} Paris-Saclay}},\n" + 
+        "  YEAR = {2023},\n" + 
+        "  MONTH = Dec,\n" + 
+        "  KEYWORDS = {Situated visualization ; Embedded visualization ; Visualization design ; Perception ; Sports analytics ; Video games},\n" + 
+        "  TYPE = {Theses},\n" + 
+        "  PDF = {https://theses.hal.science/tel-04413122v1/file/129344_YAO_2023_archivage.pdf},\n" + 
+        "}",
 }
 export const publications = [
     {
@@ -184,7 +200,7 @@ export const publications = [
         event: "TVCG",
         type: publicationTypeList.FullPaper,
         title: "User Experience of Visualizations in Motion: A Case Study and Design Considerations",
-        author: "<strong>Lijie Yao*</strong>, Federica Bucchieri, Victoria McArthurm Anastasia Bezerianos, Petra Isenberg",
+        author: "<strong>Lijie Yao*</strong>, Federica Bucchieri, Victoria McArthur, Anastasia Bezerianos, Petra Isenberg",
         subtitle: "IEEE Transactions on Visualization and Computer Graphics, 2025, 31(1), pp.174-184, doi: 1109/TVCG.2024.3456319.",
         description: "We present a systematic review, an empirical study, and a first set of considerations for designing visualizations in motion, derived from a concrete scenario in which these visualizations were used to support a primary task. In practice, when viewers are confronted with embedded visualizations, they often have to focus on a primary task and can only quickly glance at a visualization showing rich, often dynamically updated, information. As such, the visualizations must be designed so as not to distract from the primary task, while at the same time being readable and useful for aiding the primary task. For example, in games, players who are engaged in a battle have to look at their enemies but also read the remaining health of their own game character from the health bar over their character's head. Many trade-offs are possible in the design of embedded visualizations in such dynamic scenarios, which we explore in-depth in this paper with a focus on user experience. We use video games as an example of an application context with a rich existing set of visualizations in motion. We begin our work with a systematic review of in-game visualizations in motion. Next, we conduct an empirical user study to investigate how different embedded visualizations in motion designs impact user experience. We conclude with a set of considerations and trade-offs for designing visualizations in motion more broadly as derived from what we learned about video games. All supplemental materials of this paper are available at <a href=\"https://osf.io/3v8wm/\" target=\"_blank\">osf.io/3v8wm/</a>.",
         teaser: "assets/teaser/videogame.jpg",
@@ -267,6 +283,34 @@ export const publications = [
         ],
         study: [],
         selected: true
+    },
+    {
+        event: "Thesis",
+        type: publicationTypeList.Thesis,
+        title: "Situated Visualization in Motion",
+        author: "<strong>Lijie Yao*</strong>. \n Advisors: Petra Isenberg, Anastasia Bezerianos. \n Jury committee: Gilles Bally, Niklas Elmqvist, Morten Fjeld, Uta Hinrichs, Wendy Mackay, Melanie Tory.",
+        subtitle: "Human-Computer Interaction [cs.HC]. Université Paris-Saclay, 2023. English. NNT: 2023UPASG093.",
+        description: "The doctoral dissertation of Lijie Yao, which received the PhD Thesis Prize from AFIHM.",
+        teaser: "assets/teaser/doctoralthesis.png",
+        year: 2023,
+        icons: [ 
+            {
+                "url": "https://theses.hal.science/tel-04413122",
+                "icon": projectLinkIcon.onlineLink
+            },
+            {
+                "url": "assets/pdf/Lijie_PhD_Thesis.pdf",
+                "icon": projectLinkIcon.pdf
+            }
+        ],
+        popups: [
+            {
+                icon: projectLinkIcon.bibtex,
+                contentId: 13
+            }
+        ],
+        study: [],
+        selected: false
     },
     {
         event: "TVCG",
@@ -388,6 +432,46 @@ export const publications = [
             {
                 icon: projectLinkIcon.bibtex,
                 contentId: 5
+            }
+        ],
+        study: [],
+        selected: false
+    },
+    {
+        event: "IEEE VIS",
+        type: publicationTypeList.Proposal,
+        title: "First-Person Visualizations for Outdoor Physical Activities: Challenges and Opportunities",
+        author: "Charles Perin*, Tica Lin, <strong>Lijie Yao</strong>, Yalong Yang, Maxime Cordeil, Wesley Willett.",
+        subtitle: "Selected proposals for workshops of the IEEE VIS, Oct. 2024, Florida, United States.",
+        description: "The select proposals of the workshops at IEEE VIS 2022.",
+        teaser: "assets/teaser/fpvis.png",
+        year: 2024,
+        icons: [ 
+            {
+                "url": "https://firstpersonvis.github.io/",
+                "icon": projectLinkIcon.onlineLink
+            },
+            {
+                "url": "assets/pdf/Charles_2024_VIS_Workshop_Proposal.pdf",
+                "icon": projectLinkIcon.pdf
+            }
+        ],
+        study: [],
+        selected: false
+    },
+    {
+        event: "IEEE VIS",
+        type: publicationTypeList.Proposal,
+        title: "Situated Visualization in Motion",
+        author: "<strong>Lijie Yao*</strong>.",
+        subtitle: "Selected proposals for Doctoral Colloquium of the IEEE VIS, Oct. 2022, Oklahoma City, United States.",
+        description: "The select proposals of the doctoral colloquium at IEEE VIS 2022.",
+        teaser: "assets/teaser/dc.png",
+        year: 2022,
+        icons: [ 
+            {
+                "url": "assets/pdf/Lijie_2022_VIS_Doctoral_Colloquium_Proposal.pdf",
+                "icon": projectLinkIcon.pdf
             }
         ],
         study: [],

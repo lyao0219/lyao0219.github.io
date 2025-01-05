@@ -444,6 +444,7 @@ strong {
     transform: translateX(50%) translateY(-50%);
     width: 600px;
     padding: 50px;
+    z-index: 1000;
 }
 
 .popup .popup-close {

@@ -3,13 +3,21 @@ export const publicationTypeList = {
         color: "#005073",
         text: "Full paper"
     },
-   ShortPaper: {
+    Thesis: {
+        color: "#66023C",
+        text: "Dissertation"
+    },
+    ShortPaper: {
         color: "#107dac",
         text: "Short paper"
     },
     Workshop: {
         color: "#189ad3",
         text: "Workshop"
+    },
+    Proposal: {
+        color: "#9C3587",
+        text: "Proposal"
     },
     Poster: {
         color: "#71c7ec",

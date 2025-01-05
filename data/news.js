@@ -1,13 +1,19 @@
 export const news = [
     {
+        "type": "Grant Awarded",
+        "place": "",
+        "time": "December 2024",
+        "description": "Lijie's proposal received the RDF grant awarded by <a href=\"https://www.xjtlu.edu.cn/en\" target=\"_blank\">XJTLU</a>."
+    },
+    {
         "type": "Paper Presentation",
-        "place": "Florida, U.S. (in person)",
+        "place": "Florida, U.S. (virtually)",
         "time": "October 2024",
         "description": "Lijie's papers on <a href=\"../lyao0219.github.io/publications.html#paper_videogame\" target=\"_blank\">\"User Experience of Visualizations in Motion: A Case Study and Design Considerations\"</a> and <a href=\"../lyao0219.github.io/publications.html#paper_swimming\" target=\"_blank\">\"Designing for Visualization in Motion: Embedding Visualizations in Swimming Videos\"</a> will be presented at <a href=\"https://ieeevis.org/year/2024/welcome\" target=\"_blank\">IEEE VIS 2024</a>."
     },
     {
         "type": "Workshop Organisation",
-        "place": "Florida, U.S. (in person)",
+        "place": "Florida, U.S. (virtually)",
         "time": "October 2024",
         "description": "Our workshop on <a href=\"https://firstpersonvis.github.io/\" target=\"_blank\">First-Person Visualizations for Outdoor Physical Activities</a> will be held as a part of <a href=\"https://ieeevis.org/year/2024/welcome\" target=\"_blank\">IEEE VIS 2024</a>."
     },

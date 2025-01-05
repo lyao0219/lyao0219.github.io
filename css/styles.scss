@@ -472,6 +472,10 @@ strong {
         top: 20px;
         right: 20px;
         cursor: pointer;
+
+        &:hover {
+            color: #bd5438;
+        }
     }
 
     .popup-copy {
@@ -676,6 +680,11 @@ strong {
             width: 70vw !important;
             z-index: 999;
             padding: 30px;
+
+            .popup-copy {
+                bottom: 8px !important;
+                right: 35px !important;
+            }
         }
     }
 }

@@ -652,4 +652,9 @@ strong {
         z-index: 999;
         padding: 30px;
     }
+
+    body .popup .popup-copy {
+        bottom: 8px !important;
+        right: 35px !important;
+    }
 }

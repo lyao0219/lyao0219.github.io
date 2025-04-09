@@ -6,7 +6,7 @@ export const experiences = [
             "assets/img/logos/xjtlu_logo.jpg"
         ],
         place: "<a href=\"https://www.xjtlu.edu.cn/en\" target=\"_blank\">Xi'an Jiaotong-Liverpool University</a>, Suzhou, China",
-        description: "I am an Assistant Professor here. My daily work includes three parts: teaching (~40%), research (~40%), and academic\&administrative service (~20%)."
+        description: "I am an Assistant Professor here. My daily work includes three parts: teaching, research, and academic\&administrative service."
     },
     {
         jobTitle: "Researcher - Full time",

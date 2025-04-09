@@ -24,7 +24,7 @@ export const education = [
         description: "Master thesis: Situated Visualization in Motion"
     },
     {
-        title: "Master of Engineering - <a href=\"https://www.polytech-lille.fr/english/education/7-engineering-degree-courses-taught-in-french/electrical-and-computer-engineering/\" target=\"_blank\">Electrical and Computer Engineering</a>",
+        title: "Diplôme d'ingénieur (=Master of Engineering) - <a href=\"https://www.polytech-lille.fr/english/education/7-engineering-degree-courses-taught-in-french/electrical-and-computer-engineering/\" target=\"_blank\">Electrical and Computer Engineering</a>",
         time: "09/2017 - 09/2019",
         logo: [
             "assets/img/logos/polytech_logo.png"

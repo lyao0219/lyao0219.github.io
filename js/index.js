@@ -20,7 +20,7 @@ document.getElementById("mobile-menu").addEventListener("click", () => {
 
 if (document.getElementById('copyright')) {
     document.getElementById('copyright').innerHTML =
-        '<p class="text-14 text-light">Copyright &copy 2025 Lijie Yao. All Rights Reserved. Last update: January 2025</p>'
+        '<p class="text-14 text-light">Copyright &copy 2025 Lijie Yao. All Rights Reserved. Last update: April 2025</p>'
 }
 
 if (document.getElementById('profile')) {
@@ -42,12 +42,12 @@ if (document.getElementById('self-introduction')) {
         '                    <img src="assets/img/icons/china.png" class="inner-text-icon"/>\n' +
         '                    <img src="assets/img/icons/uk.png" class="inner-text-icon"/>\n' +
         '                    <a href="https://www.xjtlu.edu.cn/en" target="_blank">Xi\'an Jiaotong-Liverpool University</a>.\n' +
-        '                    I obtained my Ph.D. degree from\n' +
+        '                    I received my Ph.D. degree from\n' +
         '                    <img src="assets/img/icons/france.png" class="inner-text-icon">\n' +
         '                    <a href="https://www.universite-paris-saclay.fr/en" target="_blank">University Paris-Saclay</a>,\n' +
         '                    supervised by <a href="https://petra.isenberg.cc/wiki/pmwiki.php" target="_blank">Dr. Petra\n' +
         '                    Isenberg</a>\n' +
-        '                    and <a href="https://www.lri.fr/~anab/" target="_blank">Dr. Anastasia Bezerianos</a>.\n' +
+        '                    and <a href="https://www.lri.fr/~anab/" target="_blank">Prof. Anastasia Bezerianos</a>.\n' +
         '                    My Ph.D. dissertation on <a href="https://www.theses.fr/s258022" target="_blank">"Situated\n' +
         '                    Visualization\n' +
         '                    in Motion"</a> received the <a href="https://www.afihm.org/" target="_blank">PhD Thesis Prize from\n' +
@@ -66,7 +66,7 @@ if (document.getElementById('self-introduction')) {
         '                    motivated PhD students, research assistants, and graduate students</strong>.\n' +
         '                    Please explore <a href="publications.html">PUBLICATIONS</a> section\n' +
         '                    for possible project ideas and research opportunities. If you are passionate about visualization, feel\n' +
-        '                    free to contact me! My office time is on Wednesday, 3-5pm, at SC 564D.\n' +
+        '                    free to contact me! My office time is on Tuesday, 4-6 pm, at SC 564D (SIP campus).\n' +
         '                </p>\n' +
         '                <p class="text-17 text-light">\n' +
         '                    <img src="assets/img/icons/collaborate.png" class="inner-text-icon">If you are a\n' +

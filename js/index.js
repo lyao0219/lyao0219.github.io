@@ -66,7 +66,7 @@ if (document.getElementById('self-introduction')) {
         '                    motivated PhD students, research assistants, and graduate students</strong>.\n' +
         '                    Please explore <a href="publications.html">PUBLICATIONS</a> section\n' +
         '                    for possible project ideas and research opportunities. If you are passionate about visualization, feel\n' +
-        '                    free to contact me! My office time is on Tuesday, 4-6 pm, at SC 564D (SIP campus).\n' +
+        '                    free to contact me! Meeting availabilities from June to September are based on email requirements.\n' +
         '                </p>\n' +
         '                <p class="text-17 text-light">\n' +
         '                    <img src="assets/img/icons/collaborate.png" class="inner-text-icon">If you are a\n' +

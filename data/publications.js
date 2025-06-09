@@ -1,13 +1,16 @@
 import {projectLinkIcon, publicationTypeList} from "./variables.js";
 
 export const bibtex = {
-    1: "@article{Yao:2025:SVIM,\n" +
+    1: "@article{Yao:2024:SVIM,\n" +
         "  TITLE = {{Situated Visualization in Motion}},\n" +
         "  AUTHOR = {Yao, Lijie},\n" +
         "  URL = {https://hal.science/hal-04700820},\n" +
         "  JOURNAL = {{IEEE Computer Graphics and Applications}},\n" +
         "  PUBLISHER = {{Institute of Electrical and Electronics Engineers}},\n" +
-        "  YEAR = {2025},\n" +
+        "  YEAR = {2024},\n" +
+        "  volume={44}, \n" +
+        "  number={6}, \n" + 
+        "  pages={142-150}, \n" +
         "  DOI = {10.1109/MCG.2024.3462129},\n" +
         "  KEYWORDS = {Situated visualization ; Visualization in motion ; Visualization design and evaluation methods},\n" +
         "  PDF = {https://lijieyao.com/assets/pdf/Situated_Visualization_in_Motion.pdf},\n" +
@@ -169,10 +172,10 @@ export const publications = [
         type: publicationTypeList.FullPaper,
         title: "Situated Visualization in Motion",
         author: "<strong>Lijie Yao*</strong>",
-        subtitle: "IEEE Computer Graphics and Applications, in press, doi: 10.1109/MCG.2024.3462129.",
+        subtitle: "IEEE Computer Graphics and Applications, vol. 44, no. 6, pp. 142-150,2024 Nov.-Dec., doi: 10.1109/MCG.2024.3462129.",
         description: "We define visualization in motion and make several contributions to how to visualize and design situated visualizations in motion. In situated data visualization, the data is directly visualized near their data referent, i.e., the physical space, object, or person it refers to. Situated visualizations are often useful in contexts where the data referent or the viewer does not remain stationary but is in relative motion.  For example, a runner looks at visualizations from their fitness band while running. Reading visualizations in such scenarios might be impacted by motion factors. As such, understanding how to best design visualizations with motion factors is important. We define visualizations in motion as visual data representations used in contexts that exhibit relative motion between a viewer and an entire visualization. We propose a research agenda to understand what research opportunities and challenges are under visualization in motion. Next, we investigate (a) how motion factors can affect the reading accuracy of visualizations, (b) how to design and embed visualizations in motion in a real application scenario, and (c) the user experience and design trade-offs of visualization in motion through a case study.",
         teaser: "assets/teaser/visinmotion_logo.png",
-        year: 2025,
+        year: 2024,
         icons: [
             {
                 "url": "https://doi.org/10.1109/MCG.2024.3462129",

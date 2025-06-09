@@ -20,7 +20,7 @@ document.getElementById("mobile-menu").addEventListener("click", () => {
 
 if (document.getElementById('copyright')) {
     document.getElementById('copyright').innerHTML =
-        '<p class="text-14 text-light">Copyright &copy 2025 Lijie Yao. All Rights Reserved. Last update: April 2025</p>'
+        '<p class="text-14 text-light">Copyright &copy 2025 Lijie Yao. All Rights Reserved. Last update: June 2025</p>'
 }
 
 if (document.getElementById('profile')) {
@@ -63,10 +63,9 @@ if (document.getElementById('self-introduction')) {
         '                </p>\n' +
         '                <p class="text-17 text-light">\n' +
         '                    <img src="assets/img/icons/promote.png" class="inner-text-icon">I am looking for <strong>highly\n' +
-        '                    motivated PhD students, research assistants, and graduate students</strong>.\n' +
-        '                    Please explore <a href="publications.html">PUBLICATIONS</a> section\n' +
-        '                    for possible project ideas and research opportunities. If you are passionate about visualization, feel\n' +
-        '                    free to contact me! Meeting availabilities from June to September are based on email requirements.\n' +
+        '                    motivated PhD students and research assistants</strong>.\n' +
+        '                    For anyone who is interested in visualization, AI, and HCI, feel free to conatct me with your research proposal and CV. For PhD and Master, degrees will be adwarded by the <img src="assets/img/icons/uk.png" class="inner-text-icon"/>\n' +
+        '                    <a href="https://www.liverpool.ac.uk/" target="_blank">University of Liverpool</a>. Scholarship is possible.\n' +
         '                </p>\n' +
         '                <p class="text-17 text-light">\n' +
         '                    <img src="assets/img/icons/collaborate.png" class="inner-text-icon">If you are a\n' +

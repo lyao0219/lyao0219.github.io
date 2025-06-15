@@ -64,7 +64,7 @@ if (document.getElementById('self-introduction')) {
         '                <p class="text-17 text-light">\n' +
         '                    <img src="assets/img/icons/promote.png" class="inner-text-icon">I am looking for <strong>highly\n' +
         '                    motivated PhD students and research assistants</strong>.\n' +
-        '                    For anyone who is interested in visualization, AI, and HCI, feel free to conatct me with your research proposal and CV. For PhD and Master, degrees will be adwarded by the <img src="assets/img/icons/uk.png" class="inner-text-icon"/>\n' +
+        '                    <b>For anyone who is interested in visualization, AI, and HCI, and want to conduct their PhD/Master with me, please fill in the <a href="https://forms.gle/h3qb57hbCDJiuERz9" target="_blank">Google Form</a>.</b> For PhD and Master, degrees will be adwarded by the <img src="assets/img/icons/uk.png" class="inner-text-icon"/>\n' +
         '                    <a href="https://www.liverpool.ac.uk/" target="_blank">University of Liverpool</a>. Scholarship is possible.\n' +
         '                </p>\n' +
         '                <p class="text-17 text-light">\n' +

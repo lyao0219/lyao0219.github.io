@@ -195,7 +195,7 @@ export const publications = [
         title: "Designing Visualization Widgets for Tangible Data Exploration: A Systematic Review",
         author: "Haonan Yao, Lingyun Yu, <strong>Lijie Yao*</strong>",
         subtitle: "Short Papers of the IEEE Conference on Visualization, November 2025, Vienna, Austria, To appear.",
-        teaser: "assets/teaser/physicalwidgetshort.JPG",
+        teaser: "assets/teaser/physicalwidgetshort.jpg",
         year: 2025,
         icons: [
             {
@@ -230,7 +230,7 @@ export const publications = [
         title: "Visualization in Motion: Perception, Design, and User Experience",
         author: "<strong>Lijie Yao*</strong>",
         subtitle: "Posters of ChinaVis, July 2025, Hangzhou, China.",
-        teaser: "assets/teaser/poster_VIM.JPG",
+        teaser: "assets/teaser/poster_VIM.jpg",
         year: 2025,
         icons: [
             {

@@ -28,9 +28,9 @@ export const publicationTypeList = {
 export const projectLinkIcon = {
     doi : "assets/img/doi.png",
     onlineLink : "assets/img/link.png",
+    website : "assets/img/website.png",
     pdf : "assets/img/pdf.png",
     stamp : "assets/img/stamp.png",
-    swimFlow : "assets/img/swimflow.png",
     osf: "assets/img/osf.png",
     video: "assets/img/video.png",
     poster: "assets/img/poster.png",

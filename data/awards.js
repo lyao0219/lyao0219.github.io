@@ -1,6 +1,9 @@
 export const awards =
     [
         {
+            "text": "<a href=\"https://chinavis.org/2025/en/poster/\" target=\"_blank\">ChinaVis</a> Poster Honorable Mention Award, 2025"
+        },
+        {
             "text": "<a href=\"https://www.afihm.org/\" target=\"_blank\">AFIHM</a> 2023 PhD Thesis Prize, 2024"
         },
         {

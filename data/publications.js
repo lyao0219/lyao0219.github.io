@@ -165,8 +165,96 @@ export const bibtex = {
         "  TYPE = {Theses},\n" + 
         "  PDF = {https://theses.hal.science/tel-04413122v1/file/129344_YAO_2023_archivage.pdf},\n" + 
         "}",
+    14: "@inproceedings{Yao:2025:PhysicalVisWidget,\n" + 
+        "  TITLE = {{Designing Visualization Widgets for Tangible Data Exploration: A Systematic Review}},\n" + 
+        "  AUTHOR = {Yao, Haonan and Yu, Lingyun and Yao, Lijie},\n" + 
+        "  URL = {https://physicalviswidget.github.io/},\n" + 
+        "  NOTE = {To appear},\n" +
+        "  BOOKTITLE = {{Short papers of the IEEE Visualization and Visual Analytics (VIS)}},\n" +
+        "  ADDRESS = {Los Alamitos, CA, USA, United States},\n" +
+        "  YEAR = {2025},\n" +
+        "  MONTH = Nov,\n" +
+        "  DOI = {10.48550/arXiv.2507.00775},\n" +
+        "  KEYWORDS = {visualization widget, tangible interaction, data exploration},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Designing_Visualization_Widgets_for_Tangible_Data_Exploration_A_Systematic_Review.pdf},\n" +
+        "}",
+    15: "@inproceedings{Yao:2025:VIM,\n" +
+        "  TITLE = {{Visualization in Motion: Perception, Design, and User Experience}},\n" +
+        "  AUTHOR = {Yao, Lijie},\n" +
+        "  NOTE = {Poster},\n" +
+        "  HOWPUBLISHED = {{Posters of ChinaVis}},\n" +
+        "  YEAR = {2025},\n" +
+        "  MONTH = July,\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Poster_VisInMotion.pdf},\n" +
+        "}",
 }
 export const publications = [
+     {
+        event: "IEEE VIS",
+        type: publicationTypeList.ShortPaper,
+        title: "Designing Visualization Widgets for Tangible Data Exploration: A Systematic Review",
+        author: "Haonan Yao, Lingyun Yu, <strong>Lijie Yao*</strong>",
+        subtitle: "Short Papers of the IEEE Conference on Visualization, November 2025, Vienna, Austria, To appear.",
+        teaser: "assets/teaser/physicalwidgetshort.JPG",
+        year: 2025,
+        icons: [
+            {
+                "url": "https://arxiv.org/abs/2507.00775",
+                "icon": projectLinkIcon.onlineLink
+            },
+            {
+                "url": "https://physicalviswidget.github.io/",
+                "icon": projectLinkIcon.website
+            },
+            {
+                "url": "assets/pdf/Designing_Visualization_Widgets_for_Tangible_Data_Exploration_A_Systematic_Review.pdf",
+                "icon": projectLinkIcon.pdf
+            },
+            {
+                "url": "https://osf.io/vjw5e/",
+                "icon": projectLinkIcon.osf
+            }
+        ],
+        popups: [
+            {
+                icon: projectLinkIcon.bibtex,
+                contentId: 14
+            }
+        ],
+        study: [],
+        selected: false
+    },
+    {
+        event: "ChinaVis",
+        type: publicationTypeList.Poster,
+        title: "Visualization in Motion: Perception, Design, and User Experience",
+        author: "<strong>Lijie Yao*</strong>",
+        subtitle: "Posters of ChinaVis, July 2025, Hangzhou, China.",
+        teaser: "assets/teaser/poster_VIM.JPG",
+        year: 2025,
+        icons: [
+            {
+                "url": "https://chinavis.org/2025/en/poster/",
+                "icon": projectLinkIcon.onlineLink
+            },
+            {
+                "url": "assets/pdf/Poster_VisInMotion.pdf",
+                "icon": projectLinkIcon.pdf
+            },
+            {
+                "url": "assets/poster/Poster_VisInMotion.pdf",
+                "icon": projectLinkIcon.poster
+            },
+        ],
+        popups: [
+            {
+                icon: projectLinkIcon.bibtex,
+                contentId: 15
+            }
+        ],
+        study: [],
+        selected: false
+    },
     {
         event: "CG&A",
         type: publicationTypeList.FullPaper,
@@ -267,7 +355,7 @@ export const publications = [
             },
             {
                 "url": "https://motion.isenberg.cc/Swimming/index",
-                "icon": projectLinkIcon.swimFlow
+                "icon": projectLinkIcon.website
             },
             {
                 "url": "https://osf.io/nxyr4/",
@@ -644,7 +732,7 @@ export const publications = [
             },
             {
                 "url": "assets/poster/Poster_Situated_Visualization_in_Motion_Swimming.pdf",
-                "icon": "assets/img/poster.png"
+                "icon": projectLinkIcon.poster
             }
         ],
         study: [],
@@ -680,7 +768,7 @@ export const publications = [
             },
             {
                 "url": "assets/poster/Poster_Situated_Visualization_in_Motion_Game_Data.pdf",
-                "icon": "assets/img/poster.png"
+                "icon": projectLinkIcon.poster
             }
         ],
         study: [],

@@ -1,5 +1,17 @@
 export const news = [
     {
+        "type": "Honorable Mention Award",
+        "place": "Hangzhou, China",
+        "time": "July 2025",
+        "description": "Lijie's poster on <a href=\"https://physicalviswidget.github.io/\" target=\"_blank\">\"Visualization in Motion: Perception, Design, and User Experience\"</a> received \"Honorable Mention Award\" at <a href=\"https://chinavis.org/2025/en/\" target=\"_blank\">ChinaVis 2025</a>."
+    },
+    {
+        "type": "Paper Acceptance",
+        "place": "",
+        "time": "July 2025",
+        "description": "Our short paper on <a href=\"https://physicalviswidget.github.io/\" target=\"_blank\">\"Designing Visualization Widgets for Tangible Data Exploration: A Systematic Review\"</a> has been accepted by <a href=\"https://ieeevis.org/year/2025/welcome\" target=\"_blank\">IEEE VIS 2025</a> and will be presented at Vienna this November."
+    },
+    {
         "type": "Grant Awarded",
         "place": "",
         "time": "December 2024",

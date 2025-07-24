@@ -217,6 +217,10 @@ strong {
 }
 
 .content .introduction .main-content .self-introduction p {
+    padding: 0 5px;
+}
+
+.content .introduction .main-content .self-introduction p {
     text-align: justify;
 }
 
@@ -471,6 +475,26 @@ strong {
     margin-right: 10px;
 }
 
+table {
+    border-collapse: collapse;
+}
+
+table td, table th {
+    padding: 3px 3px 3px 10px;
+    height: 50px;
+}
+
+table td {
+    font-size: 16px;
+    border-bottom: 1px solid #bd54385e;
+}
+
+table th {
+    text-align: left;
+    background-color: #bd54385e;
+    color: white;
+}
+
 .popup .popup-content {
     white-space: pre-line;
     margin-top: 5px;
@@ -672,4 +696,30 @@ strong {
 
 .fade-in-bottom {
     animation: fade-in-from-bottom 1.5s ease-out;
+}
+
+.highlighted-part {
+    border: 1px dashed #bd5438;
+    background: #eda77338;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.highlighted-part .hiring-icon{
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.news .load-more, .news .show-less {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.news .hide {
+    display: none;
 }

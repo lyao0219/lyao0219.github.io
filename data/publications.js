@@ -1,4 +1,4 @@
-import {projectLinkIcon, publicationTypeList} from "./variables.js";
+import {projectLinkIcon, publicationAwardType, publicationTypeList} from "./variables.js";
 
 export const bibtex = {
     1: "@article{Yao:2024:SVIM,\n" +
@@ -9,7 +9,7 @@ export const bibtex = {
         "  PUBLISHER = {{Institute of Electrical and Electronics Engineers}},\n" +
         "  YEAR = {2024},\n" +
         "  volume={44}, \n" +
-        "  number={6}, \n" + 
+        "  number={6}, \n" +
         "  pages={142-150}, \n" +
         "  DOI = {10.1109/MCG.2024.3462129},\n" +
         "  KEYWORDS = {Situated visualization ; Visualization in motion ; Visualization design and evaluation methods},\n" +
@@ -153,22 +153,22 @@ export const bibtex = {
         "  DOI = {10.48550/arXiv.2409.07005},\n" +
         "  PDF = {https://lijieyao.com/assets/pdf/Situated_Visualization_in_Motion_Poster.pdf},\n" +
         "}",
-    13: "@phdthesis{Yao:PhDThesis,\n" + 
-        "  TITLE = {{Situated Visualization in Motion}},\n" + 
-        "  AUTHOR = {Yao, Lijie},\n" + 
-        "  URL = {https://theses.hal.science/tel-04413122},\n" + 
-        "  NUMBER = {2023UPASG093},\n" + 
-        "  SCHOOL = {{Universit{\'e} Paris-Saclay}},\n" + 
-        "  YEAR = {2023},\n" + 
-        "  MONTH = Dec,\n" + 
-        "  KEYWORDS = {Situated visualization ; Embedded visualization ; Visualization design ; Perception ; Sports analytics ; Video games},\n" + 
-        "  TYPE = {Theses},\n" + 
-        "  PDF = {https://theses.hal.science/tel-04413122v1/file/129344_YAO_2023_archivage.pdf},\n" + 
+    13: "@phdthesis{Yao:PhDThesis,\n" +
+        "  TITLE = {{Situated Visualization in Motion}},\n" +
+        "  AUTHOR = {Yao, Lijie},\n" +
+        "  URL = {https://theses.hal.science/tel-04413122},\n" +
+        "  NUMBER = {2023UPASG093},\n" +
+        "  SCHOOL = {{Universit{\'e} Paris-Saclay}},\n" +
+        "  YEAR = {2023},\n" +
+        "  MONTH = Dec,\n" +
+        "  KEYWORDS = {Situated visualization ; Embedded visualization ; Visualization design ; Perception ; Sports analytics ; Video games},\n" +
+        "  TYPE = {Theses},\n" +
+        "  PDF = {https://theses.hal.science/tel-04413122v1/file/129344_YAO_2023_archivage.pdf},\n" +
         "}",
-    14: "@inproceedings{Yao:2025:PhysicalVisWidget,\n" + 
-        "  TITLE = {{Designing Visualization Widgets for Tangible Data Exploration: A Systematic Review}},\n" + 
-        "  AUTHOR = {Yao, Haonan and Yu, Lingyun and Yao, Lijie},\n" + 
-        "  URL = {https://physicalviswidget.github.io/},\n" + 
+    14: "@inproceedings{Yao:2025:PhysicalVisWidget,\n" +
+        "  TITLE = {{Designing Visualization Widgets for Tangible Data Exploration: A Systematic Review}},\n" +
+        "  AUTHOR = {Yao, Haonan and Yu, Lingyun and Yao, Lijie},\n" +
+        "  URL = {https://physicalviswidget.github.io/},\n" +
         "  NOTE = {To appear},\n" +
         "  BOOKTITLE = {{Short papers of the IEEE Visualization and Visual Analytics (VIS)}},\n" +
         "  ADDRESS = {Los Alamitos, CA, USA, United States},\n" +
@@ -227,6 +227,7 @@ export const publications = [
     {
         event: "ChinaVis",
         type: publicationTypeList.Poster,
+        award: publicationAwardType.HonorableMention,
         title: "Visualization in Motion: Perception, Design, and User Experience",
         author: "<strong>Lijie Yao*</strong>",
         subtitle: "Posters of ChinaVis, July 2025, Hangzhou, China.",
@@ -384,7 +385,7 @@ export const publications = [
         description: "The doctoral dissertation of Lijie Yao, which received the PhD Thesis Prize from AFIHM.",
         teaser: "assets/teaser/doctoralthesis.png",
         year: 2023,
-        icons: [ 
+        icons: [
             {
                 "url": "https://theses.hal.science/tel-04413122",
                 "icon": projectLinkIcon.onlineLink
@@ -537,7 +538,7 @@ export const publications = [
         description: "The select proposals of the workshops at IEEE VIS 2022.",
         teaser: "assets/teaser/fpvis.png",
         year: 2024,
-        icons: [ 
+        icons: [
             {
                 "url": "https://firstpersonvis.github.io/",
                 "icon": projectLinkIcon.onlineLink
@@ -559,7 +560,7 @@ export const publications = [
         description: "The select proposals of the doctoral colloquium at IEEE VIS 2022.",
         teaser: "assets/teaser/dc.png",
         year: 2022,
-        icons: [ 
+        icons: [
             {
                 "url": "assets/pdf/Lijie_2022_VIS_Doctoral_Colloquium_Proposal.pdf",
                 "icon": projectLinkIcon.pdf

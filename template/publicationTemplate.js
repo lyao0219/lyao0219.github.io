@@ -9,12 +9,12 @@ export const publicationTemplate = '' +
     '                           <div class="top">' +
     '                               <span class="mark pub_venue text-light text-14">{{event}}</span>' +
     '                               <span class="mark pub_venue text-light text-14" style="background: {{type.color}}">{{type.text}}</span>' +
+'                                   {{#award}}' +
+    '                               <span class="mark pub_venue text-light text-14" style="background: {{award.color}}">{{award.text}}</span>' +
+'                                   {{/award}}' +
     '                               <p class="text-medium text-17 title">{{title}}</p>' +
     '                               <p class="text-medium text-17">{{{author}}}</p>' +
     '                               <p class="text-medium text-17 text-orange">{{subtitle}}</p>' +
-    // '                               <div class="abstract">' +
-    // '                                       <p class="text-light text-17">{{{description}}}</p>' +
-    // '                               </div>' +
     '                               <div class="publication-icons">' +
     '                                   {{#icons}}' +
     '                                   <div class="publication-icon">' +

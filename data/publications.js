@@ -383,7 +383,7 @@ export const publications = [
         author: "<strong>Lijie Yao*</strong>. \n Advisors: Petra Isenberg, Anastasia Bezerianos. \n Jury committee: Gilles Bally, Niklas Elmqvist, Morten Fjeld, Uta Hinrichs, Wendy Mackay, Melanie Tory.",
         subtitle: "Human-Computer Interaction [cs.HC]. Université Paris-Saclay, 2023. English. NNT: 2023UPASG093.",
         description: "The doctoral dissertation of Lijie Yao, which received the PhD Thesis Prize from AFIHM.",
-        teaser: "assets/teaser/doctoralthesis.png",
+        teaser: "assets/teaser/doctoralthesis.jpg",
         year: 2023,
         icons: [
             {
@@ -411,7 +411,7 @@ export const publications = [
         author: "<strong>Lijie Yao*</strong>, Anastasia Bezerianos, Romain Vuillmot, Petra Isenberg",
         subtitle: "IEEE Transactions on Visualization and Computer Graphics, 2022, 28(10), pp.3546-3562, doi: 10.1109/TVCG.2022.3184993.",
         description: "We contribute a research agenda for visualization in motion and two experiments to understand how well viewers can read data from moving visualizations. We define visualizations in motion as visual data representations that are used in contexts that exhibit relative motion between a viewer and an entire visualization. Sports analytics, video games, wearable devices, or data physicalizations are example contexts that involve different types of relative motion between a viewer and a visualization. To analyze the opportunities and challenges for designing visualization in motion, we show example scenarios and outline a first research agenda. Motivated primarily by the prevalence of and opportunities for visualizations in sports and video games we started to investigate a small aspect of our research agenda: the impact of two important characteristics of motion---speed and trajectory on a stationary viewer's ability to read data from moving donut and bar charts. We found that increasing speed and trajectory complexity did negatively affect the accuracy of reading values from the charts and that bar charts were more negatively impacted. In practice, however, this impact was small: both charts were still read fairly accurately.",
-        teaser: "assets/teaser/visinmotion.png",
+        teaser: "assets/teaser/visinmotion.jpg",
         year: 2022,
         icons: [
             {
@@ -500,7 +500,7 @@ export const publications = [
         author: "Fairouz Grioui*, Tanja Blascheck, <strong>Lijie Yao</strong>, Petra Isenberg",
         subtitle: "Short Papers of the IEEE Conference on Visualization, October 2024, Florida, United States, doi: 10.1109/VIS55277.2024.00017.",
         description: "With two studies, we assess how different walking trajectories (straight line, circular, and infinity) and speeds (2km/h, 4km/h, and 6km/h) influence the accuracy and response time of participants reading micro visualizations on a smartwatch. We showed our participants common watch face micro visualizations including date, time, weather information, and four complications showing progress charts of fitness data. Our findings suggest that while walking trajectories did not significantly affect reading performance, overall walking activity, especially at high speeds, hurt reading accuracy and, to some extent, response time. Supplemental material is available at <a href=\"https://osf.io/u78s6/\" target=\"_blank\">osf.io/u78s6/</a>.\n                                    ",
-        teaser: "assets/teaser/smartwatch.JPG",
+        teaser: "assets/teaser/smartwatch.jpg",
         year: 2024,
         icons: [
             {
@@ -536,7 +536,7 @@ export const publications = [
         author: "Charles Perin*, Tica Lin, <strong>Lijie Yao</strong>, Yalong Yang, Maxime Cordeil, Wesley Willett.",
         subtitle: "Selected proposals for workshops of the IEEE VIS, Oct. 2024, Florida, United States.",
         description: "The select proposals of the workshops at IEEE VIS 2022.",
-        teaser: "assets/teaser/fpvis.png",
+        teaser: "assets/teaser/fpvis.jpg",
         year: 2024,
         icons: [
             {
@@ -558,7 +558,7 @@ export const publications = [
         author: "<strong>Lijie Yao*</strong>.",
         subtitle: "Selected proposals for Doctoral Colloquium of the IEEE VIS, Oct. 2022, Oklahoma City, United States.",
         description: "The select proposals of the doctoral colloquium at IEEE VIS 2022.",
-        teaser: "assets/teaser/dc.png",
+        teaser: "assets/teaser/dc.jpg",
         year: 2022,
         icons: [
             {
@@ -788,7 +788,7 @@ export const publications = [
         author: "<strong>Lijie Yao*</strong>, Anastasia Bezerianos, Petra Isenberg",
         subtitle: "Posters of the IEEE Conference on Visualization, October 2020, Salt Lake City, United States.",
         description: "We contribute a first design space on visualizations in motion and the design of a pilot study we plan to run in the fall. Visualizations can be useful in contexts where either the observation is in motion or the whole visualization is moving at various speeds. Imagine, for example, displays attached to an athlete or animal that show data about the wearer – for example, captured from a fitness tracking band; or a visualization attached to a moving object such as a vehicle or a soccer ball. The ultimate goal of our research is to inform the design of visualizations under motion.\n                                    ",
-        teaser: "assets/teaser/vim.PNG",
+        teaser: "assets/teaser/vim.jpg",
         year: 2020,
         icons: [
             {

@@ -213,8 +213,14 @@ strong {
 }
 
 .content .introduction .main-content .self-introduction {
-    padding: 115px 0;
+    padding: 45px 0;
 }
+
+.content .introduction .main-content #self-introduction {
+    padding-top: 10px;
+}
+
+
 
 .content .introduction .main-content .self-introduction p {
     padding: 0 5px;

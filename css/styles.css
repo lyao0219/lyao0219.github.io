@@ -681,6 +681,33 @@ table th {
         bottom: 8px !important;
         right: 35px !important;
     }
+
+    .supervision-block {
+        display: none;
+    }
+
+    .supervision-block-mobile {
+        display: block !important;
+    }
+
+    .supervision-block-mobile ul {
+        padding-left: 0 !important;
+    }
+
+    .supervision-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .supervision-entry {
+        border: 1px solid #ddd;
+        padding: 1rem;
+        border-radius: 6px;
+        background-color: #f8f8f8;
+        font-size: 14px;
+    }
 }
 
 @keyframes fade-in-from-bottom {
@@ -723,3 +750,9 @@ table th {
 .news .hide {
     display: none;
 }
+
+.supervision-block-mobile {
+    display: none;
+}
+
+

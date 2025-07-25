@@ -245,7 +245,7 @@ export const publications = [
             {
                 "url": "assets/poster/Poster_VisInMotion.pdf",
                 "icon": projectLinkIcon.poster
-            },
+            },            
             {
                 "url": "https://youtu.be/2R1zq9PKYyM",
                 "icon": projectLinkIcon.video
@@ -315,7 +315,15 @@ export const publications = [
                 "icon": projectLinkIcon.pdf
             },
             {
+                "url": "https://www.youtube.com/watch?v=X9GOtQyXfx8",
+                "icon": projectLinkIcon.video
+            },
+            {
                 "url": "https://www.youtube.com/watch?v=7Y2cPfXGiAY&t=1237s",
+                "icon": projectLinkIcon.video
+            },
+            {
+                "url": "https://youtu.be/I7sD-IQlOZM",
                 "icon": projectLinkIcon.video
             },
             {
@@ -359,7 +367,15 @@ export const publications = [
                 "icon": projectLinkIcon.pdf
             },
             {
+                "url": "https://www.youtube.com/watch?v=lFf8sM52rMc",
+                "icon": projectLinkIcon.video
+            },
+            {
                 "url": "https://www.youtube.com/watch?v=7Y2cPfXGiAY&t=2011s",
+                "icon": projectLinkIcon.video
+            },
+            {
+                "url": "https://youtu.be/yC39NXBJiE8",
                 "icon": projectLinkIcon.video
             },
             {
@@ -447,6 +463,10 @@ export const publications = [
                 "icon": projectLinkIcon.video
             },
             {
+                "url": "https://youtu.be/z9LsWYHSGHc",
+                "icon": projectLinkIcon.video
+            },
+            {
                 "url": "https://www.replicabilitystamp.org/index.html#https-gitlab-inria-fr-lyao-visinmotion",
                 "icon": projectLinkIcon.stamp
             },
@@ -530,6 +550,10 @@ export const publications = [
             {
                 "url": "assets/pdf/Micro_Visualizations_on_a_Smartwatch_Assessing_Reading_Performance_While_Walking.pdf",
                 "icon": projectLinkIcon.pdf
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=2DE5LfUsIWA",
+                "icon": projectLinkIcon.video
             },
             {
                 "url": "https://www.youtube.com/watch?v=5O_zfoG4xOo&t=3931s",
@@ -650,6 +674,10 @@ export const publications = [
             {
                 "url": "assets/pdf/Environment_Footprint_by_Situated_Visualization.pdf",
                 "icon": projectLinkIcon.pdf
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=6MEl4qZulSo&t=1620s",
+                "icon": projectLinkIcon.video
             }
         ],
         study: [],

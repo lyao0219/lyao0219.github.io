@@ -246,6 +246,10 @@ export const publications = [
                 "url": "assets/poster/Poster_VisInMotion.pdf",
                 "icon": projectLinkIcon.poster
             },
+            {
+                "url": "https://youtu.be/2R1zq9PKYyM",
+                "icon": projectLinkIcon.video
+            }
         ],
         popups: [
             {
@@ -311,6 +315,10 @@ export const publications = [
                 "icon": projectLinkIcon.pdf
             },
             {
+                "url": "https://www.youtube.com/watch?v=7Y2cPfXGiAY&t=1237s",
+                "icon": projectLinkIcon.video
+            },
+            {
                 "url": "https://osf.io/3v8wm/",
                 "icon": projectLinkIcon.osf
             },
@@ -349,6 +357,10 @@ export const publications = [
             {
                 "url": "assets/pdf/Designing_for_Visualization_in_Motion_Embedding_Visualizations_in_Swimming_Videos.pdf",
                 "icon": projectLinkIcon.pdf
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=7Y2cPfXGiAY&t=2011s",
+                "icon": projectLinkIcon.video
             },
             {
                 "url": "https://www.replicabilitystamp.org/index.html#https-github-com-lyao0219-swimflow-git",
@@ -393,6 +405,10 @@ export const publications = [
             {
                 "url": "assets/pdf/Lijie_PhD_Thesis.pdf",
                 "icon": projectLinkIcon.pdf
+            },
+            {
+                "url": "https://youtu.be/0ED5iukU9tQ",
+                "icon": projectLinkIcon.video
             }
         ],
         popups: [
@@ -516,6 +532,10 @@ export const publications = [
                 "icon": projectLinkIcon.pdf
             },
             {
+                "url": "https://www.youtube.com/watch?v=5O_zfoG4xOo&t=3931s",
+                "icon": projectLinkIcon.video
+            },
+            {
                 "url": "https://osf.io/u78s6/",
                 "icon": projectLinkIcon.osf
             }
@@ -546,6 +566,10 @@ export const publications = [
             {
                 "url": "assets/pdf/Charles_2024_VIS_Workshop_Proposal.pdf",
                 "icon": projectLinkIcon.pdf
+            },
+            {
+                "url": "https://youtu.be/4hNulDHo7Ak",
+                "icon": projectLinkIcon.video
             }
         ],
         study: [],
@@ -590,6 +614,10 @@ export const publications = [
             {
                 "url": "assets/pdf/Collecting_Information_Needs_for_Egocentric_Visualizations_while_Running.pdf",
                 "icon": projectLinkIcon.pdf
+            },
+            {
+                "url": "https://youtu.be/4hNulDHo7Ak&t=1908s",
+                "icon": projectLinkIcon.video
             }
         ],
         popups: [
@@ -640,7 +668,7 @@ export const publications = [
         author: "Alaul Islam°, <strong>Lijie Yao*°</strong>, Anastasia Bezerianos, Tanja Blascheck, Tingying He, Bongshin Lee, Romain Vuillmot, Petra Isenberg",
         subtitle: "In Proceedings of MobileHCI Workshop on New Trends in HCI and Sports (NTSPORT), September 2022, Vancouver, Canada.",
         description: "In this paper, we reflect on our past work towards understanding how to design visualizations for fitness trackers that are used in motion. We have coined the term \"visualization in motion\" for visualizations that are used in the presence of relative motion between a viewer and the visualization. Here, we describe how visualization in motion is relevant to sports scenarios. We also provide new data on current smartwatch visualizations for sports and discuss future challenges for visualizations in motion for fitness trackers.\n                                    ",
-        teaser: "assets/teaser/mwv.png",
+        teaser: "assets/teaser/smartwatch_vim.jpg",
         year: 2022,
         icons: [
             {

@@ -20,6 +20,22 @@ document.getElementById("mobile-menu").addEventListener("click", () => {
     }
 })
 
+
+async function init() {
+    await new Promise((resolve) => {
+        if (document.readyState === 'complete') {
+            resolve();
+        } else {
+            window.addEventListener('load', resolve);
+        }
+    });
+
+    document.querySelector('.loader-block').style.display = 'none';
+    document.querySelector('.content').style.display = 'block';
+}
+
+init().then();
+
 if (document.getElementById('copyright')) {
     document.getElementById('copyright').innerHTML =
         '<p class="text-14 text-light">Copyright &copy 2025 Lijie Yao. All Rights Reserved. Last update: July 2025</p>'

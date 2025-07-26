@@ -1,7 +1,7 @@
 export const projectTemplate = '' +
     '                     <div class="project-block" data-id="{{id}}">' +
     '                         <div class="text-medium text-23">{{title}}</div>' +
-    '                         <div class="teaser">' +
+    '                         <div class="project-teaser">' +
     '                               <img src="{{teaser}}" alt="Teaser of {{title}}">' +
     '                         </div>' +
     '                         <div class="text-medium text-17 title">Introduction</div>' +

@@ -630,17 +630,21 @@ table th {
     margin-left: 35px;
     margin-top: 25px;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .projects-page #projects .project-block:nth-child(3n+1) {
     margin-left: 0;
 }
 
-.projects-page #projects .project-block .teaser {
+.projects-page #projects .project-block .project-teaser {
     padding: 40px 10px;
+    height: 60px;
 }
 
-.projects-page #projects .project-block .teaser img {
+.projects-page #projects .project-block .project-teaser img {
     object-fit: contain;
     width: 90%;
     height: 60px;
@@ -659,7 +663,7 @@ table th {
     white-space: pre-line;
 }
 
-.project-page .project-detail .project-block .teaser {
+.project-page .project-detail .project-block .project-teaser {
     margin-top: 50px;
     text-align: center;
 }

@@ -10,13 +10,13 @@ export const navbar = [
         class: ""
     },
     {
-        href: "publications.html",
-        title: "Publications",
+        href: "projects.html",
+        title: "Projects",
         class: ""
     },
     {
-        href: "projects.html",
-        title: "Projects",
+        href: "publications.html",
+        title: "Publications",
         class: ""
     },
     {

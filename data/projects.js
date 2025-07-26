@@ -25,9 +25,10 @@ export const projects = [
         introduction: "With the development of computing technologies, visualization has moved from paper to digital devices and has even been physicalized. The relative movement relationship between the visualization and its viewer has more possibilities, such as under motion. We defined such visualizations that illustrated the relative movement relationship between its viewer as a visualization in motion:\n" +
             "<div class='italic-text'><i>Visualizations in motion are visual data representations used in contexts that exhibit relative motion between a viewer and an entire visualization.</i></div>" +
             "Based on the different movement status of visualizations and their viewers, we classified visualizations in motion into three categories:\n" +
+            "<div class='italic-text'>" +
             "a. Moving visualization & Stationary viewer\n" +
             "b. Moving viewer & Stationary visualization\n" +
-            "c. Moving visualization & Moving viewer\n\n" +
+            "c. Moving visualization & Moving viewer</div>" +
             "We excluded the case when both the visualization and the viewer are stationary, as there is no relative motion between them, and as such, it is out of the scope of our topic.\n\n" +
             "We first proposed a research agenda in which we articulated from 4 aspects what features may have an impact and which kind of work needs to be done. We next conducted a series of perception studies to understand how motion characteristics can affect visualization readability and to what extent. Our results showed that people can get reliable information from visualizations in motion even under high speeds and irregular trajectories. \n\n" +
             "<a href='https://youtu.be/sIzRfNIsRV4'>Presentation video at IEEE VIS 2022:</a>\n" +

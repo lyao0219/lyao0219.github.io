@@ -6,6 +6,7 @@ import "./experiences.js"
 import "./news.js"
 import "./awards.js"
 import "./projects.js"
+import "./project.js"
 
 document.getElementById("mobile-menu").addEventListener("click", () => {
     let menuBox = document.getElementById('header');

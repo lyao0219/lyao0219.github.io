@@ -138,6 +138,11 @@ strong {
     margin-left: 20px;
 }
 
+.content .header .navbar a.active {
+    color: #bd5438;
+    font-weight: bold;
+}
+
 .content .header .text-block {
     display: flex;
     justify-content: center;
@@ -511,6 +516,103 @@ table th {
     word-break: break-all;
 }
 
+highlighted-part {
+    border: 1px dashed #bd5438;
+    background: #eda77338;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.highlighted-part .hiring-icon {
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.news .load-more,
+.news .show-less {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.news .hide {
+    display: none;
+}
+
+.supervision-block-mobile {
+    display: none;
+}
+
+.projects-page #projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects-page #projects .project-block {
+    width: calc(30% - 20px);
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    margin-left: 35px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.projects-page #projects .project-block:nth-child(3n+1) {
+    margin-left: 0;
+}
+
+.projects-page #projects .project-block .teaser {
+    padding: 40px 10px;
+}
+
+.projects-page #projects .project-block .teaser img {
+    object-fit: contain;
+    width: 90%;
+    height: 60px;
+}
+
+.projects-page #projects .project-block .sub-title {
+    padding: 10px;
+    background: #eda77338;
+}
+
+.projects-page #projects .project-block:hover .sub-title {
+    color: #bd5438;
+}
+
+.project-page .project-detail {
+    white-space: pre-line;
+}
+
+.project-page .project-detail .project-block .teaser {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.project-page .project-detail .project-block .title {
+    margin-bottom: 10px;
+}
+
+.project-page .project-detail .project-block .italic-text {
+    padding: 10px 20px;
+}
+
+.project-page .project-detail .project-block .video {
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+.project-page .project-detail .project-block iframe{
+    width: 560px;
+    height: 315px
+}
+
+
 @media (max-width: 1024px) {
     .text-27 {
         font-size: 27px;
@@ -714,6 +816,26 @@ table th {
         background-color: #f8f8f8;
         font-size: 14px;
     }
+
+    .projects #projects{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .projects #projects .project-block{
+        width: 95%;
+        margin: 10px 0;
+    }
+
+    .project-page .project-detail .project-block iframe {
+        width: 300px;
+        height: 215px
+    }
+
+    .project-page .project-detail .publication-block .teaser {
+        margin-top: 0
+    }
 }
 
 @keyframes fade-in-from-bottom {
@@ -729,36 +851,6 @@ table th {
 
 .fade-in-bottom {
     animation: fade-in-from-bottom 1.5s ease-out;
-}
-
-.highlighted-part {
-    border: 1px dashed #bd5438;
-    background: #eda77338;
-    border-radius: 5px;
-    position: relative;
-    margin-top: 20px;
-}
-
-.highlighted-part .hiring-icon{
-    position: absolute;
-    top: -20px;
-    left: -10px;
-    width: 30px !important;
-    height: 30px !important;
-}
-
-.news .load-more, .news .show-less {
-    display: flex;
-    justify-content: flex-end;
-    cursor: pointer;
-}
-
-.news .hide {
-    display: none;
-}
-
-.supervision-block-mobile {
-    display: none;
 }
 
 

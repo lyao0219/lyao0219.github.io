@@ -1,30 +1,42 @@
 export const navbar = [
     {
         href: "index.html",
-        title: "About me"
+        title: "About me",
+        class: ""
     },
     {
         href: "news.html",
-        title: "News & Awards"
+        title: "News & Awards",
+        class: ""
     },
     {
         href: "publications.html",
-        title: "Publications"
+        title: "Publications",
+        class: ""
     },
-     {
-         href: "activities.html",
-         title: "Activities"
+    {
+        href: "projects.html",
+        title: "Projects",
+        class: ""
+    },
+    {
+        href: "activities.html",
+        title: "Activities",
+        class: ""
     },
     {
         href: "work.html",
-        title: "Experience"
+        title: "Experience",
+        class: ""
     },
     {
         href: "education.html",
-        title: "Education"
+        title: "Education",
+        class: ""
     },
     {
         href: "contact.html",
-        title: "Contact & CV"
+        title: "Contact & CV",
+        class: ""
     }
 ]

@@ -189,7 +189,8 @@ export const bibtex = {
         "}",
 }
 export const publications = [
-     {
+    {
+        id: 1,
         event: "IEEE VIS",
         type: publicationTypeList.ShortPaper,
         title: "Designing Visualization Widgets for Tangible Data Exploration: A Systematic Review",
@@ -225,6 +226,7 @@ export const publications = [
         selected: false
     },
     {
+        id: 2,
         event: "ChinaVis",
         type: publicationTypeList.Poster,
         award: publicationAwardType.HonorableMention,
@@ -245,7 +247,7 @@ export const publications = [
             {
                 "url": "assets/poster/Poster_VisInMotion.pdf",
                 "icon": projectLinkIcon.poster
-            },            
+            },
             {
                 "url": "https://youtu.be/2R1zq9PKYyM",
                 "icon": projectLinkIcon.video
@@ -261,6 +263,7 @@ export const publications = [
         selected: false
     },
     {
+        id: 3,
         event: "CG&A",
         type: publicationTypeList.FullPaper,
         title: "Situated Visualization in Motion",
@@ -293,6 +296,7 @@ export const publications = [
         selected: true
     },
     {
+        id: 4,
         event: "TVCG",
         type: publicationTypeList.FullPaper,
         title: "User Experience of Visualizations in Motion: A Case Study and Design Considerations",
@@ -345,6 +349,7 @@ export const publications = [
         selected: true
     },
     {
+        id: 5,
         event: "TVCG",
         type: publicationTypeList.FullPaper,
         title: "Designing for Visualization in Motion: Embedding Visualizations in Swimming Videos",
@@ -405,6 +410,7 @@ export const publications = [
         selected: true
     },
     {
+        id: 6,
         event: "Thesis",
         type: publicationTypeList.Thesis,
         title: "Situated Visualization in Motion",
@@ -437,6 +443,7 @@ export const publications = [
         selected: false
     },
     {
+        id: 7,
         event: "TVCG",
         type: publicationTypeList.FullPaper,
         title: "Visualization in Motion: A Research Agenda and Two Evaluations",
@@ -530,6 +537,7 @@ export const publications = [
         selected: true
     },
     {
+        id: 8,
         event: "IEEE VIS",
         type: publicationTypeList.ShortPaper,
         title: "Micro Visualizations on a Smartwatch: Assessing Reading Performance While Walking",
@@ -574,6 +582,7 @@ export const publications = [
         selected: false
     },
     {
+        id: 9,
         event: "IEEE VIS",
         type: publicationTypeList.Proposal,
         title: "First-Person Visualizations for Outdoor Physical Activities: Challenges and Opportunities",
@@ -600,6 +609,7 @@ export const publications = [
         selected: false
     },
     {
+        id: 10,
         event: "IEEE VIS",
         type: publicationTypeList.Proposal,
         title: "Situated Visualization in Motion",
@@ -618,6 +628,7 @@ export const publications = [
         selected: false
     },
     {
+        id: 11,
         event: "IEEE VIS",
         type: publicationTypeList.Workshop,
         title: "Collecting Information Needs for Egocentric Visualizations while Running",
@@ -654,6 +665,7 @@ export const publications = [
         selected: false
     },
     {
+        id: 12,
         event: "IEEE VIS",
         type: publicationTypeList.Workshop,
         title: "Envisioning Situated Visualizations of Environmental Footprints in an Urban Environment",
@@ -690,6 +702,7 @@ export const publications = [
         selected: false
     },
     {
+        id: 13,
         event: "MobileHCI",
         type: publicationTypeList.Workshop,
         title: "Reflections on Visualization in Motion for Fitness Trackers",
@@ -726,6 +739,7 @@ export const publications = [
         selected: false
     },
     {
+        id: 14,
         event: "EuroVis",
         type: publicationTypeList.Poster,
         title: "Situated Visualization in Motion for Video Games",
@@ -766,6 +780,7 @@ export const publications = [
         selected: false
     },
     {
+        id: 15,
         event: "JournéeVisu",
         type: publicationTypeList.Poster,
         title: "Situated Visualization in Motion for Swimming",
@@ -802,6 +817,7 @@ export const publications = [
         selected: false
     },
     {
+        id: 16,
         event: "JournéeVisu",
         type: publicationTypeList.Poster,
         title: "Visualization in Motion in Video Games for Different Types of Data",
@@ -838,6 +854,7 @@ export const publications = [
         selected: false
     },
     {
+        id: 17,
         event: "IEEE VIS",
         type: publicationTypeList.Poster,
         title: "Situated Visualization in Motion",

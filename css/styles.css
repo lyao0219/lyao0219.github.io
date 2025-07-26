@@ -516,7 +516,7 @@ table th {
     word-break: break-all;
 }
 
-highlighted-part {
+.highlighted-part {
     border: 1px dashed #bd5438;
     background: #eda77338;
     border-radius: 5px;

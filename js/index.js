@@ -26,7 +26,15 @@ async function init() {
         if (document.readyState === 'complete') {
             resolve();
         } else {
-            window.addEventListener('load', resolve);
+            const timeoutId = setTimeout(() => {
+                console.warn('Forced load after 20s timeout');
+                resolve();
+            }, 20000);
+
+            window.addEventListener('load', () => {
+                clearTimeout(timeoutId);
+                resolve();
+            }, { once: true });
         }
     });
 

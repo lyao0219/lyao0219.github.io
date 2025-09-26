@@ -1,5 +1,17 @@
 export const news = [
     {
+        "type": "Paper Acceptance",
+        "place": "",
+        "time": "September 2025",
+        "description": "We have multiple workshop papers accepted by IEEE VIS 2025: <a href=\"https://lijieyao.com/assets/pdf/Early_Exploration_into_AI-Assisted_Visual_Analytics_for_Dynamic_Videos.pdf\" target=\"_blank\">\"Early Exploration into AI-Assisted Visual Analytics for Dynamic Videos\"</a> and <a href=\"https://lijieyao.com/assets/pdf/Structured_AI_Agents_for_Reliable_Visualization_Report_Generation.pdf\" target=\"_blank\">\"Structured AI Agents for Reliable Visualization Report Generation\"</a> by <a href=\"https://visxgenai.github.io/\" target=\"_blank\">VISxGenAI</a>, and <a href=\"https://lijieyao.com/assets/pdf/Input_Physicalization_in_Practice_An_Instructional_Walkthrough_with_Visualization_Novices.pdf\" target=\"_blank\">\"Input Physicalization in Practice: An Instructional Walkthrough with Visualization Novices\"</a> by <a href=\"https://inputvisualization.github.io/vis2025/\" target=\"_blank\">Input Visualization</a>. "
+    },
+    {
+        "type": "Paper Acceptance",
+        "place": "",
+        "time": "August 2025",
+        "description": "Our paper on <a href=\"https://lijieyao.com/assets/pdf/Touch_Sound_and_Space_Exploring_Immersive_Music_Interaction_through_AI-Generated_Environments.pdf\" target=\"_blank\">\"Touch, Sound, and Space: Exploring Immersive Music Interaction through AI-Generated Environments\"</a> has been accepted by <a href=\"https://vinci2025.games.cg.jku.at/\" target=\"_blank\">VINCI 2025</a>. "
+    },
+    {
         "type": "Honorable Mention Award",
         "place": "Hangzhou, China",
         "time": "July 2025",

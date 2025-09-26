@@ -1,5 +1,6 @@
 export const awards =
     [
+        
         {
             "text": "<a href=\"https://chinavis.org/2025/en/poster/\" target=\"_blank\">ChinaVis</a> Poster Honorable Mention Award, 2025"
         },

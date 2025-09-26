@@ -65,7 +65,7 @@ export const bibtex = {
         "  AUTHOR = {Grioui, Fairouz and Blascheck, Tanja and Yao, Lijie and Isenberg, Petra},\n" +
         "  URL = {https://doi.org/10.1109/VIS55277.2024.00017},\n" +
         "  NOTE = {IEEE Visualization and Visual Analytics (VIS)},\n" +
-        "  BOOKTITLE = {{Short papers of the IEEE Visualization and Visual Analytics (VIS)}},\n" +
+        "  BOOKTITLE = {{IEEE Visualization & Visual Analytics (IEEE VIS)}},\n" +
         "  ADDRESS = {Los Alamitos, CA, USA, United States},\n" +
         "  YEAR = {2024},\n" +
         "  MONTH = Oct,\n" +
@@ -170,7 +170,7 @@ export const bibtex = {
         "  AUTHOR = {Yao, Haonan and Yu, Lingyun and Yao, Lijie},\n" +
         "  URL = {https://physicalviswidget.github.io/},\n" +
         "  NOTE = {To appear},\n" +
-        "  BOOKTITLE = {{IEEE Visualization and Visual Analytics (VIS)}},\n" +
+        "  BOOKTITLE = {{IEEE Visualization & Visual Analytics (IEEE VIS)}},\n" +
         "  ADDRESS = {Los Alamitos, CA, USA, United States},\n" +
         "  YEAR = {2025},\n" +
         "  MONTH = Nov,\n" +
@@ -187,7 +187,58 @@ export const bibtex = {
         "  MONTH = July,\n" +
         "  PDF = {https://lijieyao.com/assets/pdf/Poster_VisInMotion.pdf},\n" +
         "}",
+    16: "@inproceedings{Qi:2025:EarlyExploration,\n" +
+        "  TITLE = {{Early Exploration into AI-Assisted Visual Analytics for Dynamic Videos}},\n" +
+        "  AUTHOR = {Qi, Guoy and Li, Junyi and Hong, Jiayi and Yao, Lijie},\n" +
+        "  BOOKTITLE = {{IEEE VIS Workshop on GenAI, Agents, and the Future of VIS}},\n" +
+        "  ADDRESS = {Vienna, Austria},\n" +
+        "  YEAR = {2025},\n" +
+        "  MONTH = Nov,\n" +
+        "  NOTE = {To appear},\n" +
+        "  DOI = {},\n" +
+        "  KEYWORDS = {visualization, video analysis, large language model},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Early_Exploration_into_AI-Assisted_Visual_Analytics_for_Dynamic_Videos.pdf},\n" +
+        "}",
+    17: "@inproceedings{Zhao:2025:StructuredAgents,\n" +
+        "  TITLE = {{Structured AI Agents for Reliable Visualization Report Generation}},\n" +
+        "  AUTHOR = {Zhao, Junhao and Yao, Lijie},\n" +
+        "  BOOKTITLE = {{IEEE VIS Workshop on GenAI, Agents, and the Future of VIS}},\n" +
+        "  ADDRESS = {Vienna, Austria},\n" +
+        "  YEAR = {2025},\n" +
+        "  MONTH = Nov,\n" +
+        "  NOTE = {To appear},\n" +
+        "  DOI = {},\n" +
+        "  KEYWORDS = {structured AI agents, reliable visualization, hallucination reduction},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Structured_AI_Agents_for_Reliable_Visualization_Report_Generation.pdf},\n" +
+        "}",
+    18: "@inproceedings{Yao:2025:InputPhysicalization,\n" +
+        "  TITLE = {{Input Physicalization in Practice: An Instructional Walkthrough with Visualization Novices}},\n" +
+        "  AUTHOR = {Yao, Lijie and Zhang, Yuming and Liu, Yu},\n" +
+        "  BOOKTITLE = {{IEEE VIS Workshop on Input Visualization}},\n" +
+        "  ADDRESS = {Vienna, Austria},\n" +
+        "  YEAR = {2025},\n" +
+        "  MONTH = Nov,\n" +
+        "  NOTE = {To appear},\n" +
+        "  DOI = {},\n" +
+        "  KEYWORDS = {physicalization, personal data, design walkthrough},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Input_Physicalization_in_Practice_An_Instructional_Walkthrough_with_Visualization_Novices.pdf},\n" +
+        "}",
+    19: "@inproceedings{Xu:2025:TouchSoundSpace,\n" +
+        "  TITLE = {{Touch, Sound, and Space: Exploring Immersive Music Interaction through AI-Generated Environments}},\n" +
+        "  AUTHOR = {Xu, Wanfang and Yang, Jifan and Zhang, Fengwen and Lu, Yu and Yao, Lijie and Liu, Le and Yu, Lingyun},\n" +
+        "  BOOKTITLE = {{International Symposium on Visual Information Communication and Interaction (VINCI)}},\n" +
+        "  ADDRESS = {Linz, Austria},\n" +
+        "  YEAR = {2025},\n" +
+        "  MONTH = Dec,\n" +
+        "  NOTE = {To appear},\n" +
+        "  DOI = {},\n" +
+        "  KEYWORDS = {immersive creation, music generation, visual design},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Touch_Sound_and_Space_Exploring_Immersive_Music_Interaction_through_AI-Generated_Environments.pdf},\n" +
+        "}",
+
 }
+
+
 export const publications = [
     {
         id: 1,
@@ -195,7 +246,7 @@ export const publications = [
         type: publicationTypeList.ShortPaper,
         title: "Designing Visualization Widgets for Tangible Data Exploration: A Systematic Review",
         author: "Haonan Yao, Lingyun Yu, <strong>Lijie Yao*</strong>",
-        subtitle: "Short Papers of the IEEE Conference on Visualization, November 2025, Vienna, Austria, To appear.",
+        subtitle: "IEEE Visualization & Visual Analytics (IEEE VIS), November 2025, Vienna, Austria, To appear.",
         teaser: "assets/teaser/physicalwidgetshort.jpg",
         year: 2025,
         icons: [
@@ -542,7 +593,7 @@ export const publications = [
         type: publicationTypeList.ShortPaper,
         title: "Micro Visualizations on a Smartwatch: Assessing Reading Performance While Walking",
         author: "Fairouz Grioui*, Tanja Blascheck, <strong>Lijie Yao</strong>, Petra Isenberg",
-        subtitle: "Short Papers of the IEEE Conference on Visualization, October 2024, Florida, United States, doi: 10.1109/VIS55277.2024.00017.",
+        subtitle: "IEEE Visualization & Visual Analytics (IEEE VIS), October 2024, Florida, United States, doi: 10.1109/VIS55277.2024.00017.",
         description: "With two studies, we assess how different walking trajectories (straight line, circular, and infinity) and speeds (2km/h, 4km/h, and 6km/h) influence the accuracy and response time of participants reading micro visualizations on a smartwatch. We showed our participants common watch face micro visualizations including date, time, weather information, and four complications showing progress charts of fitness data. Our findings suggest that while walking trajectories did not significantly affect reading performance, overall walking activity, especially at high speeds, hurt reading accuracy and, to some extent, response time. Supplemental material is available at <a href=\"https://osf.io/u78s6/\" target=\"_blank\">osf.io/u78s6/</a>.\n                                    ",
         teaser: "assets/teaser/smartwatch.jpg",
         year: 2024,
@@ -614,7 +665,7 @@ export const publications = [
         type: publicationTypeList.Proposal,
         title: "Situated Visualization in Motion",
         author: "<strong>Lijie Yao*</strong>.",
-        subtitle: "Selected proposals for Doctoral Colloquium of the IEEE VIS, Oct. 2022, Oklahoma City, United States.",
+        subtitle: "Selected proposals for Doctoral Colloquium at IEEE VIS, Oct. 2022, Oklahoma City, United States.",
         description: "The select proposals of the doctoral colloquium at IEEE VIS 2022.",
         teaser: "assets/teaser/dc.jpg",
         year: 2022,
@@ -633,7 +684,7 @@ export const publications = [
         type: publicationTypeList.Workshop,
         title: "Collecting Information Needs for Egocentric Visualizations while Running",
         author: "Ahmed Elshabasi*, <strong>Lijie Yao</strong>, Petra Isenberg, Charles Perin, Wesley Willett",
-        subtitle: "In Proceedings of IEEE VIS Workshop on First-Person Visualizations for Outdoor Physical Activities, October 2024, Florida, United States.",
+        subtitle: "IEEE VIS workshop on First-Person Visualizations for Outdoor Physical Activities (FPVis), October 2024, Florida, United States.",
         description: "We investigate research challenges and opportunities for visualization in motion during outdoor physical activities via an initial corpus of real-world recordings that pair egocentric video, biometrics, and think-aloud observations. With the increasing use of tracking and recording devices, such as smartwatches and head-mounted displays, more and more data are available in real-time about a person's activity and the context of the activity. However, not all data will be relevant all the time. Instead, athletes have information needs that change throughout their activity depending on the context and their performance. To address this challenge, we describe the collection of a diverse corpus of information needs paired with contextualizing audio, video, and sensor data. Next, we propose a first set of research challenges and design considerations that explore the difficulties of visualizing those real data needs in-context and demonstrate a prototype tool for browsing, aggregating, and analyzing this information. Our ultimate goal is to understand and support embedding visualizations into outdoor contexts with changing environments and varying data needs.\n                                    ",
         teaser: "assets/teaser/sports.jpg",
         year: 2024,
@@ -670,7 +721,7 @@ export const publications = [
         type: publicationTypeList.Workshop,
         title: "Envisioning Situated Visualizations of Environmental Footprints in an Urban Environment",
         author: "Yvonne Jansen, Federica Bucchieri, Pierre Dragicevic, Martin Hachet, Morgane Koval, Léana Petiot, Arnaud Prouzeau, Dieter Schmalstieg, <strong>Lijie Yao</strong>, Petra Isenberg*",
-        subtitle: "In Proceedings of IEEE VIS Workshop on Visualization for Social Good (VIS4Good), October 2022, Oklahoma, United States.",
+        subtitle: "IEEE VIS workshop on Visualization for Social Good (VIS4Good), October 2022, Oklahoma, United States.",
         description: "We present the results of a brainstorming exercise focused on how situated visualizations could be used to better understand the state of the environment and our personal behavioral impact on it. Specifically, we conducted a day long workshop in the French city of Bordeaux where we envisioned situated visualizations of urban environmental footprints. We explored the city and took photos and notes about possible situated visualizations of environmental footprints that could be embedded near places, people, or objects of interest. We found that our designs targeted four purposes and used four different methods that could be further explored to test situated visualizations for the protection of the environment.\n                                    ",
         teaser: "assets/teaser/vis4good.jpg",
         year: 2022,
@@ -707,7 +758,7 @@ export const publications = [
         type: publicationTypeList.Workshop,
         title: "Reflections on Visualization in Motion for Fitness Trackers",
         author: "Alaul Islam°, <strong>Lijie Yao*°</strong>, Anastasia Bezerianos, Tanja Blascheck, Tingying He, Bongshin Lee, Romain Vuillmot, Petra Isenberg",
-        subtitle: "In Proceedings of MobileHCI Workshop on New Trends in HCI and Sports (NTSPORT), September 2022, Vancouver, Canada.",
+        subtitle: "ACM MobileHCI workshop on New Trends in HCI and Sports (NTSPORT), September 2022, Vancouver, Canada.",
         description: "In this paper, we reflect on our past work towards understanding how to design visualizations for fitness trackers that are used in motion. We have coined the term \"visualization in motion\" for visualizations that are used in the presence of relative motion between a viewer and the visualization. Here, we describe how visualization in motion is relevant to sports scenarios. We also provide new data on current smartwatch visualizations for sports and discuss future challenges for visualizations in motion for fitness trackers.\n                                    ",
         teaser: "assets/teaser/smartwatch_vim.jpg",
         year: 2022,
@@ -744,7 +795,7 @@ export const publications = [
         type: publicationTypeList.Poster,
         title: "Situated Visualization in Motion for Video Games",
         author: "Federica Bucchieri*, <strong>Lijie Yao</strong>, Petra Isenberg",
-        subtitle: " Posters of the European Conference on Visualization (EuroVis), June 2022, Rome, Italy, doi: 10.2312/evp.20221119.",
+        subtitle: " Posters of EuroVis, June 2022, Rome, Italy, doi: 10.2312/evp.20221119.",
         description: "We contribute a systematic review of situated visualizations in motion in the context of video games. Video games produce rich dynamic datasets during gameplay that are often visualized to help players succeed in a game. Often these visualizations are moving either because they are attached to moving game elements or due to camera changes. We want to understand to what extent this motion and contextual game factors impact how players can read these visualizations. In order to ground our work, we surveyed 160 visualizations in motion and their embeddings in the game world. Here, we report on our analysis and categorization of these visualizations.\n                                    ",
         teaser: "assets/teaser/vim_videogame.jpg",
         year: 2022,
@@ -785,7 +836,7 @@ export const publications = [
         type: publicationTypeList.Poster,
         title: "Situated Visualization in Motion for Swimming",
         author: "<strong>Lijie Yao*</strong>, Anastasia Bezerianos, Romain Vuillmot, Petra Isenberg",
-        subtitle: " Posters of the France National Conference on Visualization (Journée Visu), June 2022, Bordeaux, France.",
+        subtitle: " Posters of Journée Visu, June 2022, Bordeaux, France.",
         description: "Competitive sports coverage increasingly includes information on athlete or team statistics and records. Sports video coverage has traditionally embedded representations of this data in fixed locations on the screen, but more recently also attached representations to athletes or other targets in motion. These publicly used representations so far have been rather simple and systematic investigations of the research space of embedded visualizations in motion are still missing. Here we report on our preliminary research in the domain of professional and amateur swimming. We analyzed how visualizations are currently added to the coverage of Olympics swimming competitions and then plan to derive a design space for embedded data representations for swimming competitions. We are currently conducting a crowdsourced survey to explore which kind of swimming-related data general audiences are interested in, in order to identify opportunities for additional visualizations to be added to swimming competition coverage.",
         teaser: "assets/teaser/vim_swimming.jpg",
         year: 2022,
@@ -822,7 +873,7 @@ export const publications = [
         type: publicationTypeList.Poster,
         title: "Visualization in Motion in Video Games for Different Types of Data",
         author: "Federica Bucchieri*, <strong>Lijie Yao</strong>, Petra Isenberg",
-        subtitle: " Posters of the France National Conference on Visualization (Journée Visu), June 2022, Bordeaux, France.",
+        subtitle: " Posters of Journée Visu, June 2022, Bordeaux, France.",
         description: "We contribute an analysis of situated visualizations in motion in video games for different types of data, with a focus on quantitative and categorical data representations. Video games convey a lot of data to players, to help them succeed in the game. These visualizations frequently move across the screen due to camera changes or because the game elements themselves move. Our ultimate goal is to understand how motion factors affect visualization readability in video games and subsequently the players' performance in the game. We started our work by surveying the characteristics of how motion currently influences which kind of data representations in video games. We conducted a systematic review of 160 visualizations in motion in video games and extracted patterns and considerations regarding was what, and how visualizations currently exhibit motion factors in video games.\n                                    ",
         teaser: "assets/teaser/vim_gamedata.jpg",
         year: 2022,
@@ -859,7 +910,7 @@ export const publications = [
         type: publicationTypeList.Poster,
         title: "Situated Visualization in Motion",
         author: "<strong>Lijie Yao*</strong>, Anastasia Bezerianos, Petra Isenberg",
-        subtitle: "Posters of the IEEE Conference on Visualization, October 2020, Salt Lake City, United States.",
+        subtitle: "Posters of IEEE VIS, October 2020, Salt Lake City, United States.",
         description: "We contribute a first design space on visualizations in motion and the design of a pilot study we plan to run in the fall. Visualizations can be useful in contexts where either the observation is in motion or the whole visualization is moving at various speeds. Imagine, for example, displays attached to an athlete or animal that show data about the wearer – for example, captured from a fitness tracking band; or a visualization attached to a moving object such as a vehicle or a soccer ball. The ultimate goal of our research is to inform the design of visualizations under motion.\n                                    ",
         teaser: "assets/teaser/vim.jpg",
         year: 2020,
@@ -889,4 +940,105 @@ export const publications = [
             }
         ],
         selected: false
-    }]
+    },
+    {
+        id: 18,
+        event: "IEEE VIS",
+        type: publicationTypeList.Workshop,
+        title: "Early Exploration into AI-Assisted Visual Analytics for Dynamic Videos",
+        author: "Qi Guo, Junyi Li, Jiayi Hong, <strong>Lijie Yao*</strong>",
+        subtitle: "IEEE VIS workshop on GenAI, Agents, and the Future of VIS (VISxGenAI), November 2025, Vienna, Austria. To appear.",
+        description: "We present a preliminary investigation into the capabilities of current large language models (LLMs), i.e., ChatGPT and Gemini, in supporting visual analytics tasks for videos containing dynamically changing information. Videos are inherently multimodal, combining visual frames, audio narration, and sometimes text---often with inconsistencies or redundancies across channels---which poses challenges for reliable data extraction. While recent advances in video understanding have improved general-purpose AI performance, relatively little work has explored how generative AI can extract, prepare, and visualize data from videos through prompts, particularly where multimodal conflicts, dynamic updates, and moving entities are involved. To explore this space, we first categorize information-bearing videos along four dimensions: data type, data dynamics, visualization presence, and audio-visual alignment. We then apply LLMs to extract and structure information from representative video samples to support downstream visualization. We conclude with reflections and outline a research agenda for AI-assisted video-based visual analytics. Our OSF repository is at https://osf.io/ygn4c/.\n                                    ",
+        teaser: "assets/teaser/eeAIvideos.jpg",
+        year: 2025,
+        icons: [
+            {
+                "url": "assets/pdf/Early_Exploration_into_AI-Assisted_Visual_Analytics_for_Dynamic_Videos.pdf",
+                "icon": projectLinkIcon.pdf
+            }
+        ],
+        study: [],
+        popups: [
+            {
+                icon: projectLinkIcon.bibtex,
+                contentId: 16
+            }
+        ],
+        selected: false
+    },
+    {
+        id: 19,
+        event: "IEEE VIS",
+        type: publicationTypeList.Workshop,
+        title: "Structured AI Agents for Reliable Visualization Report Generation",
+        author: "Junhao Zhao, <strong>Lijie Yao*</strong>",
+        subtitle: "IEEE VIS workshop on GenAI, Agents, and the Future of VIS (VISxGenAI), November 2025, Vienna, Austria. To appear.",
+        description: "We introduce Structured AI Agents to tackle instability and hallucination in AI agent–based data visualization. AI agents promise faster, more accessible visualization reporting, but current methods remain inconsistent and struggle to deliver reliable results. We set multiple sub-tasks and form a structured pipeline, where each sub-task unit produces standardized JSON outputs encoding executable and deterministic code. Our approach enforces correctness in quantitative results, reduces hallucinations, and ensures reliable visualizations. In our final report, we demonstrate that the modular and verifiable outputs achieve strong reliability and maintain accuracy in visualization report generation.",
+        teaser: "assets/teaser/structuredAIagents.jpg",
+        year: 2025,
+        icons: [
+            {
+                "url": "assets/pdf/Structured_AI_Agents_for_Reliable_Visualization_Report_Generation.pdf",
+                "icon": projectLinkIcon.pdf
+            }
+        ],
+        study: [],
+        popups: [
+            {
+                icon: projectLinkIcon.bibtex,
+                contentId: 17
+            }
+        ],
+        selected: false
+    },
+    {
+        id: 20,
+        event: "IEEE VIS",
+        type: publicationTypeList.Workshop,
+        title: "Input Physicalization in Practice: An Instructional Walkthrough with Visualization Novices",
+        author: "<strong>Lijie Yao*</strong>, Yuming Zhang, Yu Liu",
+        subtitle: "IEEE VIS workshop on Input Visualization (InputVis), November 2025, Vienna, Austria. To appear.",
+        description: "We conduct an instructional walkthrough with undergraduate students who have limited to no visualization knowledge and create three physicalizations with personal data input. While physicalization is widely recognized as a tangible , intuitive, and engaging form of data representation, its design and construction remain challenging, especially for novices who lack basic visualization knowledge. To explore these challenges in practice, we conducted an instructional walkthrough with undergraduate students who have limited to no visualization expertise. A group of students first elicited possible personal data, which was then filtered and categorized under supervision. Next, one lead student discussed with the supervisors to determine the reasonable data items to design with, as well as the possible data input methods. After which, the student individually modeled and fabricated the physicalizations that have corresponding data input mechanisms , and used these physicalizations to complete a period of data input. Our walkthrough revealed insights into input physicalization in connection with visualization novices and education, as well as the research gaps between observed novice challenges with input visualization. Supplemental materials and demo videos are available at https://osf.io/8quv4/.",
+        teaser: "assets/teaser/inputPhysicalization.jpg",
+        year: 2025,
+        icons: [
+            {
+                "url": "assets/pdf/Input_Physicalization_in_Practice_An_Instructional_Walkthrough_with_Visualization_Novices.pdf",
+                "icon": projectLinkIcon.pdf
+            }
+        ],
+        study: [],
+        popups: [
+            {
+                icon: projectLinkIcon.bibtex,
+                contentId: 18
+            }
+        ],
+        selected: false
+    },
+    {
+        id: 21,
+        event: "VINCI",
+        type: publicationTypeList.FullPaper,
+        title: "Touch, Sound, and Space: Exploring Immersive Music Interaction through AI-Generated Environments",
+        author: "Wanfang Xu, Jifan Yang, Fengwen Zhang, Yu Lu, <strong>Lijie Yao</strong>, Le Liu, Lingyun Yu*",
+        subtitle: "International Symposium on Visual Information Communication and Interaction (VINCI), December 2025, Linz, Austria. To appear.",
+        description: "We introduce an interactive music system powered by AI-generated content (AIGC) that enables users to engage with music through multimodal interactions involving touch, sound, and spatial immersion. Motivated by the desire to enhance engagement and emotional connection with music, our system enables users to co-create and interact with musical content. Users upload a song and a descriptive text prompt, from which the system generates 3D visuals. During playback, users can embed their own audio inputs and trigger responsive visual effects such as color-driven point clouds using tangible controls. To explore how spatial scale and embodiment shape user experience, we implement the system across three increasing spatial scale and embodiment: (1) a handheld AR music box, (2) a table-sized stage box, and (3) a fully immersive VR environment. Through a user study, we investigate how different levels of immersion and interaction influence user engagement, emotional response, and sense of presence. Our findings demonstrate the potential of combining AIGC with embodied interaction to enrich creative expression and enhance immersive musical experiences.",
+        teaser: "assets/teaser/touchSoundSpace.jpg",
+        year: 2025,
+        icons: [
+            {
+                "url": "assets/pdf/Touch_Sound_and_Space_Exploring_Immersive_Music_Interaction_through_AI-Generated_Environments.pdf",
+                "icon": projectLinkIcon.pdf
+            }
+        ],
+        study: [],
+        popups: [
+            {
+                icon: projectLinkIcon.bibtex,
+                contentId: 19
+            }
+        ],
+        selected: false
+    }   
+]

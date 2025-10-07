@@ -46,7 +46,8 @@ init().then();
 
 if (document.getElementById('copyright')) {
     document.getElementById('copyright').innerHTML =
-    '<p class="text-14 text-light">Copyright &copy 2025 Lijie Yao. All Rights Reserved. Last update: September 2025</p>'
+    '<p class="text-14 text-light">Copyright &copy 2025 Lijie Yao. All Rights Reserved. Last update: October 2025</p>'
+
 }
 
 if (document.getElementById('profile')) {
@@ -67,9 +68,9 @@ if (document.getElementById('self-introduction')) {
         '                    <img src="assets/img/icons/china.png" class="inner-text-icon"/>\n' +
         '                    <img src="assets/img/icons/uk.png" class="inner-text-icon"/>\n' +
         '                    <a href="https://www.xjtlu.edu.cn/en" target="_blank">Xi\'an Jiaotong-Liverpool University</a> (XJTLU).\n' +
-        '                    Before I joined XJTLU, I was a  postdoctoral and doctoral research at <img src="assets/img/icons/france.png" class="inner-text-icon">\n' +
+        '                    Before I joined XJTLU, I was a  postdoctoral and doctoral researcher at <img src="assets/img/icons/france.png" class="inner-text-icon">\n' +
         '                    <a href="https://www.inria.fr/en" target="_blank">INRIA</a>, <a href="https://www.aviz.fr/" target="_blank">AVIZ</a> team (worked with <a href="https://petra.isenberg.cc/wiki/pmwiki.php" target="_blank">Dr. Petra Isenberg</a>\n' +
-        '                    and <a href="https://www.lri.fr/~anab/" target="_blank">Prof. Anastasia Bezerianos</a>), and a visiting research at the <img src="assets/img/icons/canada.png" class="inner-text-icon">\n' +
+        '                    and <a href="https://www.lri.fr/~anab/" target="_blank">Prof. Anastasia Bezerianos</a>), and a visiting researcher at the <img src="assets/img/icons/canada.png" class="inner-text-icon">\n' +
         '                    <a href="https://www.ucalgary.ca/" target="_blank">University of Calgary</a> (worked with \n' +
         '                    <a href="https://www.wjwillett.net/" target="_blank">Dr. Wesley Willett</a>).\n' +
         '                    I obtained my Ph.D. degree from\n' +

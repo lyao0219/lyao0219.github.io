@@ -89,7 +89,7 @@ export const projects = [
     {
         id: 3,
         title: "Tangible Interaction",
-        teaser: "assets/teaser/ti_logo.png",
+        teaser: "assets/teaser/tip_logo.png",
         publications: [
             {
                 description: "A systematic review",
@@ -100,5 +100,22 @@ export const projects = [
             '\n' +
             'To address this gap, we conduct a systematic review to analyze existing work and characterize the current design of data exploration tasks, interactions, and tangible visualization widgets. We next reflect based on our findings and propose a research agenda to inform the development of a future widget design toolkit for tangible data exploration.\n',
         collaboration: "This project was done at Xi'an Jiaotong-Liverpool University, China.\n",
+    },
+    {
+        id: 4,
+        title: "AI-assisted Data Communication",
+        teaser: "assets/teaser/aip_logo.jpg",
+        publications: [
+            {
+                description: "Two early explorations",
+                ids: [18, 19]
+            }
+        ],
+        introduction: 'With the rapid rise of artificial intelligence (AI) and large language models (LLMs), AI holds growing promise for enhancing data communication, ranging from interpreting complex datasets to generating visual and textual narratives. Yet despite progress, current models remain limited in supporting reliable, multimodal, and temporally grounded communication. Most advances focus on static or single-modality outputs (e.g., charts from text), while dynamic data streams, such as those embedded in video or interactive systems, remain underexplored.\n' +
+            '\n' +
+            'We conduct early exploration on AI-assisted data communication. First, we examine how general-purpose multimodal LLMs (e.g., ChatGPT and Gemini) support visual analytics in video, focusing on data extraction, temporal reasoning, and audio-visual alignment. Second, we experiment with structured agent design: decomposing tasks, enforcing modular reasoning, and generating verifiable outputs to improve visualization reliability.\n' +
+            '\n' +
+            'We see our current work as a foundation toward more robust pipelines connecting data understanding, visualization, and narrative generation. We welcome collaboration from visualization and AI communities to advance this emerging intersection.\n',
+        collaboration: "This project has multiple parts of collaboration, including Xi'an Jiaotong-Liverpool University, China and Laval University, Canada.\n",
     }
 ]

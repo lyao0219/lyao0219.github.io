@@ -953,8 +953,16 @@ export const publications = [
         year: 2025,
         icons: [
             {
+                "url": "https://visxgenai.github.io/",
+                "icon": projectLinkIcon.onlineLink
+            },
+            {
                 "url": "assets/pdf/Early_Exploration_into_AI-Assisted_Visual_Analytics_for_Dynamic_Videos.pdf",
                 "icon": projectLinkIcon.pdf
+            },
+            {
+                "url": "https://osf.io/ygn4c/",
+                "icon": projectLinkIcon.osf
             }
         ],
         study: [],
@@ -977,6 +985,14 @@ export const publications = [
         teaser: "assets/teaser/structuredAIagents.jpg",
         year: 2025,
         icons: [
+            {
+                "url": "https://visxgenai.github.io/",
+                "icon": projectLinkIcon.onlineLink
+            },
+            {
+                "url": "https://www.visagent.org/",
+                "icon": projectLinkIcon.website
+            },
             {
                 "url": "assets/pdf/Structured_AI_Agents_for_Reliable_Visualization_Report_Generation.pdf",
                 "icon": projectLinkIcon.pdf
@@ -1003,8 +1019,16 @@ export const publications = [
         year: 2025,
         icons: [
             {
+                "url": "https://inputvisualization.github.io/vis2025/",
+                "icon": projectLinkIcon.onlineLink
+            },
+            {
                 "url": "assets/pdf/Input_Physicalization_in_Practice_An_Instructional_Walkthrough_with_Visualization_Novices.pdf",
                 "icon": projectLinkIcon.pdf
+            },
+            {
+                "url": "https://osf.io/8quv4/",
+                "icon": projectLinkIcon.osf
             }
         ],
         study: [],
@@ -1027,6 +1051,10 @@ export const publications = [
         teaser: "assets/teaser/touchSoundSpace.jpg",
         year: 2025,
         icons: [
+            {
+                "url": "https://doi.org/10.1145/3769534.3769589",
+                "icon": projectLinkIcon.doi
+            },
             {
                 "url": "assets/pdf/Touch_Sound_and_Space_Exploring_Immersive_Music_Interaction_through_AI-Generated_Environments.pdf",
                 "icon": projectLinkIcon.pdf

@@ -86,10 +86,7 @@ if (document.getElementById('self-introduction')) {
         '                <div class="highlighted-part">' +
         '                <p class="text-17 text-light">\n' +
         '                    <img src="assets/img/icons/promote.png" class="inner-text-icon hiring-icon">I am hiring <strong>highly\n' +
-        '                    motivated PhD students, half-scholarship can be provided (tuition fee + conference attendance)</strong>, please click <a href = "http://www.findaphd.com/phds/projectdetails.aspx?PJID=186186" target="_blank"><strong>here</strong></a>for details.\n' +
-        '                </p>\n' +
-        '                <p class="text-17 text-light">\n' +
-        '                    For students who is interested in visualization, AI, and HCI, and want to conduct their post-graduate and graduate research with me, please fill in the <a href="https://forms.gle/h3qb57hbCDJiuERz9" target="_blank">Google Form</a>. For PhD and Master, degrees will be adwarded by the <img src="assets/img/icons/uk.png" class="inner-text-icon"/>\n' +
+        '                    motivated PhD students with/without scholarship</strong>. For students who is interested in visualization, AI, and HCI, and want to conduct their post-graduate/graduate research with me, please fill in the <a href="https://forms.gle/h3qb57hbCDJiuERz9" target="_blank">Google Form</a>. For PhD and Master, degrees will be adwarded by the <img src="assets/img/icons/uk.png" class="inner-text-icon"/>\n' +
         '                    <a href="https://www.liverpool.ac.uk/" target="_blank">University of Liverpool</a>.\n' +
         '                </p>\n'
         '                </div>'

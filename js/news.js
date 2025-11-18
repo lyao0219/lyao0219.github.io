@@ -15,7 +15,7 @@ if (document.getElementById('news')) {
 
     document.getElementById('load-more-btn').addEventListener("click", () => {
         displayLength = news.length
-        let newsToDisplay = news.slice(0, displayLength)
+        let newsToDisplay = news.slice(3, displayLength)
         newsToDisplay.forEach(item => {
             newsHTML += Mustache.render(newsTemplate, item);
         });

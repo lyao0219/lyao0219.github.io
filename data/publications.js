@@ -947,7 +947,7 @@ export const publications = [
         type: publicationTypeList.Workshop,
         title: "Early Exploration into AI-Assisted Visual Analytics for Dynamic Videos",
         author: "Qi Guo<span style='vertical-align: super; font-size: 60%;'>†</span>, Junyi Li<span style='vertical-align: super; font-size: 60%;'>†</span>, Jiayi Hong, <strong>Lijie Yao*</strong>",
-        subtitle: "IEEE VIS workshop on GenAI, Agents, and the Future of VIS (VISxGenAI), November 2025, Vienna, Austria. To appear.",
+        subtitle: "IEEE VIS workshop on GenAI, Agents, and the Future of VIS (VISxGenAI), November 2025, Vienna, Austria.",
         description: "We present a preliminary investigation into the capabilities of current large language models (LLMs), i.e., ChatGPT and Gemini, in supporting visual analytics tasks for videos containing dynamically changing information. Videos are inherently multimodal, combining visual frames, audio narration, and sometimes text---often with inconsistencies or redundancies across channels---which poses challenges for reliable data extraction. While recent advances in video understanding have improved general-purpose AI performance, relatively little work has explored how generative AI can extract, prepare, and visualize data from videos through prompts, particularly where multimodal conflicts, dynamic updates, and moving entities are involved. To explore this space, we first categorize information-bearing videos along four dimensions: data type, data dynamics, visualization presence, and audio-visual alignment. We then apply LLMs to extract and structure information from representative video samples to support downstream visualization. We conclude with reflections and outline a research agenda for AI-assisted video-based visual analytics. Our OSF repository is at https://osf.io/ygn4c/.\n                                    ",
         teaser: "assets/teaser/eeAIvideos.jpg",
         year: 2025,
@@ -980,7 +980,7 @@ export const publications = [
         type: publicationTypeList.Workshop,
         title: "Structured AI Agents for Reliable Visualization Report Generation",
         author: "Junhao Zhao, <strong>Lijie Yao*</strong>",
-        subtitle: "IEEE VIS workshop on GenAI, Agents, and the Future of VIS (VISxGenAI), November 2025, Vienna, Austria. To appear.",
+        subtitle: "IEEE VIS workshop on GenAI, Agents, and the Future of VIS (VISxGenAI), November 2025, Vienna, Austria.",
         description: "We introduce Structured AI Agents to tackle instability and hallucination in AI agent–based data visualization. AI agents promise faster, more accessible visualization reporting, but current methods remain inconsistent and struggle to deliver reliable results. We set multiple sub-tasks and form a structured pipeline, where each sub-task unit produces standardized JSON outputs encoding executable and deterministic code. Our approach enforces correctness in quantitative results, reduces hallucinations, and ensures reliable visualizations. In our final report, we demonstrate that the modular and verifiable outputs achieve strong reliability and maintain accuracy in visualization report generation.",
         teaser: "assets/teaser/structuredAIagents.jpg",
         year: 2025,
@@ -996,6 +996,10 @@ export const publications = [
             {
                 "url": "assets/pdf/Structured_AI_Agents_for_Reliable_Visualization_Report_Generation.pdf",
                 "icon": projectLinkIcon.pdf
+            },
+            {
+                "url": "assets/poster/Poster_Structured_AI_Agents_for_Reliable_Visualization_Report_Generation.pdf",
+                "icon": projectLinkIcon.poster
             }
         ],
         study: [],
@@ -1013,7 +1017,7 @@ export const publications = [
         type: publicationTypeList.Workshop,
         title: "Input Physicalization in Practice: An Instructional Walkthrough with Visualization Novices",
         author: "<strong>Lijie Yao*</strong>, Yuming Zhang, Yu Liu",
-        subtitle: "IEEE VIS workshop on Input Visualization (InputVis), November 2025, Vienna, Austria. To appear.",
+        subtitle: "IEEE VIS workshop on Input Visualization (InputVis), November 2025, Vienna, Austria.",
         description: "We conduct an instructional walkthrough with undergraduate students who have limited to no visualization knowledge and create three physicalizations with personal data input. While physicalization is widely recognized as a tangible , intuitive, and engaging form of data representation, its design and construction remain challenging, especially for novices who lack basic visualization knowledge. To explore these challenges in practice, we conducted an instructional walkthrough with undergraduate students who have limited to no visualization expertise. A group of students first elicited possible personal data, which was then filtered and categorized under supervision. Next, one lead student discussed with the supervisors to determine the reasonable data items to design with, as well as the possible data input methods. After which, the student individually modeled and fabricated the physicalizations that have corresponding data input mechanisms , and used these physicalizations to complete a period of data input. Our walkthrough revealed insights into input physicalization in connection with visualization novices and education, as well as the research gaps between observed novice challenges with input visualization. Supplemental materials and demo videos are available at https://osf.io/8quv4/.",
         teaser: "assets/teaser/inputPhysicalization.jpg",
         year: 2025,

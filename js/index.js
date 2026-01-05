@@ -46,7 +46,7 @@ init().then();
 
 if (document.getElementById('copyright')) {
     document.getElementById('copyright').innerHTML =
-    '<p class="text-14 text-light">Copyright &copy 2025 Lijie Yao. All Rights Reserved. Last update: January 2026</p>'
+    '<p class="text-14 text-light">Copyright &copy 2026 Lijie Yao. All Rights Reserved. Last update: January 2026</p>'
 
 }
 

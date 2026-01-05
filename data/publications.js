@@ -251,6 +251,10 @@ export const publications = [
         year: 2025,
         icons: [
             {
+                "url": "https://doi.org/10.1109/VIS60296.2025.00058",
+                "icon": projectLinkIcon.doi
+            },
+            {
                 "url": "https://arxiv.org/abs/2507.00775",
                 "icon": projectLinkIcon.onlineLink
             },
@@ -990,7 +994,7 @@ export const publications = [
                 "icon": projectLinkIcon.onlineLink
             },
             {
-                "url": "https://www.visagent.org/",
+                "url": "https://nemozjh.github.io/VIS_Agent_nemo/",
                 "icon": projectLinkIcon.website
             },
             {

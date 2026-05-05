@@ -8,25 +8,29 @@ if (document.getElementById('project-detail')) {
     const id = urlParams.get('id');
 
     if (id) {
-        const project = projects[id - 1]
-        const relatedPublications = project.publications
-        let publicationContent = []
-        relatedPublications.forEach(el => {
-            let publicationIds = el.ids
-            let acrossRefHTML = ""
-            publicationIds.forEach(pbId => {
-                acrossRefHTML += Mustache.render(publicationTemplate, publications[pbId - 1]);
+        const project = projects.find(item => String(item.id) === String(id))
+        if (!project) {
+            document.getElementById('project-detail').innerHTML = '<p class="text-light text-17">Project not found.</p>'
+        } else {
+            const relatedPublications = project.publications
+            let publicationContent = []
+            relatedPublications.forEach(el => {
+                let publicationIds = el.ids
+                let acrossRefHTML = ""
+                publicationIds.forEach(pbId => {
+                    acrossRefHTML += Mustache.render(publicationTemplate, publications[pbId - 1]);
+                })
+
+                publicationContent.push({
+                    description: el.description,
+                    content: acrossRefHTML
+                })
             })
 
-            publicationContent.push({
-                description: el.description,
-                content: acrossRefHTML
-            })
-        })
+            project["content"] = publicationContent
 
-        project["content"] = publicationContent
-
-        document.getElementById('project-detail').innerHTML = Mustache.render(projectTemplate, project)
+            document.getElementById('project-detail').innerHTML = Mustache.render(projectTemplate, project)
+        }
     }
 }
 

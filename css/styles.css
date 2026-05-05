@@ -32,6 +32,16 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.number-prefix {
+  display: inline-block;
+  color: #6c757d;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.95em;
+  font-weight: 600;
+  line-height: 1;
+  transform: translateY(-0.02em);
+}
+
 body {
     color: #6c757d;
     height: 100vh;
@@ -300,12 +310,19 @@ strong {
     margin-right: 5px;
 }
 
+.content .introduction .main-content p a,
+.content .introduction .main-content li a,
+.content .introduction .main-content td a {
+    margin-right: 0;
+}
+
 .content .introduction .main-content .self-introduction {
     padding: 45px 0;
 }
 
 .content .introduction .main-content #self-introduction {
     padding-top: 10px;
+    padding-bottom: 8px;
 }
 
 
@@ -342,8 +359,50 @@ strong {
     align-items: center;
 }
 
+.content .news .title, .content .selected-publications .title {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.content .news .title p, .content .selected-publications .title p {
+    margin: 0;
+}
+
 .content .publication-year {
     margin-top: 10px;
+}
+
+.content .publication-note {
+    margin-top: -35px;
+    margin-bottom: 10px;
+}
+
+.content .publication-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 18px;
+    flex-wrap: wrap;
+}
+
+.content .publication-search, .content .publication-filter {
+    border: 1px solid #6c757d4d;
+    border-radius: 4px;
+    color: #6c757d;
+    padding: 8px 10px;
+    background: white;
+    min-height: 36px;
+}
+
+.content .publication-search {
+    flex: 1 1 260px;
+}
+
+.content .publication-filter {
+    flex: 0 1 160px;
+}
+
+.content .publication-empty {
+    margin-top: 20px;
 }
 
 .content .publication-block {
@@ -626,6 +685,37 @@ table th {
     display: none;
 }
 
+.news-block {
+    margin-bottom: 18px;
+}
+
+.news-block:last-child {
+    margin-bottom: 2px;
+}
+
+.news-block .news-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.news-block .type, .news-block .time {
+    margin: 0;
+}
+
+.news-block .time {
+    white-space: nowrap;
+}
+
+.news-block p {
+    margin: 6px 0;
+}
+
+.news-block p[style] {
+    line-height: 1.45;
+}
+
 .awards .load-more,
 .awards .show-less {
     display: flex;
@@ -688,6 +778,12 @@ table th {
 
 .project-page .project-detail .project-block .project-teaser {
     text-align: center;
+}
+
+.project-page .project-detail .project-block .project-teaser img {
+    max-width: 220px;
+    max-height: 120px;
+    object-fit: contain;
 }
 
 .project-page .project-detail .project-block .title {
@@ -865,6 +961,10 @@ table th {
 
     body .experience-block .top, body .news-block .top, body .education-block .top {
         display: block !important;
+    }
+
+    body .news-block .news-heading {
+        display: flex !important;
     }
 
     body .copyright {

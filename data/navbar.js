@@ -1,17 +1,7 @@
 export const navbar = [
     {
         href: "index.html",
-        title: "About me",
-        class: ""
-    },
-    {
-        href: "news.html",
-        title: "News & Awards",
-        class: ""
-    },
-    {
-        href: "projects.html",
-        title: "Projects",
+        title: "About Me",
         class: ""
     },
     {
@@ -20,18 +10,23 @@ export const navbar = [
         class: ""
     },
     {
-        href: "activities.html",
-        title: "Activities",
+        href: "projects.html",
+        title: "Projects",
         class: ""
     },
     {
-        href: "work.html",
-        title: "Experience",
+        href: "news.html",
+        title: "Research Activities",
+        class: ""
+    },
+    {
+        href: "activities.html",
+        title: "Teaching Activities",
         class: ""
     },
     {
         href: "education.html",
-        title: "Education",
+        title: "Education & Experience",
         class: ""
     },
     {

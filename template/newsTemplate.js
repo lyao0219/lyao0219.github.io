@@ -1,5 +1,5 @@
 export const newsTemplate = '<div class="news-block">' +
-    '                <div class="top">' +
+    '                <div class="top news-heading">' +
     '                    <p class="text-medium text-17 type">{{type}}</p>' +
     '                    <p class="text-orange text-light text-17 time">{{time}}</p>' +
     '                </div>' +

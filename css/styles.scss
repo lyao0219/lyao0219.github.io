@@ -33,6 +33,16 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.number-prefix {
+  display: inline-block;
+  color: #6C757D;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.95em;
+  font-weight: 600;
+  line-height: 1;
+  transform: translateY(-0.02em);
+}
+
 
 body {
   color: #6C757D;
@@ -225,6 +235,10 @@ strong {
         margin-right: 5px;
       }
 
+      p a, li a, td a {
+        margin-right: 0;
+      }
+
       .self-introduction {
         padding: 45px 0;
 
@@ -235,6 +249,7 @@ strong {
 
       #self-introduction {
         padding-top: 10px;
+        padding-bottom: 8px;
       }
 
       hr {
@@ -265,8 +280,52 @@ strong {
     }
   }
 
+  .news, .selected-publications {
+    .title {
+      margin-top: 8px;
+      margin-bottom: 8px;
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+
   .publication-year {
     margin-top: 10px;
+  }
+
+  .publication-note {
+    margin-top: -35px;
+    margin-bottom: 10px;
+  }
+
+  .publication-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 18px;
+    flex-wrap: wrap;
+  }
+
+  .publication-search, .publication-filter {
+    border: 1px solid #6c757d4d;
+    border-radius: 4px;
+    color: #6C757D;
+    padding: 8px 10px;
+    background: white;
+    min-height: 36px;
+  }
+
+  .publication-search {
+    flex: 1 1 260px;
+  }
+
+  .publication-filter {
+    flex: 0 1 160px;
+  }
+
+  .publication-empty {
+    margin-top: 20px;
   }
 
   .publication-block {
@@ -684,6 +743,12 @@ strong {
       }
     }
 
+    .news-block {
+      .news-heading {
+        display: flex !important;
+      }
+    }
+
     .copyright {
       display: flex;
       justify-content: center;
@@ -777,6 +842,37 @@ strong {
   }
 }
 
+.news-block {
+  margin-bottom: 18px;
+
+  &:last-child {
+    margin-bottom: 2px;
+  }
+
+  .news-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .type, .time {
+    margin: 0;
+  }
+
+  .time {
+    white-space: nowrap;
+  }
+
+  p {
+    margin: 6px 0;
+  }
+
+  p[style] {
+    line-height: 1.45;
+  }
+}
+
 .awards {
   .load-more, .show-less {
     display: flex;
@@ -791,4 +887,10 @@ strong {
 
 .supervision-block-mobile {
   display: none;
+}
+
+.project-page .project-detail .project-block .project-teaser img {
+  max-width: 220px;
+  max-height: 120px;
+  object-fit: contain;
 }

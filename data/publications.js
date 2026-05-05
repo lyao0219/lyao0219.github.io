@@ -30,7 +30,7 @@ export const bibtex = {
         "  KEYWORDS = {Situated visualization ; Visualization in motion ; Design considerations},\n" +
         "  PDF = {https://lijieyao.com/assets/pdf/User_Experience_of_Visualizations_in_Motion_A_Case_Study_and_Design_Considerations.pdf},\n" +
         "}\n",
-    3: "@article{Yao:2024:Swimming,\n" +
+    3: "@article{Yao:2024:SwimFlow,\n" +
         "  TITLE = {{Designing for Visualization in Motion: Embedding Visualizations in Swimming Videos}},\n" +
         "  AUTHOR = {Yao, Lijie and Vuillemot, Romain and Bezerianos, Anastasia and Isenberg, Petra},\n" +
         "  URL = {https://doi.org/10.1109/tvcg.2023.334},\n" +
@@ -228,7 +228,7 @@ export const bibtex = {
         "  KEYWORDS = {immersive creation, music generation, visual design},\n" +
         "  PDF = {https://lijieyao.com/assets/pdf/Touch_Sound_and_Space_Exploring_Immersive_Music_Interaction_through_AI-Generated_Environments.pdf},\n" +
         "}",
-    20: "@article{Tang:2026:DivingDeep,\n" +
+    20: "@article{Tang:2026:SwimChrono,\n" +
         "  TITLE = {{Diving Deep into Time: Temporal Arrangements for Embedded Visualization in Swimming Videos}},\n" +
         "  AUTHOR = {Tang, Junxiu and Yao, Lijie and Ying, Lu and Vuillemot, Romain and Isenberg, Petra},\n" +
         "  JOURNAL = {{IEEE Transactions on Visualization and Computer Graphics}},\n" +

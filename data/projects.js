@@ -51,6 +51,31 @@ export const projects = [
             "<div class='video'><iframe src=\"https://www.youtube.com/embed/I7sD-IQlOZM?si=9nBFOO2o2iHf6i_P\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>\n"
     },
     {
+        id: 5,
+        title: "Swimming",
+        teaser: "assets/teaser/swimming.png",
+        publications: [
+            {
+                description: "Main papers:",
+                ids: [22, 5]
+            },
+            {
+                description: "Initial posters:",
+                ids: [15]
+            }
+        ],
+        introduction: "Sports broadcasts increasingly embed visualizations to help audiences follow competitions. Swimming, in particular, features rich dynamic data, such as lap times, swimmer positions, and speed metrics, that can be, and some of them have been, visualized to enhance the watching experience. To better support embedding visualizations into a live sports context, we conduct a series of studies using swimming as an ideal scenario.\n\n" +
+            "We first investigated how to embed visualizations in live swimming videos by implementing SwimFlow, a technology probe that allows designers to quickly create, test, and refine visual representations of race data on real swimming videos. It enables rapid prototyping with different visual designs and layouts, helping ensure that information is clear, relevant, and engaging for audiences.\n\n" +
+            "<a href='https://www.youtube.com/watch?v=lFf8sM52rMc' target='_blank'>Fast forward video at IEEE VIS 2024:</a>\n" +
+            "<div class='video'><iframe src=\"https://www.youtube.com/embed/lFf8sM52rMc?si=TFNEBdbQcRPoHHUp\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>" +
+            "<a href='https://www.youtube.com/watch?v=7Y2cPfXGiAY&t=2011s' target='_blank'>Presentation video at IEEE VIS 2024:</a>\n" +
+            "<div class='video'><iframe src=\"https://www.youtube.com/embed/7Y2cPfXGiAY?si=aA8Ba9VBFaqV6dtS&amp;start=2011\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>" +
+            "<a href='https://youtu.be/yC39NXBJiE8' target='_blank'><i>SwimFlow</i> demonstration:</a>\n" +
+            "<div class='video'><iframe src=\"https://www.youtube.com/embed/yC39NXBJiE8?si=Fje1QXkx7P6JDmpH\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>" +
+            "We then provided a framework for defining the temporal arrangement of visualizations, specifying when and for how long each piece of data appears based on race events and metadata. We implemented SwimChrono, a technology probe that enables flexible, data-driven visualizations that adapt to race lengths, swimming styles, and audience needs.",
+        collaboration: "Most of this project was done at Aviz, Inria, France, some was done at Xi'an Jiaotong-Liverpool University, China, in collaboration with University Paris-Saclay, France, Ecole Centrable de Lyon, France, Northwestern University, U.S., and National University of Singapore, Singapore.",
+    },
+    {
         id: 2,
         title: "Mobile and Wearable Visualization",
         teaser: "assets/teaser/mwv.png",

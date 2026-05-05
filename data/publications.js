@@ -1105,6 +1105,14 @@ export const publications = [
                 "url": "assets/pdf/Diving_Deep_into_Time_Temporal_Arrangements_for_Embedded_Visualization_in_Swimming_Videos.pdf",
                 "icon": projectLinkIcon.pdf
             },
+            {
+                "url": "https://youtu.be/c-wLax6rPM4",
+                "icon": projectLinkIcon.video
+            },
+            {
+                "url": "https://youtu.be/oDWfsPnAFqY",
+                "icon": projectLinkIcon.video
+            },
             /*
             {
                 "url": "https://www.youtube.com/watch?v=lFf8sM52rMc",

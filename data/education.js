@@ -9,7 +9,7 @@ export const education = [
         ],
         place: "<a href=\"https://www.universite-paris-saclay.fr/en\" target=\"_blank\">Univeristy Paris-Saclay</a>",
         thesis: "PhD thesis: <a href=\"https://www.theses.fr/s258022\" target=\"_blank\">Situated Visualization in Motion</a>",
-        supervisor: "Supervisors: <a href=\"https://petra.isenberg.cc/wiki/pmwiki.php\" target=\"_blank\">Dr. Petra Isenberg</a> & <a href=\"https://www.lri.fr/~anab/\" target=\"_blank\">Dr. Anastasia Bezerianos</a>",
+        supervisor: "Supervisors: <a href=\"https://petra.isenberg.cc/wiki/pmwiki.php\" target=\"_blank\">Dr. Petra Isenberg</a> & <a href=\"https://www.lri.fr/~anab/\" target=\"_blank\">Prof. Anastasia Bezerianos</a>",
         description: "PhD thesis: <a href=\"https://www.theses.fr/s258022\" target=\"_blank\">Situated Visualization in Motion</a>"
     },
     {

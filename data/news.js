@@ -1,5 +1,17 @@
 export const news = [
     {
+        "type": "Paper Acceptance",
+        "place": "",
+        "time": "April 2026",
+        "description": "Our paper on <a href=\"../lyao0219.github.io/publications.html#paper_swimchrono\" target=\"_blank\">\"Diving Deep into Time: Temporal Arrangements for Embedded Visualization in Swimming Videos\"</a> has been accepted by <a href=\"https://www.computer.org/csdl/journal/tg\" target=\"_blank\">IEEE Transactions on Visualization and Computer Graphics</a>."
+    },
+    {
+        "type": "Grant Awarded",
+        "place": "",
+        "time": "December 2025",
+        "description": "Lijie's proposal received the Jiangsu Provincial Double-Innovation Doctor Talent Program, Jiangsu Province."
+    },
+    {
         "type": "Grant Awarded",
         "place": "",
         "time": "November 2025",

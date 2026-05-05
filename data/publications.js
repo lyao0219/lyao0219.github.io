@@ -174,7 +174,7 @@ export const bibtex = {
         "  ADDRESS = {Los Alamitos, CA, USA, United States},\n" +
         "  YEAR = {2025},\n" +
         "  MONTH = Nov,\n" +
-        "  DOI = {10.48550/arXiv.2507.00775},\n" +
+        "  DOI = {10.1109/VIS60296.2025.00058},\n" +
         "  KEYWORDS = {visualization widget, tangible interaction, data exploration},\n" +
         "  PDF = {https://lijieyao.com/assets/pdf/Designing_Visualization_Widgets_for_Tangible_Data_Exploration_A_Systematic_Review.pdf},\n" +
         "}",
@@ -194,8 +194,6 @@ export const bibtex = {
         "  ADDRESS = {Vienna, Austria},\n" +
         "  YEAR = {2025},\n" +
         "  MONTH = Nov,\n" +
-        "  NOTE = {To appear},\n" +
-        "  DOI = {},\n" +
         "  KEYWORDS = {visualization, video analysis, large language model},\n" +
         "  PDF = {https://lijieyao.com/assets/pdf/Early_Exploration_into_AI-Assisted_Visual_Analytics_for_Dynamic_Videos.pdf},\n" +
         "}",
@@ -206,8 +204,6 @@ export const bibtex = {
         "  ADDRESS = {Vienna, Austria},\n" +
         "  YEAR = {2025},\n" +
         "  MONTH = Nov,\n" +
-        "  NOTE = {To appear},\n" +
-        "  DOI = {},\n" +
         "  KEYWORDS = {structured AI agents, reliable visualization, hallucination reduction},\n" +
         "  PDF = {https://lijieyao.com/assets/pdf/Structured_AI_Agents_for_Reliable_Visualization_Report_Generation.pdf},\n" +
         "}",
@@ -218,8 +214,6 @@ export const bibtex = {
         "  ADDRESS = {Vienna, Austria},\n" +
         "  YEAR = {2025},\n" +
         "  MONTH = Nov,\n" +
-        "  NOTE = {To appear},\n" +
-        "  DOI = {},\n" +
         "  KEYWORDS = {physicalization, personal data, design walkthrough},\n" +
         "  PDF = {https://lijieyao.com/assets/pdf/Input_Physicalization_in_Practice_An_Instructional_Walkthrough_with_Visualization_Novices.pdf},\n" +
         "}",
@@ -230,11 +224,21 @@ export const bibtex = {
         "  ADDRESS = {Linz, Austria},\n" +
         "  YEAR = {2025},\n" +
         "  MONTH = Dec,\n" +
-        "  NOTE = {To appear},\n" +
-        "  DOI = {},\n" +
+        "  DOI = {10.1145/3769534.3769589},\n" +
         "  KEYWORDS = {immersive creation, music generation, visual design},\n" +
         "  PDF = {https://lijieyao.com/assets/pdf/Touch_Sound_and_Space_Exploring_Immersive_Music_Interaction_through_AI-Generated_Environments.pdf},\n" +
         "}",
+    20: "@article{Tang:2026:DivingDeep,\n" +
+        "  TITLE = {{Diving Deep into Time: Temporal Arrangements for Embedded Visualization in Swimming Videos}},\n" +
+        "  AUTHOR = {Tang, Junxiu and Yao, Lijie and Ying, Lu and Vuillemot, Romain and Isenberg, Petra},\n" +
+        "  JOURNAL = {{IEEE Transactions on Visualization and Computer Graphics}},\n" +
+        "  YEAR = {2026},\n" +
+        "  NOTE = {Early Access},\n" +
+        "  PAGES = {1--17},\n" +
+        "  DOI = {10.1109/TVCG.2026.3689361},\n" +
+        "  KEYWORDS = {embedded visualization, visualization in motion, sports visualization, augmented sports video, design pattern},\n" +
+        "  PDF = {https://lijieyao.com/assets/pdf/Touch_Sound_and_Space_Exploring_Immersive_Music_Interaction_through_AI-Generated_Environments.pdf},\n" +
+        "}"
 
 }
 
@@ -246,7 +250,7 @@ export const publications = [
         type: publicationTypeList.ShortPaper,
         title: "Designing Visualization Widgets for Tangible Data Exploration: A Systematic Review",
         author: "Haonan Yao, Lingyun Yu, <strong>Lijie Yao*</strong>",
-        subtitle: "IEEE Visualization & Visual Analytics (IEEE VIS), November 2025, Vienna, Austria, To appear.",
+        subtitle: "IEEE Visualization & Visual Analytics (IEEE VIS), November 2025, Vienna, Austria, pp. 261-265, doi: 10.1109/VIS60296.2025.00058.",
         teaser: "assets/teaser/physicalwidgetshort.jpg",
         year: 2025,
         icons: [
@@ -1054,7 +1058,7 @@ export const publications = [
         type: publicationTypeList.FullPaper,
         title: "Touch, Sound, and Space: Exploring Immersive Music Interaction through AI-Generated Environments",
         author: "Wanfang Xu, Jifan Yang, Fengwen Zhang, Yu Lu, <strong>Lijie Yao</strong>, Le Liu, Lingyun Yu*",
-        subtitle: "International Symposium on Visual Information Communication and Interaction (VINCI), December 2025, Linz, Austria. To appear.",
+        subtitle: "International Symposium on Visual Information Communication and Interaction (VINCI), December 2025, Linz, Austria, Article 23, pp. 1–8, doi: 10.1145/3769534.3769589.",
         description: "We introduce an interactive music system powered by AI-generated content (AIGC) that enables users to engage with music through multimodal interactions involving touch, sound, and spatial immersion. Motivated by the desire to enhance engagement and emotional connection with music, our system enables users to co-create and interact with musical content. Users upload a song and a descriptive text prompt, from which the system generates 3D visuals. During playback, users can embed their own audio inputs and trigger responsive visual effects such as color-driven point clouds using tangible controls. To explore how spatial scale and embodiment shape user experience, we implement the system across three increasing spatial scale and embodiment: (1) a handheld AR music box, (2) a table-sized stage box, and (3) a fully immersive VR environment. Through a user study, we investigate how different levels of immersion and interaction influence user engagement, emotional response, and sense of presence. Our findings demonstrate the potential of combining AIGC with embodied interaction to enrich creative expression and enhance immersive musical experiences.",
         teaser: "assets/teaser/touchSoundSpace.jpg",
         year: 2025,
@@ -1075,6 +1079,72 @@ export const publications = [
                 contentId: 19
             }
         ],
+        selected: false
+    },{
+        id: 22,
+        event: "TVCG",
+        type: publicationTypeList.FullPaper,
+        title: "Diving Deep into Time: Temporal Arrangements for Embedded Visualization in Swimming Videos",
+        author: "Junxiu Tang, <strong>Lijie Yao*</strong>, Lu Ying, Romain Vuillmot, Petra Isenberg",
+        subtitle: "IEEE Transactions on Visualization and Computer Graphics, 2026, Early Access, doi: 10.1109/TVCG.2026.3689361.",
+        description: "We introduce a temporal arrangement framework for embedding visualizations in sports videos with a focus on swimming. Our work is inspired by strategies used in current TV broadcasts, where visualizations are selectively displayed to provide meaningful and engaging information to audiences. We began with a systematic review of TV broadcast practices, through which we identified recurring temporal combinations of visualizations and competition statuses, which we define as patterns of temporal arrangement for embedded visualizations. To move beyond the constraints of existing broadcast practices, we then conducted a formative study with a general population. Based on this broader perspective, we designed a configuration framework that allows us to formally specify when and for how long, related to swimming context metadata, visualizations appear in a video. We instantiate the framework in a technology probe, SwimChrono, for applications with real-world swimming context videos. Through audience-customized configurations, SwimChrono supports novel arrangements beyond those used in existing professional settings, is adaptable to various swimming contexts, including different lengths and swimming styles, and key events. Furthermore, we conduct user studies and contribute use cases to illustrate how our framework can be well applied for diverse needs.",
+        teaser: "assets/teaser/swimchrono.png",
+        year: 2026,
+        icons: [
+            {
+                "url": "https://doi.org/10.1109/TVCG.2026.3689361",
+                "icon": projectLinkIcon.doi
+            },
+            /*
+            {
+                "url": "https://hal.science/hal-04364838",
+                "icon": projectLinkIcon.onlineLink
+            },
+            */
+            {
+                "url": "assets/pdf/Diving_Deep_into_Time_Temporal_Arrangements_for_Embedded_Visualization_in_Swimming_Videos.pdf",
+                "icon": projectLinkIcon.pdf
+            },
+            /*
+            {
+                "url": "https://www.youtube.com/watch?v=lFf8sM52rMc",
+                "icon": projectLinkIcon.video
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=7Y2cPfXGiAY&t=2011s",
+                "icon": projectLinkIcon.video
+            },
+            {
+                "url": "https://youtu.be/yC39NXBJiE8",
+                "icon": projectLinkIcon.video
+            },
+            {
+                "url": "https://www.replicabilitystamp.org/index.html#https-github-com-lyao0219-swimflow-git",
+                "icon": projectLinkIcon.stamp
+            },
+            */
+            {
+                "url": "https://aviz.gitlabpages.inria.fr/swimchrono/",
+                "icon": projectLinkIcon.website
+            },
+            /*
+            {
+                "url": "https://osf.io/nxyr4/",
+                "icon": projectLinkIcon.osf
+            },
+            {
+                "url": "https://aviz.gitlabpages.inria.fr/swimchrono/",
+                "icon": projectLinkIcon.github
+            }
+            */
+        ],
+        popups: [
+            {
+                icon: projectLinkIcon.bibtex,
+                contentId: 20
+            }
+        ],
+        study: [],
         selected: false
     }   
 ]

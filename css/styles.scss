@@ -21,6 +21,19 @@
   src: url('./../assets/font/Avenir-Medium.woff') format('woff');
 }
 
+.award-label {
+  display: inline-block;
+  background: #ffd526;
+  color: white;
+  font-size: 14px;
+  font-weight: 50;
+  letter-spacing: 0.5px;
+  padding: 4px 2px;
+  border-radius: 10px 0px 10px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 body {
   color: #6C757D;
   height: 100vh;
@@ -753,6 +766,18 @@ strong {
 
 
 .news {
+  .load-more, .show-less {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+
+  .hide {
+    display: none;
+  }
+}
+
+.awards {
   .load-more, .show-less {
     display: flex;
     justify-content: flex-end;

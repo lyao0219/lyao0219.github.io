@@ -1095,12 +1095,10 @@ export const publications = [
                 "url": "https://doi.org/10.1109/TVCG.2026.3689361",
                 "icon": projectLinkIcon.doi
             },
-            /*
             {
-                "url": "https://hal.science/hal-04364838",
+                "url": "https://hal.science/hal-05612503",
                 "icon": projectLinkIcon.onlineLink
             },
-            */
             {
                 "url": "assets/pdf/Diving_Deep_into_Time_Temporal_Arrangements_for_Embedded_Visualization_in_Swimming_Videos.pdf",
                 "icon": projectLinkIcon.pdf

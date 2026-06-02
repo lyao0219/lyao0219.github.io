@@ -1,7 +1,7 @@
 export const awards =
     [
         {
-            "text": "<span class=\"award-label\">Jiangsu Provincial Double-Innovation Doctor Talent Program</span> (<span class=\"number-prefix\">&numero;</span> JSSCBS2025067), Dec. 2025"
+            "text": "<span class=\"award-label\">Jiangsu Provincial Double-Innovation Doctor Program</span> (<span class=\"number-prefix\">&numero;</span> JSSCBS2025067), Dec. 2025"
         },
         {
             "text": "<a href=\"https://chinavis.org/2025/en/poster/\" target=\"_blank\">ChinaVis</a> <span class=\"award-label\">Poster Honorable Mention Award</span>, July 2025"

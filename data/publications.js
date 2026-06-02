@@ -1133,16 +1133,14 @@ export const publications = [
                 "url": "https://aviz.gitlabpages.inria.fr/swimchrono/",
                 "icon": projectLinkIcon.website
             },
-            /*
             {
-                "url": "https://osf.io/nxyr4/",
+                "url": "https://osf.io/t82cw/",
                 "icon": projectLinkIcon.osf
             },
             {
-                "url": "https://aviz.gitlabpages.inria.fr/swimchrono/",
+                "url": "https://github.com/ahugh19/SwimChrono/",
                 "icon": projectLinkIcon.github
             }
-            */
         ],
         popups: [
             {

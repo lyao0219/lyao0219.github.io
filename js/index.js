@@ -53,7 +53,7 @@ init();
 
 const copyright = document.getElementById("copyright");
 if (copyright) {
-    copyright.innerHTML = '<p class="text-14 text-light">Copyright &copy; 2026 Lijie Yao. All Rights Reserved. Last update: May 2026</p>';
+    copyright.innerHTML = '<p class="text-14 text-light">Copyright &copy; 2026 Lijie Yao. All Rights Reserved. Last update: June 2026</p>';
 }
 
 const profile = document.getElementById("profile");
@@ -75,7 +75,7 @@ const selfIntroduction = document.getElementById("self-introduction");
 if (selfIntroduction) {
     selfIntroduction.innerHTML = `
         <p class="text-17 text-light">
-            I am an Assistant Professor at
+            I am an Assistant Professor and Program Director of Computer Science and Technology at
             <img src="assets/img/icons/china.png" class="inner-text-icon" alt="China"/>
             <img src="assets/img/icons/uk.png" class="inner-text-icon" alt="United Kingdom"/>
             <a href="https://www.xjtlu.edu.cn/en" target="_blank">Xi'an Jiaotong-Liverpool University</a> (XJTLU).

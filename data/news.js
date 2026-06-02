@@ -9,7 +9,7 @@ export const news = [
         "type": "Grant Awarded",
         "place": "",
         "time": "December 2025",
-        "description": "Lijie's proposal received the Jiangsu Provincial Double-Innovation Doctor Talent Program, Jiangsu Province."
+        "description": "Lijie's proposal received the Jiangsu Provincial Double-Innovation Doctor Program, Jiangsu Province."
     },
     {
         "type": "Grant Awarded",

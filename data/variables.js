@@ -3,6 +3,14 @@ export const publicationAwardType = {
         color: "#FFD32C",
         text: "Honorable Mention"
     },
+    BestPosterHonorableMention: {
+        color: "#FFD32C",
+        text: "Best Poster Honorable Mention"
+    },
+    BestPaperHonorableMention: {
+        color: "#FFD32C",
+        text: "Best Paper Honorable Mention"
+    },
     BestPaper: {
         color: "#FFEA99",
         text: "Best Paper"

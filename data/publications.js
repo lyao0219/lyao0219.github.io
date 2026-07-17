@@ -233,11 +233,35 @@ export const bibtex = {
         "  AUTHOR = {Tang, Junxiu and Yao, Lijie and Ying, Lu and Vuillemot, Romain and Isenberg, Petra},\n" +
         "  JOURNAL = {{IEEE Transactions on Visualization and Computer Graphics}},\n" +
         "  YEAR = {2026},\n" +
-        "  NOTE = {Early Access},\n" +
-        "  PAGES = {1--17},\n" +
+        "  VOLUME = {32},\n" +
+        "  NUMBER = {7},\n" +
+        "  PAGES = {6825--6841},\n" +
         "  DOI = {10.1109/TVCG.2026.3689361},\n" +
         "  KEYWORDS = {embedded visualization, visualization in motion, sports visualization, augmented sports video, design pattern},\n" +
         "  PDF = {https://lijieyao.com/assets/pdf/Touch_Sound_and_Space_Exploring_Immersive_Music_Interaction_through_AI-Generated_Environments.pdf},\n" +
+        "}",
+    21: "@inproceedings{Wang:2026:TangibleCarbonBlocks,\n" +
+        "  AUTHOR = {Jingyu Wang and Jiahan Zhang and Yu Liu and Lingyun Yu and Lijie Yao},\n" +
+        "  TITLE = {{Tangible Carbon Blocks: Data Physicalization for Everyday Carbon Emissions}},\n" +
+        "  BOOKTITLE = {{Proceedings of ChinaVis 2026}},\n" +
+        "  YEAR = {2026},\n" +
+        "  MONTH = jul,\n" +
+        "  ADDRESS = {Guiyang, China}\n" +
+        "}",
+    22: "@inproceedings{Ye:2026:ColorContrast,\n" +
+        "  AUTHOR = {Zehong Ye and Jingyu Wang and Xiao Xie and Lingyun Yu and Lijie Yao},\n" +
+        "  TITLE = {{When Color Contrast Is Not Enough: An Empirical Study of Dynamic Color Adaptation for In-Game Health Visualizations}},\n" +
+        "  BOOKTITLE = {{Proceedings of ChinaVis 2026}},\n" +
+        "  YEAR = {2026},\n" +
+        "  MONTH = jul,\n" +
+        "  ADDRESS = {Guiyang, China}\n" +
+        "}",
+    23: "@article{Zhao:2027:SwimComposer,\n" +
+        "  AUTHOR = {Junhao Zhao and Romain Vuillemot and Petra Isenberg and Lijie Yao},\n" +
+        "  TITLE = {{Authoring Narrative Visualization in Motion: Visual Storytelling in Swimming Videos}},\n" +
+        "  JOURNAL = {{IEEE Transactions on Visualization and Computer Graphics}},\n" +
+        "  YEAR = {2027},\n" +
+        "  NOTE = {In press}\n" +
         "}"
 
 }
@@ -288,7 +312,7 @@ export const publications = [
         id: 2,
         event: "ChinaVis",
         type: publicationTypeList.Poster,
-        award: publicationAwardType.HonorableMention,
+        award: publicationAwardType.BestPosterHonorableMention,
         title: "Visualization in Motion: Perception, Design, and User Experience",
         author: "<strong>Lijie Yao*</strong>",
         subtitle: "Posters of ChinaVis, July 2025, Hangzhou, China.",
@@ -352,7 +376,7 @@ export const publications = [
             }
         ],
         study: [],
-        selected: true
+        selected: false
     },
     {
         id: 4,
@@ -1086,7 +1110,7 @@ export const publications = [
         type: publicationTypeList.FullPaper,
         title: "Diving Deep into Time: Temporal Arrangements for Embedded Visualization in Swimming Videos",
         author: "Junxiu Tang, <strong>Lijie Yao*</strong>, Lu Ying, Romain Vuillmot, Petra Isenberg",
-        subtitle: "IEEE Transactions on Visualization and Computer Graphics, 2026, Early Access, doi: 10.1109/TVCG.2026.3689361.",
+        subtitle: "IEEE Transactions on Visualization and Computer Graphics, 32(7), pp. 6825-6841, 2026, doi: 10.1109/TVCG.2026.3689361.",
         description: "We introduce a temporal arrangement framework for embedding visualizations in sports videos with a focus on swimming. Our work is inspired by strategies used in current TV broadcasts, where visualizations are selectively displayed to provide meaningful and engaging information to audiences. We began with a systematic review of TV broadcast practices, through which we identified recurring temporal combinations of visualizations and competition statuses, which we define as patterns of temporal arrangement for embedded visualizations. To move beyond the constraints of existing broadcast practices, we then conducted a formative study with a general population. Based on this broader perspective, we designed a configuration framework that allows us to formally specify when and for how long, related to swimming context metadata, visualizations appear in a video. We instantiate the framework in a technology probe, SwimChrono, for applications with real-world swimming context videos. Through audience-customized configurations, SwimChrono supports novel arrangements beyond those used in existing professional settings, is adaptable to various swimming contexts, including different lengths and swimming styles, and key events. Furthermore, we conduct user studies and contribute use cases to illustrate how our framework can be well applied for diverse needs.",
         teaser: "assets/teaser/swimchrono.png",
         year: 2026,
@@ -1150,5 +1174,110 @@ export const publications = [
         ],
         study: [],
         selected: false
-    }   
+    },
+    {
+        id: 23,
+        event: "ChinaVis",
+        type: publicationTypeList.FullPaper,
+        award: publicationAwardType.BestPaperHonorableMention,
+        title: "Tangible Carbon Blocks: Data Physicalization for Everyday Carbon Emissions",
+        author: "Jingyu Wang, Jiahan Zhang, Yu Liu, Lingyun Yu, <strong>Lijie Yao*</strong>",
+        subtitle: "ChinaVis, July 2026, Guiyang, China.",
+        teaser: "assets/teaser/tangibleCarbonBlocks.jpg",
+        year: 2026,
+        icons: [
+            {
+                "url": "https://chinavis.org/2026/en/",
+                "icon": projectLinkIcon.onlineLink
+            },
+            {
+                "url": "assets/pdf/Tangible_Carbon_Blocks_Data_Physicalization_for_Everyday_Carbon_Emissions.pdf",
+                "icon": projectLinkIcon.pdf
+            }
+        ],
+        popups: [
+            {
+                icon: projectLinkIcon.bibtex,
+                contentId: 21
+            }
+        ],
+        study: [],
+        selected: false
+    },
+    {
+        id: 24,
+        event: "ChinaVis",
+        type: publicationTypeList.FullPaper,
+        title: "When Color Contrast Is Not Enough: An Empirical Study of Dynamic Color Adaptation for In-game Health Visualizations",
+        author: "Zehong Ye, Jingyu Wang, Xiao Xie, Lingyun Yu, <strong>Lijie Yao*</strong>",
+        subtitle: "ChinaVis, July 2026, Guiyang, China.",
+        teaser: "assets/teaser/colorContrast.jpg",
+        year: 2026,
+        icons: [
+            {
+                "url": "https://chinavis.org/2026/en/",
+                "icon": projectLinkIcon.onlineLink
+            },
+            {
+                "url": "assets/pdf/When_Color_Contrast_Is_Not_Enough_An_Empirical_Study_of_Dynamic_Color_Adaptation_for_In-game_Health_Visualizations.pdf",
+                "icon": projectLinkIcon.pdf
+            },
+            {
+                "url": "https://osf.io/csjrb/",
+                "icon": projectLinkIcon.osf
+            }
+        ],
+        popups: [
+            {
+                icon: projectLinkIcon.bibtex,
+                contentId: 22
+            }
+        ],
+        study: [],
+        selected: false
+    },
+    {
+        id: 25,
+        event: "TVCG",
+        type: publicationTypeList.FullPaper,
+        title: "Authoring Narrative Visualization in Motion: Visual Storytelling in Swimming Videos",
+        author: "Junhao Zhao, Romain Vuillemot, Petra Isenberg, <strong>Lijie Yao*</strong>",
+        subtitle: "IEEE Transactions on Visualization and Computer Graphics (TVCG), 2027. In press.",
+        teaser: "assets/teaser/swimComposer.jpg",
+        year: 2027,
+        icons: [
+            {
+                "url": "assets/pdf/Authoring_Narrative_Visualization_in_Motion_Visual_Storytelling_in_Swimming_Videos.pdf",
+                "icon": projectLinkIcon.pdf
+            },
+            {
+                "url": "https://youtu.be/aKzCVDZWVZI",
+                "icon": projectLinkIcon.video
+            },
+            {
+                "url": "https://youtu.be/76j0ib1qi5Y",
+                "icon": projectLinkIcon.video
+            },
+            {
+                "url": "https://youtu.be/bwt-9tgoT58",
+                "icon": projectLinkIcon.video
+            },
+            {
+                "url": "http://43.163.231.237/",
+                "icon": projectLinkIcon.website
+            },
+            {
+                "url": "https://osf.io/bq47n/",
+                "icon": projectLinkIcon.osf
+            }
+        ],
+        popups: [
+            {
+                icon: projectLinkIcon.bibtex,
+                contentId: 23
+            }
+        ],
+        study: [],
+        selected: true
+    }
 ]

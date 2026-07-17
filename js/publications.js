@@ -30,6 +30,8 @@ const monthOrder = {
 };
 
 const customPublicationOrderByYear = {
+    // Keep the two ChinaVis 2026 papers directly after the 2026 TVCG paper.
+    2026: [22, 23, 24],
     2025: [21, 1, 18, 20, 19, 2, 4]
 };
 
@@ -134,8 +136,10 @@ function bindPublicationPopups() {
 function renderPublications(publicationList, showAll) {
     let selectedPublicationsHTML = "";
     let yearList = [];
+    const sortedPublications = getSortedPublications(publicationList);
+    const publicationsToRender = showAll ? sortedPublications : [...sortedPublications].reverse();
 
-    getSortedPublications(publicationList).forEach(item => {
+    publicationsToRender.forEach(item => {
         if (showAll && !yearList.includes(item.year)) {
             yearList.push(item.year);
             selectedPublicationsHTML += `<div class='publication-year text-medium text-21'>${item.year}</div>`;

@@ -1,10 +1,13 @@
 export const awards =
     [
         {
+            "text": "<a href=\"https://chinavis.org/2026/en/paper/\" target=\"_blank\">ChinaVis</a> <span class=\"award-label\">Best Paper Honorable Mention</span>, July 2026"
+        },
+        {
             "text": "<span class=\"award-label\">Jiangsu Provincial Double-Innovation Doctor Program</span> (<span class=\"number-prefix\">&numero;</span> JSSCBS2025067), Dec. 2025"
         },
         {
-            "text": "<a href=\"https://chinavis.org/2025/en/poster/\" target=\"_blank\">ChinaVis</a> <span class=\"award-label\">Poster Honorable Mention Award</span>, July 2025"
+            "text": "<a href=\"https://chinavis.org/2025/en/poster/\" target=\"_blank\">ChinaVis</a> <span class=\"award-label\">Best Poster Honorable Mention</span>, July 2025"
         },
         {
             "text": "<a href=\"https://www.afihm.org/\" target=\"_blank\">ACM AFIHM</a> <span class=\"award-label\">Ph.D. Thesis Prize</span>, March 2024"

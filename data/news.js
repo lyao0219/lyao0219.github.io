@@ -2,6 +2,18 @@ export const news = [
     {
         "type": "Paper Acceptance",
         "place": "",
+        "time": "July 2026",
+        "description": "Our paper on <a href=\"assets/pdf/Authoring_Narrative_Visualization_in_Motion_Visual_Storytelling_in_Swimming_Videos.pdf\" target=\"_blank\">\"Authoring Narrative Visualization in Motion: Visual Storytelling in Swimming Videos\"</a> has been accepted by <a href=\"https://www.computer.org/csdl/journal/tg\" target=\"_blank\">IEEE Transactions on Visualization and Computer Graphics</a>."
+    },
+    {
+        "type": "Grant Awarded",
+        "place": "",
+        "time": "June 2026",
+        "description": "Lijie's proposal received the Medical-Engineering Interdisciplinarity Research Grants, Ruijin Hospital."
+    },
+    {
+        "type": "Paper Acceptance",
+        "place": "",
         "time": "April 2026",
         "description": "Our paper on <a href=\"../lyao0219.github.io/publications.html#paper_swimchrono\" target=\"_blank\">\"Diving Deep into Time: Temporal Arrangements for Embedded Visualization in Swimming Videos\"</a> has been accepted by <a href=\"https://www.computer.org/csdl/journal/tg\" target=\"_blank\">IEEE Transactions on Visualization and Computer Graphics</a>."
     },

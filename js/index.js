@@ -53,7 +53,7 @@ init();
 
 const copyright = document.getElementById("copyright");
 if (copyright) {
-    copyright.innerHTML = '<p class="text-14 text-light">Copyright &copy; 2026 Lijie Yao. All Rights Reserved. Last update: June 2026</p>';
+    copyright.innerHTML = '<p class="text-14 text-light">Copyright &copy; 2026 Lijie Yao. All Rights Reserved. Last update: July 2026</p>';
 }
 
 const profile = document.getElementById("profile");

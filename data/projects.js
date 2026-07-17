@@ -6,7 +6,7 @@ export const projects = [
         publications: [
             {
                 description: "Main papers:",
-                ids: [7, 5, 4]
+                ids: [7, 5, 4, 25]
             },
             {
                 description: "A compacted version of main papers:",
@@ -21,7 +21,7 @@ export const projects = [
                 ids: [17, 15, 14, 16]
             }
         ],
-        collaboration: "Most of this project was done at Aviz, Inria, France, a few was done at Xi’an Jiaotong-Liverpool University, China, in collaboration with University Paris-Saclay, France, Ecole Centrable de Lyon, France and Carleton University, Canada. \n",
+        collaboration: "Most of this project was done at Aviz, Inria, France and Xi'an Jiaotong-Liverpool University, China, in collaboration with University Paris-Saclay, France, Ecole Centrable de Lyon, France and Carleton University, Canada. \n",
         introduction: "With the development of computing technologies, visualization has moved from paper to digital devices and has even been physicalized. The relative movement relationship between the visualization and its viewer has more possibilities, such as under motion. We defined such visualizations that illustrated the relative movement relationship between its viewer as a visualization in motion:\n" +
             "<div class='italic-text'><i>Visualizations in motion are visual data representations used in contexts that exhibit relative motion between a viewer and an entire visualization.</i></div>" +
             "Based on the different movement status of visualizations and their viewers, we classified visualizations in motion into three categories:\n" +
@@ -48,7 +48,12 @@ export const projects = [
             "<a href='https://www.youtube.com/watch?v=7Y2cPfXGiAY&t=1237s'>Presentation video at IEEE VIS 2024:</a>\n" +
             "<div class='video'><iframe src=\"https://www.youtube.com/embed/7Y2cPfXGiAY?si=AoDD049K-aD5eQF6&amp;start=1237\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>\n" +
             "<a href='https://youtu.be/I7sD-IQlOZM'><i>RobotLife</i> demonstration:</a>\n" +
-            "<div class='video'><iframe src=\"https://www.youtube.com/embed/I7sD-IQlOZM?si=9nBFOO2o2iHf6i_P\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>\n"
+            "<div class='video'><iframe src=\"https://www.youtube.com/embed/I7sD-IQlOZM?si=9nBFOO2o2iHf6i_P\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>\n" +
+            "We further extend visualization in motion toward narrative authoring. Rather than embedding separate visualizations into dynamic scenes, this work studies how data, moving entities, views, transitions, and events can be coordinated over time to construct coherent visual stories. Our technology probe, SwimComposer, supports full-race storytelling through editable data layers, athlete tracking, swimmer comparison, view transitions, highlighting, and temporal arrangement.\n\n" +
+            "<a href='https://youtu.be/aKzCVDZWVZI' target='_blank'>Presentation video:</a>\n" +
+            "<div class='video'><iframe src=\"https://www.youtube.com/embed/aKzCVDZWVZI\" title=\"SwimComposer presentation video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>" +
+            "<a href='https://youtu.be/76j0ib1qi5Y' target='_blank'><i>SwimComposer</i> demonstration:</a> <a href='http://43.163.231.237/' target='_blank'><i>SwimComposer</i></a>\n" +
+            "<div class='video'><iframe src=\"https://www.youtube.com/embed/76j0ib1qi5Y\" title=\"SwimComposer demonstration video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>\n"
     },
     {
         id: 5,
@@ -57,7 +62,7 @@ export const projects = [
         publications: [
             {
                 description: "Main papers:",
-                ids: [22, 5]
+                ids: [5, 22, 25]
             },
             {
                 description: "Initial posters:",
@@ -76,8 +81,15 @@ export const projects = [
             "<a href='https://youtu.be/c-wLax6rPM4' target='_blank'>Presentation video:</a>\n" +
             "<div class='video'><iframe src=\"https://www.youtube.com/embed/c-wLax6rPM4\" title=\"Presentation video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>" +
             "<a href='https://youtu.be/oDWfsPnAFqY' target='_blank'><i>SwimChrono</i> demonstration video:</a>\n" +
-            "<div class='video'><iframe src=\"https://www.youtube.com/embed/oDWfsPnAFqY\" title=\"SwimChrono demonstration video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>",
-        collaboration: "Most of this project was done at Aviz, Inria, France, some was done at Xi'an Jiaotong-Liverpool University, China, in collaboration with University Paris-Saclay, France, Ecole Centrable de Lyon, France, Northwestern University, U.S., and National University of Singapore, Singapore.",
+            "<div class='video'><iframe src=\"https://www.youtube.com/embed/oDWfsPnAFqY\" title=\"SwimChrono demonstration video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>" +
+            "Building on our earlier work on designing embedded visualizations and determining their temporal placement, our latest research shifts from presenting individual data overlays to authoring coherent visual stories across an entire swimming race. We introduce SwimComposer, a technology probe that combines automatically prepared multimodal race data with narrative patterns observed in professional sports broadcasts. It enables creators to coordinate data layers, overview, tracking, and comparison views, animated transitions, and playback pacing over time, transforming a race video into a structured narrative rather than a sequence of isolated visualizations. Our evaluation with experienced content creators and graphic designers demonstrates the potential of this approach for explaining race progression to general audiences, while also revealing opportunities for more flexible and familiar professional authoring workflows.\n\n" +
+            "<a href='https://youtu.be/aKzCVDZWVZI' target='_blank'>Presentation video:</a>\n" +
+            "<div class='video'><iframe src=\"https://www.youtube.com/embed/aKzCVDZWVZI\" title=\"SwimComposer presentation video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>" +
+            "<a href='https://youtu.be/76j0ib1qi5Y' target='_blank'><i><a href='http://43.163.231.237/' target='_blank'>SwimComposer</a></i> demonstration:</a>\n" +
+            "<div class='video'><iframe src=\"https://www.youtube.com/embed/76j0ib1qi5Y\" title=\"SwimComposer demonstration video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>" +
+            "<a href='https://youtu.be/bwt-9tgoT58' target='_blank'>A running demo based on real Olympic broadcast video with a moving camera authored by SwimComposer:</a>\n" +
+            "<div class='video'><iframe src=\"https://www.youtube.com/embed/bwt-9tgoT58\" title=\"SwimComposer running demo\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>",
+        collaboration: "Most of this project was done at Aviz, Inria, France and Xi'an Jiaotong-Liverpool University, China, in collaboration with University Paris-Saclay, France, Ecole Centrable de Lyon, France, Northwestern University, U.S., and National University of Singapore, Singapore.",
     },
     {
         id: 2,

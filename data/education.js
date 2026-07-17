@@ -9,7 +9,7 @@ export const education = [
         ],
         place: "<a href=\"https://www.universite-paris-saclay.fr/en\" target=\"_blank\">Univeristy Paris-Saclay</a>",
         thesis: "PhD thesis: <a href=\"https://www.theses.fr/s258022\" target=\"_blank\">Situated Visualization in Motion</a>",
-        supervisor: "Supervisors: <a href=\"https://petra.isenberg.cc/wiki/pmwiki.php\" target=\"_blank\">Dr. Petra Isenberg</a> & <a href=\"https://www.lri.fr/~anab/\" target=\"_blank\">Prof. Anastasia Bezerianos</a>",
+        supervisor: "Supervisors: <a href=\"https://petra.isenberg.cc/wiki/pmwiki.php\" target=\"_blank\">Dr. Petra Isenberg</a> & <a href=\"https://www.lri.fr/~anab/\" target=\"_blank\">Prof. Anastasia Bezerianos</a><br>Jury committee: <a href=\"https://hci.isir.upmc.fr/gilles-bailly/\" target=\"_blank\">Gilles Bally</a>, <a href=\"https://cs.au.dk/~elm/\" target=\"_blank\">Niklas Elmqvist</a>, <a href=\"https://www.chalmers.se/en/persons/fjeld/\" target=\"_blank\">Morten Fjeld</a>, <a href=\"https://www.utahinrichs.de/\" target=\"_blank\">Uta Hinrichs</a>, <a href=\"https://ex-situ.lri.fr/people/mackay/\" target=\"_blank\">Wendy Mackay</a>, <a href=\"https://vis.khoury.northeastern.edu/people/Melanie-Tory/\" target=\"_blank\">Melanie Tory</a>.",
         description: "PhD thesis: <a href=\"https://www.theses.fr/s258022\" target=\"_blank\">Situated Visualization in Motion</a>"
     },
     {

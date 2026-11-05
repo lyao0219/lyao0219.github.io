@@ -267,7 +267,7 @@ export const bibtex = {
         "  AUTHOR = {Grioui, Fairouz and Yao, Lijie and Isenberg, Petra and Blascheck, Tanja},\n" +
         "  TITLE = {{A Smartwatch Moves: The Impact of Walking Speed and Trajectories on Micro Visualizations Reading on a Smartwatch}},\n" +
         "  JOURNAL = {{IEEE Transactions on Visualization and Computer Graphics}},\n" +
-        "  YEAR = {2026},\n" +
+        "  YEAR = {2027},\n" +
         "  PAGES = {1--16},\n" +
         "  DOI = {10.1109/TVCG.2026.3735571}\n" +
         "  NOTE = {In press}\n" +
@@ -1320,10 +1320,14 @@ export const publications = [
         type: publicationTypeList.FullPaper,
         title: "A Smartwatch Moves: The Impact of Walking Speed and Trajectories on Micro Visualizations Reading on a Smartwatch",
         author: "Fairouz Grioui, <strong>Lijie Yao</strong>, Petra Isenberg, Tanja Blascheck",
-        subtitle: "IEEE Transactions on Visualization and Computer Graphics (TVCG), 2026. In press.",
+        subtitle: "IEEE Transactions on Visualization and Computer Graphics (TVCG), 2027, doi: 10.1109/TVCG.2026.3735571. In press.",
         teaser: "assets/teaser/read_on_the_go.jpg",
         year: 2027,
         icons: [
+            {
+                "url": "https://doi.org/10.1109/TVCG.2026.3735571",
+                "icon": projectLinkIcon.doi
+            },
             {
                 "url": "https://hal.science/hal-05853488",
                 "icon": projectLinkIcon.onlineLink

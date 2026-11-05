@@ -53,7 +53,7 @@ init();
 
 const copyright = document.getElementById("copyright");
 if (copyright) {
-    copyright.innerHTML = '<p class="text-14 text-light">Copyright &copy; 2026 Lijie Yao. All Rights Reserved. Last update: July 2026</p>';
+    copyright.innerHTML = '<p class="text-14 text-light">Copyright &copy; 2026 Lijie Yao. All Rights Reserved. Last update: Nov. 2026</p>';
 }
 
 const profile = document.getElementById("profile");
@@ -75,7 +75,7 @@ const selfIntroduction = document.getElementById("self-introduction");
 if (selfIntroduction) {
     selfIntroduction.innerHTML = `
         <p class="text-17 text-light">
-            I am an Assistant Professor and Program Director of Computer Science and Technology at
+            I am an Assistant Professor and Programme Director of Computer Science and Technology at
             <img src="assets/img/icons/china.png" class="inner-text-icon" alt="China"/>
             <img src="assets/img/icons/uk.png" class="inner-text-icon" alt="United Kingdom"/>
             <a href="https://www.xjtlu.edu.cn/en" target="_blank">Xi'an Jiaotong-Liverpool University</a> (XJTLU).
@@ -111,8 +111,8 @@ if (selfIntroduction) {
             <div class="recruitment-content">
                 <p class="recruitment-label text-medium text-14">Recruitment</p>
                 <p class="text-17 text-light">
-                    I am hiring <strong>highly motivated Ph.D. students</strong>.
-                    Students interested in visualization, AI, and HCI can fill in this
+                    I am hiring <strong>highly motivated Ph.D. students</strong> with basic knowledge in visualization, computer graphics, and computer vision, prior experience in user evaluation and design is a plus. Funded positions, merit-based scholarships, and self-funded proposals are all available.  
+                    Students who want to conduct their doctoral training with me or work with me as a research assistant are welcome to fill this
                     <a class="recruitment-cta" href="https://forms.gle/h3qb57hbCDJiuERz9" target="_blank">Google Form</a>.
                     Ph.D. and Master's degrees are awarded by the
                     <img src="assets/img/icons/uk.png" class="inner-text-icon" alt="United Kingdom"/>

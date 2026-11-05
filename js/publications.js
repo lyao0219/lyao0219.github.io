@@ -30,7 +30,7 @@ const monthOrder = {
 };
 
 const customPublicationOrderByYear = {
-    // Keep the two ChinaVis 2026 papers directly after the 2026 TVCG paper.
+    2027: [25, 26, 27, 28],
     2026: [22, 23, 24],
     2025: [21, 1, 18, 20, 19, 2, 4]
 };

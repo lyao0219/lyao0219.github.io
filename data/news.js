@@ -1,5 +1,23 @@
 export const news = [
     {
+        "type": "Workshop Organization",
+        "place": "",
+        "time": "October 2026",
+        "description": "Our workshop on <a href=\"https://firstperson-exertion.github.io/\" target=\"_blank\">\"First-Person eXeRtion (FPXR): XR Visualization and Interaction in Motion\"</a> has been accepted for <a href=\"https://ieeevr.org/2027/\" target=\"_blank\">IEEE VR 2027</a>."
+    },
+    {
+        "type": "Paper Acceptance",
+        "place": "",
+        "time": "September 2026",
+        "description": "Our paper on <a href=\"https://ieeexplore.ieee.org/document/11698866\" target=\"_blank\">\"A Smartwatch Moves: The Impact of Walking Speed and Trajectories on Micro Visualizations Reading on a Smartwatch\"</a> has been accepted by <a href=\"https://www.computer.org/csdl/journal/tg\" target=\"_blank\">IEEE Transactions on Visualization and Computer Graphics</a>."
+    },
+    {
+        "type": "Grant Awarded",
+        "place": "",
+        "time": "August 2026",
+        "description": "Lijie was awarded the Young Scientists Fund by the <a href=\"https://www.nsfc.gov.cn/english/site_1/index.html\" target=\"_blank\">National Natural Science Foundation of China (NSFC)</a> as Principal Investigator."
+    },
+    {
         "type": "Paper Acceptance",
         "place": "",
         "time": "July 2026",

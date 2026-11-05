@@ -189,7 +189,7 @@ export const bibtex = {
         "}",
     16: "@inproceedings{Qi:2025:EarlyExploration,\n" +
         "  TITLE = {{Early Exploration into AI-Assisted Visual Analytics for Dynamic Videos}},\n" +
-        "  AUTHOR = {Qi, Guoy and Li, Junyi and Hong, Jiayi and Yao, Lijie},\n" +
+        "  AUTHOR = {Qi, Guo and Li, Junyi and Hong, Jiayi and Yao, Lijie},\n" +
         "  BOOKTITLE = {{IEEE VIS Workshop on GenAI, Agents, and the Future of VIS}},\n" +
         "  ADDRESS = {Vienna, Austria},\n" +
         "  YEAR = {2025},\n" +
@@ -241,7 +241,7 @@ export const bibtex = {
         "  PDF = {https://lijieyao.com/assets/pdf/Touch_Sound_and_Space_Exploring_Immersive_Music_Interaction_through_AI-Generated_Environments.pdf},\n" +
         "}",
     21: "@inproceedings{Wang:2026:TangibleCarbonBlocks,\n" +
-        "  AUTHOR = {Jingyu Wang and Jiahan Zhang and Yu Liu and Lingyun Yu and Lijie Yao},\n" +
+        "  AUTHOR = {Wang, Jingyu and Zhang, Jiahan and Liu, Yu and Yu, Lingyun and Yao, Lijie},\n" +
         "  TITLE = {{Tangible Carbon Blocks: Data Physicalization for Everyday Carbon Emissions}},\n" +
         "  BOOKTITLE = {{Proceedings of ChinaVis 2026}},\n" +
         "  YEAR = {2026},\n" +
@@ -249,7 +249,7 @@ export const bibtex = {
         "  ADDRESS = {Guiyang, China}\n" +
         "}",
     22: "@inproceedings{Ye:2026:ColorContrast,\n" +
-        "  AUTHOR = {Zehong Ye and Jingyu Wang and Xiao Xie and Lingyun Yu and Lijie Yao},\n" +
+        "  AUTHOR = {Ye, Zehong and Wang, Jingyu and Xie, Xiao and Yu, Lingyun and Yao, Lijie},\n" +
         "  TITLE = {{When Color Contrast Is Not Enough: An Empirical Study of Dynamic Color Adaptation for In-Game Health Visualizations}},\n" +
         "  BOOKTITLE = {{Proceedings of ChinaVis 2026}},\n" +
         "  YEAR = {2026},\n" +
@@ -257,13 +257,28 @@ export const bibtex = {
         "  ADDRESS = {Guiyang, China}\n" +
         "}",
     23: "@article{Zhao:2027:SwimComposer,\n" +
-        "  AUTHOR = {Junhao Zhao and Romain Vuillemot and Petra Isenberg and Lijie Yao},\n" +
+        "  AUTHOR = {Zhao, Junhao and Vuillemot, Romain and Isenberg, Petra and Yao, Lijie},\n" +
         "  TITLE = {{Authoring Narrative Visualization in Motion: Visual Storytelling in Swimming Videos}},\n" +
         "  JOURNAL = {{IEEE Transactions on Visualization and Computer Graphics}},\n" +
         "  YEAR = {2027},\n" +
         "  NOTE = {In press}\n" +
-        "}"
-
+        "}",
+    24: "@article{Grioui:2026:SmartwatchMoves,\n" +
+        "  AUTHOR = {Grioui, Fairouz and Yao, Lijie and Isenberg, Petra and Blascheck, Tanja},\n" +
+        "  TITLE = {{A Smartwatch Moves: The Impact of Walking Speed and Trajectories on Micro Visualizations Reading on a Smartwatch}},\n" +
+        "  JOURNAL = {{IEEE Transactions on Visualization and Computer Graphics}},\n" +
+        "  YEAR = {2026},\n" +
+        "  PAGES = {1--16},\n" +
+        "  DOI = {10.1109/TVCG.2026.3735571}\n" +
+        "  NOTE = {In press}\n" +
+        "}",
+    25: "@article{Perin:2027:FirstPersonVisualization,\n" +
+        "  AUTHOR = {Perin, Charles and Dufresne-Camaro, Charles-Olivier and Cordeil, Maxime and Gong, Jo Jo and Hurter, Christophe and Irani, Pourang P. and Kandel, Jade and Li, Ang and Lin, Tica and Pearman, Ben and Yang, Yalong and Yao, Lijie and Willett, Wesley},\n" +
+        "  TITLE = {{Opportunities for First-Person Visualization for Sports and Physical Activities}},\n" +
+        "  JOURNAL = {{IEEE Computer Graphics and Applications}},\n" +
+        "  YEAR = {2027},\n" +
+        "  NOTE = {In press}\n" +
+        "}",
 }
 
 
@@ -412,6 +427,10 @@ export const publications = [
             {
                 "url": "https://youtu.be/I7sD-IQlOZM",
                 "icon": projectLinkIcon.video
+            },
+            {
+                "url": "https://www.replicabilitystamp.org/index.html#https-github-com-lyao0219-robotlife",
+                "icon": projectLinkIcon.stamp
             },
             {
                 "url": "https://osf.io/3v8wm/",
@@ -631,7 +650,7 @@ export const publications = [
         year: 2024,
         icons: [
             {
-                "url": "https://doi.org/10.48550/arXiv.2407.17893",
+                "url": "https://doi.org/10.1109/VIS55277.2024.00017",
                 "icon": projectLinkIcon.doi
             },
             {
@@ -686,7 +705,11 @@ export const publications = [
             {
                 "url": "https://youtu.be/4hNulDHo7Ak",
                 "icon": projectLinkIcon.video
-            }
+            },
+            {
+                "url": "https://firstpersonvis.github.io/",
+                "icon": projectLinkIcon.website
+            },
         ],
         study: [],
         selected: false
@@ -1147,12 +1170,11 @@ export const publications = [
             {
                 "url": "https://youtu.be/yC39NXBJiE8",
                 "icon": projectLinkIcon.video
-            },
+            },*/
             {
-                "url": "https://www.replicabilitystamp.org/index.html#https-github-com-lyao0219-swimflow-git",
+                "url": "https://www.replicabilitystamp.org/index.html#https-github-com-ahugh19-swimchrono",
                 "icon": projectLinkIcon.stamp
             },
-            */
             {
                 "url": "https://aviz.gitlabpages.inria.fr/swimchrono/",
                 "icon": projectLinkIcon.website
@@ -1247,6 +1269,10 @@ export const publications = [
         year: 2027,
         icons: [
             {
+                "url": "https://hal.science/hal-05714541",
+                "icon": projectLinkIcon.onlineLink
+            },
+            {
                 "url": "assets/pdf/Authoring_Narrative_Visualization_in_Motion_Visual_Storytelling_in_Swimming_Videos.pdf",
                 "icon": projectLinkIcon.pdf
             },
@@ -1263,13 +1289,21 @@ export const publications = [
                 "icon": projectLinkIcon.video
             },
             {
+                "url": "https://www.replicabilitystamp.org/index.html#https-github-com-nemozjh-swimcomposer",
+                "icon": projectLinkIcon.stamp
+            },
+            {
                 "url": "http://43.163.231.237/",
                 "icon": projectLinkIcon.website
             },
             {
                 "url": "https://osf.io/bq47n/",
                 "icon": projectLinkIcon.osf
-            }
+            },
+            {
+                "url": "https://github.com/nemozjh/SwimComposer",
+                "icon": projectLinkIcon.github
+            },
         ],
         popups: [
             {
@@ -1279,5 +1313,88 @@ export const publications = [
         ],
         study: [],
         selected: true
-    }
+    },
+    {
+        id: 26,
+        event: "TVCG",
+        type: publicationTypeList.FullPaper,
+        title: "A Smartwatch Moves: The Impact of Walking Speed and Trajectories on Micro Visualizations Reading on a Smartwatch",
+        author: "Fairouz Grioui, <strong>Lijie Yao</strong>, Petra Isenberg, Tanja Blascheck",
+        subtitle: "IEEE Transactions on Visualization and Computer Graphics (TVCG), 2026. In press.",
+        teaser: "assets/teaser/read_on_the_go.jpg",
+        year: 2027,
+        icons: [
+            {
+                "url": "https://hal.science/hal-05853488",
+                "icon": projectLinkIcon.onlineLink
+            },
+            {
+                "url": "assets/pdf/A_Smartwatch_Moves_The_Impact_of_Walking_Speed_and_Trajectories_on_Micro_Visualizations_Reading_on_a_Smartwatch.pdf",
+                "icon": projectLinkIcon.pdf
+            },
+            {
+                "url": "https://osf.io/7pg2r",
+                "icon": projectLinkIcon.osf
+            }
+        ],
+        popups: [
+            {
+                icon: projectLinkIcon.bibtex,
+                contentId: 24
+            }
+        ],
+        study: [],
+        selected: false
+    },
+    {
+        id: 27,
+        event: "CG&A",
+        type: publicationTypeList.FullPaper,
+        title: "Opportunities for First-Person Visualization for Sports and Physical Activities",
+        author: "Charles Perin, Charles-Olivier Dufresne-Camaro, Maxime Cordeil, Jo Jo Gong, Christophe Hurter, Pourang P. Irani, Jade Kandel, Ang Li, Tica Lin, Ben Pearman, Yalong Yang, <strong>Lijie Yao</strong>, Wesley Willett",
+        subtitle: "IEEE Computer Graphics and Applications (CG&A), 2027. In press.",
+        teaser: "assets/teaser/fpvis_rc.jpg",
+        year: 2027,
+        icons: [
+            {
+                "url": "https://hal.science/hal-05716155",
+                "icon": projectLinkIcon.onlineLink
+            },
+            {
+                "url": "assets/pdf/Opportunities_for_First-Person_Visualization_for_Sports_and_Physical_Activities.pdf",
+                "icon": projectLinkIcon.pdf
+            }
+        ],
+        popups: [
+            {
+                icon: projectLinkIcon.bibtex,
+                contentId: 25
+            }
+        ],
+        study: [],
+        selected: false
+    },
+    {
+    id: 28,
+    event: "IEEE VR",
+    type: publicationTypeList.Proposal,
+    title: "First-Person eXeRtion (FPXR): XR Visualization and Interaction in Motion",
+    author: "Ang Li, <strong>Lijie Yao</strong>, Yi Li, Linjia He, Tica Lin, Yalong Yang, Charles Perin, Maxime Cordeil",
+    subtitle: "Workshop proposal submitted to IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR), 2027.",
+    description: "Workshop proposal for IEEE VR 2027, focusing on first-person XR visualization and interaction during physical activities and movement.",
+    teaser: "assets/teaser/FPXR.jpg",
+    year: 2027,
+    icons: [
+        {
+            "url": "assets/pdf/Leon_2027_VR_Workshop_Proposal.pdf",
+            "icon": projectLinkIcon.pdf
+        },
+        {
+            "url": "https://firstperson-exertion.github.io/",
+            "icon": projectLinkIcon.website
+        },
+    ],
+    study: [],
+    selected: false
+},
 ]

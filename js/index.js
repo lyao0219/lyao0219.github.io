@@ -111,7 +111,9 @@ if (selfIntroduction) {
             <div class="recruitment-content">
                 <p class="recruitment-label text-medium text-14">Recruitment</p>
                 <p class="text-17 text-light">
-                    I am hiring <strong>highly motivated Ph.D. students</strong> with basic knowledge in visualization, computer graphics, and computer vision, prior experience in user evaluation and design is a plus. Funded positions, merit-based scholarships, and self-funded proposals are all available.  
+                    I am hiring <strong>highly motivated Ph.D. students</strong> with basic knowledge in visualization, computer graphics, and computer vision, prior experience in user evaluation and design is a plus.
+                    A funded PhD position is now available! Find out more <a href="https://drive.google.com/file/d/1QJLN4f-3PBVVIlrIv1uUgJWh71DcRj4x/view?usp=sharing" target="_blank" style="text-decoration: underline;">here</a>.
+                    Merit-based scholarships and self-funded proposals are also available.  
                     Students who want to conduct their doctoral training with me or work with me as a research assistant are welcome to fill this
                     <a class="recruitment-cta" href="https://forms.gle/h3qb57hbCDJiuERz9" target="_blank">Google Form</a>.
                     Ph.D. and Master's degrees are awarded by the
